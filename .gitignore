@@ -1,2 +1,10 @@
-references.json
+citation-dag/papers.json
+citation-dag/papers.json.tmp
+citation-dag/batch*.json
+citation-dag/depth2_batch*.json
+citation-dag/todo_batch_*.txt
+citation-dag/unprocessed_arxiv_ids.txt
+citation-dag/tmp_fetches/
+citation-dag/tmp_responses/
 semantic_scholar_references.json
+references.json
