@@ -22,10 +22,29 @@ def save_papers(papers):
 
 def fetch_paper_refs(arxiv_id, max_retries=4):
     url = BASE_URL.format(arxiv_id)
+    import random
+    headers_list = [
+        {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
+         'Accept': 'application/json, text/plain, */*',
+         'Accept-Language': 'en-US,en;q=0.9',
+         'Referer': 'https://www.semanticscholar.org/',
+         'Origin': 'https://www.semanticscholar.org',
+         'Connection': 'keep-alive'},
+        {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.2 Safari/605.1.15',
+         'Accept': 'application/json',
+         'Accept-Language': 'en-US,en;q=0.8',
+         'Referer': 'https://www.semanticscholar.org/'},
+        {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0',
+         'Accept': 'application/json, text/plain, */*',
+         'Accept-Language': 'en-US,en;q=0.5',
+         'Referer': 'https://www.semanticscholar.org/'},
+    ]
     for attempt in range(max_retries):
         try:
             req = urllib.request.Request(url)
-            req.add_header('User-Agent', 'CitationDAG/1.0')
+            h = random.choice(headers_list)
+            for k, v in h.items():
+                req.add_header(k, v)
             with urllib.request.urlopen(req, timeout=30) as resp:
                 data = json.loads(resp.read().decode())
                 refs = []
