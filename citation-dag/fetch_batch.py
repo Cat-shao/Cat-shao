@@ -24,8 +24,11 @@ def load_papers():
         return json.load(f)
 
 def save_papers(papers):
-    with open(PAPERS_FILE, "w") as f:
-        json.dump(papers, f, indent=2, ensure_ascii=False)
+    # Atomic write: write to temp file, then rename
+    tmp_file = PAPERS_FILE + ".tmp"
+    with open(tmp_file, "w") as f:
+        json.dump(papers, f, ensure_ascii=False)
+    os.replace(tmp_file, PAPERS_FILE)
 
 def fetch_batch(arxiv_ids, max_retries=4):
     """Fetch up to 500 papers in one batch request."""
