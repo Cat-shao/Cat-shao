@@ -1,0 +1,3597 @@
+{
+  "2404.06395": {
+    "title": "MiniCPM: Unveiling the Potential of Small Language Models with Scalable Training Strategies",
+    "references": [
+      {
+        "arxiv": "2403.16952",
+        "title": "Data Mixing Laws: Optimizing Data Mixtures by Predicting Language Modeling Performance",
+        "year": 2024
+      },
+      {
+        "arxiv": "2403.15796",
+        "title": "Understanding Emergent Abilities of Language Models from the Loss Perspective",
+        "year": 2024
+      },
+      {
+        "arxiv": "2403.04652",
+        "title": "Yi: Open Foundation Models by 01.AI",
+        "year": 2024
+      },
+      {
+        "arxiv": "2402.14905",
+        "title": "MobileLLM: Optimizing Sub-billion Parameter Language Models for On-Device Use Cases",
+        "year": 2024
+      },
+      {
+        "arxiv": "2402.13718",
+        "title": "∞Bench: Extending Long Context Evaluation Beyond 100K Tokens",
+        "year": 2024
+      },
+      {
+        "arxiv": "2402.00159",
+        "title": "Dolma: an Open Corpus of Three Trillion Tokens for Language Model Pretraining Research",
+        "year": 2024
+      },
+      {
+        "arxiv": "2401.02954",
+        "title": "DeepSeek LLM: Scaling Open-Source Language Models with Longtermism",
+        "year": 2024
+      },
+      {
+        "arxiv": "2401.02385",
+        "title": "TinyLlama: An Open-Source Small Language Model",
+        "year": 2024
+      },
+      {
+        "arxiv": "2401.00448",
+        "title": "Beyond Chinchilla-Optimal: Accounting for Inference in Language Model Scaling Laws",
+        "year": 2023
+      },
+      {
+        "arxiv": "2312.08618",
+        "title": "Zebra: Extending Context Window with Layerwise Grouped Local-Global Attention",
+        "year": 2023
+      },
+      {
+        "arxiv": "2311.16867",
+        "title": "The Falcon Series of Open Language Models",
+        "year": 2023
+      },
+      {
+        "arxiv": "2310.10638",
+        "title": "In-Context Pretraining: Language Modeling Beyond Document Boundaries",
+        "year": 2023
+      },
+      {
+        "arxiv": "2310.06694",
+        "title": "Sheared LLaMA: Accelerating Language Model Pre-training via Structured Pruning",
+        "year": 2023
+      },
+      {
+        "arxiv": "2310.06825",
+        "title": "Mistral 7B",
+        "year": 2023
+      },
+      {
+        "arxiv": "2310.02244",
+        "title": "Tensor Programs VI: Feature Learning in Infinite-Depth Neural Networks",
+        "year": 2023
+      },
+      {
+        "arxiv": "2309.16609",
+        "title": "Qwen Technical Report",
+        "year": 2023
+      },
+      {
+        "arxiv": "2309.16039",
+        "title": "Effective Long-Context Scaling of Foundation Models",
+        "year": 2023
+      },
+      {
+        "arxiv": "2309.14322",
+        "title": "Small-scale proxies for large-scale Transformer training instabilities",
+        "year": 2023
+      },
+      {
+        "arxiv": "2309.06180",
+        "title": "Efficient Memory Management for Large Language Model Serving with PagedAttention",
+        "year": 2023
+      },
+      {
+        "arxiv": "2309.05463",
+        "title": "Textbooks Are All You Need II: phi-1.5 technical report",
+        "year": 2023
+      },
+      {
+        "arxiv": "2309.00071",
+        "title": "YaRN: Efficient Context Window Extension of Large Language Models",
+        "year": 2023
+      },
+      {
+        "arxiv": "2308.10792",
+        "title": "Instruction Tuning for Large Language Models: A Survey",
+        "year": 2023
+      },
+      {
+        "arxiv": "2306.11644",
+        "title": "Textbooks Are All You Need",
+        "year": 2023
+      },
+      {
+        "arxiv": "2306.05685",
+        "title": "Judging LLM-as-a-judge with MT-Bench and Chatbot Arena",
+        "year": 2023
+      },
+      {
+        "arxiv": "2305.18290",
+        "title": "Direct Preference Optimization: Your Language Model is Secretly a Reward Model",
+        "year": 2023
+      },
+      {
+        "arxiv": "2305.14233",
+        "title": "Enhancing Chat Language Models by Scaling High-quality Instructional Conversations",
+        "year": 2023
+      },
+      {
+        "arxiv": "2305.13245",
+        "title": "GQA: Training Generalized Multi-Query Transformer Models from Multi-Head Checkpoints",
+        "year": 2023
+      },
+      {
+        "arxiv": "2305.10429",
+        "title": "DoReMi: Optimizing Data Mixtures Speeds Up Language Model Pretraining",
+        "year": 2023
+      },
+      {
+        "arxiv": "2305.08322",
+        "title": "C-Eval: A Multi-Level Multi-Discipline Chinese Evaluation Suite for Foundation Models",
+        "year": 2023
+      },
+      {
+        "arxiv": "2305.06161",
+        "title": "StarCoder: may the source be with you!",
+        "year": 2023
+      },
+      {
+        "arxiv": "2304.12244",
+        "title": "WizardLM: Empowering Large Pre-Trained Language Models to Follow Complex Instructions",
+        "year": 2023
+      },
+      {
+        "arxiv": "2304.03208",
+        "title": "Cerebras-GPT: Open Compute-Optimal Language Models Trained on the Cerebras Wafer-Scale Cluster",
+        "year": 2023
+      },
+      {
+        "arxiv": "2303.08774",
+        "title": "GPT-4 Technical Report",
+        "year": 2023
+      },
+      {
+        "arxiv": "2302.13971",
+        "title": "LLaMA: Open and Efficient Foundation Language Models",
+        "year": 2023
+      },
+      {
+        "arxiv": "2301.03728",
+        "title": "Scaling Laws for Generative Mixed-Modal Language Models",
+        "year": 2023
+      },
+      {
+        "arxiv": "2212.05055",
+        "title": "Sparse Upcycling: Training Mixture-of-Experts from Dense Checkpoints",
+        "year": 2022
+      },
+      {
+        "arxiv": "2211.15533",
+        "title": "The Stack: 3 TB of permissively licensed source code",
+        "year": 2022
+      },
+      {
+        "arxiv": "2210.17323",
+        "title": "GPTQ: Accurate Post-Training Quantization for Generative Pre-trained Transformers",
+        "year": 2022
+      },
+      {
+        "arxiv": "2204.02311",
+        "title": "PaLM: Scaling Language Modeling with Pathways",
+        "year": 2022
+      },
+      {
+        "arxiv": "2203.15556",
+        "title": "Training Compute-Optimal Large Language Models",
+        "year": 2022
+      },
+      {
+        "arxiv": "2203.03466",
+        "title": "Tensor Programs V: Tuning Large Neural Networks via Zero-Shot Hyperparameter Transfer",
+        "year": 2022
+      },
+      {
+        "arxiv": "2201.07311",
+        "title": "Datasheet for the Pile",
+        "year": 2022
+      },
+      {
+        "arxiv": "2112.11446",
+        "title": "Scaling Language Models: Methods, Analysis & Insights from Training Gopher",
+        "year": 2021
+      },
+      {
+        "arxiv": "2112.00861",
+        "title": "A General Language Assistant as a Laboratory for Alignment",
+        "year": 2021
+      },
+      {
+        "arxiv": "2110.14168",
+        "title": "Training Verifiers to Solve Math Word Problems",
+        "year": 2021
+      },
+      {
+        "arxiv": "2109.01652",
+        "title": "Finetuned Language Models Are Zero-Shot Learners",
+        "year": 2021
+      },
+      {
+        "arxiv": "2108.07732",
+        "title": "Program Synthesis with Large Language Models",
+        "year": 2021
+      },
+      {
+        "arxiv": "2107.03374",
+        "title": "Evaluating Large Language Models Trained on Code",
+        "year": 2021
+      },
+      {
+        "arxiv": "2103.10360",
+        "title": "GLM: General Language Model Pretraining with Autoregressive Blank Infilling",
+        "year": 2021
+      },
+      {
+        "arxiv": "2103.03874",
+        "title": "Measuring Mathematical Problem Solving With the MATH Dataset",
+        "year": 2021
+      },
+      {
+        "arxiv": "2101.03961",
+        "title": "Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity",
+        "year": 2021
+      },
+      {
+        "arxiv": "2101.00027",
+        "title": "The Pile: An 800GB Dataset of Diverse Text for Language Modeling",
+        "year": 2020
+      },
+      {
+        "arxiv": "2010.04245",
+        "title": "Query-Key Normalization for Transformers",
+        "year": 2020
+      },
+      {
+        "arxiv": "2009.03300",
+        "title": "Measuring Massive Multitask Language Understanding",
+        "year": 2020
+      },
+      {
+        "arxiv": "2001.08361",
+        "title": "Scaling Laws for Neural Language Models",
+        "year": 2020
+      },
+      {
+        "arxiv": "1910.10683",
+        "title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+        "year": 2019
+      },
+      {
+        "arxiv": "1905.07830",
+        "title": "HellaSwag: Can a Machine Really Finish Your Sentence?",
+        "year": 2019
+      },
+      {
+        "arxiv": "1903.09900",
+        "title": "sharpDARTS: Faster and More Accurate Differentiable Architecture Search",
+        "year": 2019
+      },
+      {
+        "arxiv": "1803.05457",
+        "title": "Think you have Solved Question Answering? Try ARC, the AI2 Reasoning Challenge",
+        "year": 2018
+      },
+      {
+        "arxiv": null,
+        "title": "Universal Language Model Fine-tuning for Text Classification",
+        "year": 2018
+      },
+      {
+        "arxiv": null,
+        "title": "Decoupled Weight Decay Regularization",
+        "year": 2017
+      },
+      {
+        "arxiv": "1711.00489",
+        "title": "Don't Decay the Learning Rate, Increase the Batch Size",
+        "year": 2017
+      },
+      {
+        "arxiv": "1608.03983",
+        "title": "SGDR: Stochastic Gradient Descent with Warm Restarts",
+        "year": 2016
+      },
+      {
+        "arxiv": "1508.07909",
+        "title": "Neural Machine Translation of Rare Words with Subword Units",
+        "year": 2015
+      },
+      {
+        "arxiv": null,
+        "title": "On the resemblance and containment of documents",
+        "year": 1997
+      },
+      {
+        "arxiv": null,
+        "title": "Unlock Predictable Scaling from Emergent Abilities",
+        "year": 2023
+      },
+      {
+        "arxiv": null,
+        "title": "Magicoder: Source Code Is All You Need",
+        "year": 2023
+      },
+      {
+        "arxiv": null,
+        "title": "A method for stochastic optimization",
+        "year": 2014
+      },
+      {
+        "arxiv": null,
+        "title": "NTK-Aware Scaled RoPE allows LLaMA models to have extended (8k+) context size without any fine-tuning and minimal perplexity degradation",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "Gemini: a family of highly capable multimodal models",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "Gemma: Introducing new state-of-the-art open models",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "LLMFarm team",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "”Teknium”",
+        "year": null
+      }
+    ]
+  },
+  "2403.17887": {
+    "title": "The Unreasonable Ineffectiveness of the Deeper Layers",
+    "references": [
+      {
+        "arxiv": "2404.16710",
+        "title": "LayerSkip: Enabling Early Exit Inference and Self-Speculative Decoding",
+        "year": 2024
+      },
+      {
+        "arxiv": "2403.03853",
+        "title": "ShortGPT: Layers in Large Language Models are More Redundant Than You Expect",
+        "year": 2024
+      },
+      {
+        "arxiv": "2401.15024",
+        "title": "SliceGPT: Compress Large Language Models by Deleting Rows and Columns",
+        "year": 2024
+      },
+      {
+        "arxiv": "2401.10774",
+        "title": "Medusa: Simple LLM Inference Acceleration Framework with Multiple Decoding Heads",
+        "year": 2024
+      },
+      {
+        "arxiv": "2401.00448",
+        "title": "Beyond Chinchilla-Optimal: Accounting for Inference in Language Model Scaling Laws",
+        "year": 2023
+      },
+      {
+        "arxiv": "2312.13558",
+        "title": "The Truth is in There: Improving Reasoning in Language Models with Layer-Selective Rank Reduction",
+        "year": 2023
+      },
+      {
+        "arxiv": "2310.17191",
+        "title": "How do Language Models Bind Entities in Context?",
+        "year": 2023
+      },
+      {
+        "arxiv": "2310.17157",
+        "title": "Deja Vu: Contextual Sparsity for Efficient LLMs at Inference Time",
+        "year": 2023
+      },
+      {
+        "arxiv": "2310.08659",
+        "title": "LoftQ: LoRA-Fine-Tuning-Aware Quantization for Large Language Models",
+        "year": 2023
+      },
+      {
+        "arxiv": "2310.06825",
+        "title": "Mistral 7B",
+        "year": 2023
+      },
+      {
+        "arxiv": "2310.02244",
+        "title": "Tensor Programs VI: Feature Learning in Infinite-Depth Neural Networks",
+        "year": 2023
+      },
+      {
+        "arxiv": "2310.02207",
+        "title": "Language Models Represent Space and Time",
+        "year": 2023
+      },
+      {
+        "arxiv": "2310.01405",
+        "title": "Representation Engineering: A Top-Down Approach to AI Transparency",
+        "year": 2023
+      },
+      {
+        "arxiv": "2309.16609",
+        "title": "Qwen Technical Report",
+        "year": 2023
+      },
+      {
+        "arxiv": "2309.05463",
+        "title": "Textbooks Are All You Need II: phi-1.5 technical report",
+        "year": 2023
+      },
+      {
+        "arxiv": "2309.04827",
+        "title": "Neurons in Large Language Models: Dead, N-gram, Positional",
+        "year": 2023
+      },
+      {
+        "arxiv": "2309.11768",
+        "title": "CoMFLP: Correlation Measure based Fast Search on ASR Layer Pruning",
+        "year": 2023
+      },
+      {
+        "arxiv": "2308.07317",
+        "title": "Platypus: Quick, Cheap, and Powerful Refinement of LLMs",
+        "year": 2023
+      },
+      {
+        "arxiv": "2307.09288",
+        "title": "Llama 2: Open Foundation and Fine-Tuned Chat Models",
+        "year": 2023
+      },
+      {
+        "arxiv": "2306.11644",
+        "title": "Textbooks Are All You Need",
+        "year": 2023
+      },
+      {
+        "arxiv": "2306.08543",
+        "title": "MiniLLM: On-Policy Distillation of Large Language Models",
+        "year": 2023
+      },
+      {
+        "arxiv": "2305.14314",
+        "title": "QLoRA: Efficient Finetuning of Quantized LLMs",
+        "year": 2023
+      },
+      {
+        "arxiv": "2305.07759",
+        "title": "TinyStories: How Small Can Language Models Be and Still Speak Coherent English?",
+        "year": 2023
+      },
+      {
+        "arxiv": "2305.02301",
+        "title": "Distilling Step-by-Step! Outperforming Larger Language Models with Less Training Data and Smaller Model Sizes",
+        "year": 2023
+      },
+      {
+        "arxiv": "2305.01610",
+        "title": "Finding Neurons in a Haystack: Case Studies with Sparse Probing",
+        "year": 2023
+      },
+      {
+        "arxiv": "2304.14767",
+        "title": "Dissecting Recall of Factual Associations in Auto-Regressive Language Models",
+        "year": 2023
+      },
+      {
+        "arxiv": "2303.09435",
+        "title": "Jump to Conclusions: Short-Cutting Transformers with Linear Transformations",
+        "year": 2023
+      },
+      {
+        "arxiv": "2303.08112",
+        "title": "Eliciting Latent Predictions from Transformers with the Tuned Lens",
+        "year": 2023
+      },
+      {
+        "arxiv": "2302.13971",
+        "title": "LLaMA: Open and Efficient Foundation Language Models",
+        "year": 2023
+      },
+      {
+        "arxiv": "2302.10198",
+        "title": "Can ChatGPT Understand Too? A Comparative Study on ChatGPT and Fine-tuned BERT",
+        "year": 2023
+      },
+      {
+        "arxiv": "2302.06600",
+        "title": "Task-Specific Skill Localization in Fine-tuned Language Models",
+        "year": 2023
+      },
+      {
+        "arxiv": "2301.12726",
+        "title": "Specializing Smaller Language Models towards Multi-Step Reasoning",
+        "year": 2023
+      },
+      {
+        "arxiv": "2301.04213",
+        "title": "Does Localization Inform Editing? Surprising Differences in Causality-Based Localization vs. Knowledge Editing in Language Models",
+        "year": 2023
+      },
+      {
+        "arxiv": "2212.09720",
+        "title": "The case for 4-bit precision: k-bit Inference Scaling Laws",
+        "year": 2022
+      },
+      {
+        "arxiv": "2211.17192",
+        "title": "Fast Inference from Transformers via Speculative Decoding",
+        "year": 2022
+      },
+      {
+        "arxiv": "2211.10438",
+        "title": "SmoothQuant: Accurate and Efficient Post-Training Quantization for Large Language Models",
+        "year": 2022
+      },
+      {
+        "arxiv": "2211.00593",
+        "title": "Interpretability in the Wild: a Circuit for Indirect Object Identification in GPT-2 small",
+        "year": 2022
+      },
+      {
+        "arxiv": "2210.17323",
+        "title": "GPTQ: Accurate Post-Training Quantization for Generative Pre-trained Transformers",
+        "year": 2022
+      },
+      {
+        "arxiv": "2210.11416",
+        "title": "Scaling Instruction-Finetuned Language Models",
+        "year": 2022
+      },
+      {
+        "arxiv": "2208.07339",
+        "title": "LLM.int8(): 8-bit Matrix Multiplication for Transformers at Scale",
+        "year": 2022
+      },
+      {
+        "arxiv": "2204.00408",
+        "title": "Structured Pruning Learns Compact and Accurate Models",
+        "year": 2022
+      },
+      {
+        "arxiv": "2203.15556",
+        "title": "Training Compute-Optimal Large Language Models",
+        "year": 2022
+      },
+      {
+        "arxiv": "2202.05262",
+        "title": "Locating and Editing Factual Associations in GPT",
+        "year": 2022
+      },
+      {
+        "arxiv": "2110.14168",
+        "title": "Training Verifiers to Solve Math Word Problems",
+        "year": 2021
+      },
+      {
+        "arxiv": "2109.04838",
+        "title": "Block Pruning For Faster Transformers",
+        "year": 2021
+      },
+      {
+        "arxiv": "2108.13487",
+        "title": "Want To Reduce Labeling Cost? GPT-3 Can Help",
+        "year": 2021
+      },
+      {
+        "arxiv": "2108.12594",
+        "title": "Layer-wise Model Pruning based on Mutual Information",
+        "year": 2021
+      },
+      {
+        "arxiv": "2106.09685",
+        "title": "LoRA: Low-Rank Adaptation of Large Language Models",
+        "year": 2021
+      },
+      {
+        "arxiv": "2104.08696",
+        "title": "Knowledge Neurons in Pretrained Transformers",
+        "year": 2021
+      },
+      {
+        "arxiv": "2012.14913",
+        "title": "Transformer Feed-Forward Layers Are Key-Value Memories",
+        "year": 2020
+      },
+      {
+        "arxiv": "2010.13369",
+        "title": "Accelerating Training of Transformer-Based Language Models with Progressive Layer Dropping",
+        "year": 2020
+      },
+      {
+        "arxiv": "2010.13382",
+        "title": "FastFormers: Highly Efficient Transformer Models for Natural Language Understanding",
+        "year": 2020
+      },
+      {
+        "arxiv": null,
+        "title": "Transformers: State-of-the-Art Natural Language Processing",
+        "year": 2020
+      },
+      {
+        "arxiv": "2009.03300",
+        "title": "Measuring Massive Multitask Language Understanding",
+        "year": 2020
+      },
+      {
+        "arxiv": "2006.11477",
+        "title": "wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations",
+        "year": 2020
+      },
+      {
+        "arxiv": "2004.03844",
+        "title": "On the effect of dropping layers of pre-trained transformer models",
+        "year": 2020
+      },
+      {
+        "arxiv": "2004.04037",
+        "title": "DynaBERT: Dynamic BERT with Adaptive Width and Depth",
+        "year": 2020
+      },
+      {
+        "arxiv": "2001.08361",
+        "title": "Scaling Laws for Neural Language Models",
+        "year": 2020
+      },
+      {
+        "arxiv": "1910.10683",
+        "title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+        "year": 2019
+      },
+      {
+        "arxiv": "1909.11556",
+        "title": "Reducing Transformer Depth on Demand with Structured Dropout",
+        "year": 2019
+      },
+      {
+        "arxiv": "1909.10351",
+        "title": "TinyBERT: Distilling BERT for Natural Language Understanding",
+        "year": 2019
+      },
+      {
+        "arxiv": "1909.00512",
+        "title": "How Contextual are Contextualized Word Representations? Comparing the Geometry of BERT, ELMo, and GPT-2 Embeddings",
+        "year": 2019
+      },
+      {
+        "arxiv": "1906.04341",
+        "title": "What Does BERT Look at? An Analysis of BERT’s Attention",
+        "year": 2019
+      },
+      {
+        "arxiv": "1905.09418",
+        "title": "Analyzing Multi-Head Self-Attention: Specialized Heads Do the Heavy Lifting, the Rest Can Be Pruned",
+        "year": 2019
+      },
+      {
+        "arxiv": "1905.10650",
+        "title": "Are Sixteen Heads Really Better than One?",
+        "year": 2019
+      },
+      {
+        "arxiv": "1905.10044",
+        "title": "BoolQ: Exploring the Surprising Difficulty of Natural Yes/No Questions",
+        "year": 2019
+      },
+      {
+        "arxiv": "1905.07830",
+        "title": "HellaSwag: Can a Machine Really Finish Your Sentence?",
+        "year": 2019
+      },
+      {
+        "arxiv": "1806.07366",
+        "title": "Neural Ordinary Differential Equations",
+        "year": 2018
+      },
+      {
+        "arxiv": "1803.03635",
+        "title": "The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks",
+        "year": 2018
+      },
+      {
+        "arxiv": "1711.09224",
+        "title": "CondenseNet: An Efficient DenseNet Using Learned Group Convolutions",
+        "year": 2017
+      },
+      {
+        "arxiv": "1707.06168",
+        "title": "Channel Pruning for Accelerating Very Deep Neural Networks",
+        "year": 2017
+      },
+      {
+        "arxiv": "1706.03762",
+        "title": "Attention is All you Need",
+        "year": 2017
+      },
+      {
+        "arxiv": "1608.08710",
+        "title": "Pruning Filters for Efficient ConvNets",
+        "year": 2016
+      },
+      {
+        "arxiv": "1608.03665",
+        "title": "Learning Structured Sparsity in Deep Neural Networks",
+        "year": 2016
+      },
+      {
+        "arxiv": "1607.03250",
+        "title": "Network Trimming: A Data-Driven Neuron Pruning Approach towards Efficient Deep Architectures",
+        "year": 2016
+      },
+      {
+        "arxiv": "1606.07947",
+        "title": "Sequence-Level Knowledge Distillation",
+        "year": 2016
+      },
+      {
+        "arxiv": "1606.09274",
+        "title": "Compression of Neural Machine Translation Models via Pruning",
+        "year": 2016
+      },
+      {
+        "arxiv": "1508.05051",
+        "title": "Auto-Sizing Neural Networks: With Applications to n-gram Language Models",
+        "year": 2015
+      },
+      {
+        "arxiv": "1507.06149",
+        "title": "Data-free Parameter Pruning for Deep Neural Networks",
+        "year": 2015
+      },
+      {
+        "arxiv": "1506.02626",
+        "title": "Learning both Weights and Connections for Efficient Neural Network",
+        "year": 2015
+      },
+      {
+        "arxiv": "1504.04788",
+        "title": "Compressing Neural Networks with the Hashing Trick",
+        "year": 2015
+      },
+      {
+        "arxiv": "1503.02531",
+        "title": "Distilling the Knowledge in a Neural Network",
+        "year": 2015
+      },
+      {
+        "arxiv": null,
+        "title": "Second Order Derivatives for Network Pruning: Optimal Brain Surgeon",
+        "year": 1992
+      },
+      {
+        "arxiv": null,
+        "title": "Adaptive Budget Allocation for Parameter-Efficient Fine-Tuning",
+        "year": 2023
+      },
+      {
+        "arxiv": "2304.15004",
+        "title": "Are Emergent Abilities of Large Language Models a Mirage?",
+        "year": 2023
+      },
+      {
+        "arxiv": null,
+        "title": "Phi-2: The surprising power of small language models",
+        "year": 2023
+      },
+      {
+        "arxiv": null,
+        "title": "Introducing chatgpt",
+        "year": 2022
+      },
+      {
+        "arxiv": null,
+        "title": "A mathematical framework for transformer circuits",
+        "year": 2021
+      },
+      {
+        "arxiv": null,
+        "title": "nostalgebraist",
+        "year": 2020
+      },
+      {
+        "arxiv": "1810.04805",
+        "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+        "year": 2019
+      },
+      {
+        "arxiv": null,
+        "title": "Language Models are Unsupervised Multitask Learners",
+        "year": 2019
+      },
+      {
+        "arxiv": null,
+        "title": "Optimal Brain Damage",
+        "year": 1989
+      },
+      {
+        "arxiv": null,
+        "title": "A framework for few-shot language model evaluation",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "Go smol or go home,",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "Gemini: a family of highly capable multimodal models",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "Large language model distillation doesn’t need a teacher",
+        "year": null
+      }
+    ]
+  },
+  "2402.02622": {
+    "title": "DenseFormer: Enhancing Information Flow in Transformers via Depth Weighted Averaging",
+    "references": [
+      {
+        "arxiv": "2311.16822",
+        "title": "Large Language Models Suffer From Their Own Output: An Analysis of the Self-Consuming Training Loop",
+        "year": 2023
+      },
+      {
+        "arxiv": "2311.01906",
+        "title": "Simplifying Transformer Blocks",
+        "year": 2023
+      },
+      {
+        "arxiv": "2311.02265",
+        "title": "Not all layers are equally as important: Every Layer Counts BERT",
+        "year": 2023
+      },
+      {
+        "arxiv": "2310.19956",
+        "title": "The Impact of Depth on Compositional Generalization in Transformer Language Models",
+        "year": 2023
+      },
+      {
+        "arxiv": "2307.09288",
+        "title": "Llama 2: Open Foundation and Fine-Tuned Chat Models",
+        "year": 2023
+      },
+      {
+        "arxiv": "2307.08691",
+        "title": "FlashAttention-2: Faster Attention with Better Parallelism and Work Partitioning",
+        "year": 2023
+      },
+      {
+        "arxiv": "2306.01116",
+        "title": "The RefinedWeb Dataset for Falcon LLM: Outperforming Curated Corpora with Web Data, and Web Data Only",
+        "year": 2023
+      },
+      {
+        "arxiv": "2305.19118",
+        "title": "Encouraging Divergent Thinking in Large Language Models through Multi-Agent Debate",
+        "year": 2023
+      },
+      {
+        "arxiv": "2303.17651",
+        "title": "Self-Refine: Iterative Refinement with Self-Feedback",
+        "year": 2023
+      },
+      {
+        "arxiv": "2211.04325",
+        "title": "Will we run out of data? Limits of LLM scaling based on human-generated data",
+        "year": 2022
+      },
+      {
+        "arxiv": "2209.15168",
+        "title": "Depth-Wise Attention (DWAtt): A Layer Fusion Method for Data-Efficient Classification",
+        "year": 2022
+      },
+      {
+        "arxiv": "2205.14135",
+        "title": "FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness",
+        "year": 2022
+      },
+      {
+        "arxiv": "2104.09864",
+        "title": "RoFormer: Enhanced Transformer with Rotary Position Embedding",
+        "year": 2021
+      },
+      {
+        "arxiv": "2101.03961",
+        "title": "Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity",
+        "year": 2021
+      },
+      {
+        "arxiv": "2101.00027",
+        "title": "The Pile: An 800GB Dataset of Diverse Text for Language Modeling",
+        "year": 2020
+      },
+      {
+        "arxiv": "2006.16236",
+        "title": "Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention",
+        "year": 2020
+      },
+      {
+        "arxiv": "2005.14165",
+        "title": "Language Models are Few-Shot Learners",
+        "year": 2020
+      },
+      {
+        "arxiv": null,
+        "title": "5分で分かる!? 有名論文ナナメ読み：Jacob Devlin et al. : BERT : Pre-training of Deep Bidirectional Transformers for Language Understanding",
+        "year": 2020
+      },
+      {
+        "arxiv": "2002.05202",
+        "title": "GLU Variants Improve Transformer",
+        "year": 2020
+      },
+      {
+        "arxiv": "2001.04451",
+        "title": "Reformer: The Efficient Transformer",
+        "year": 2020
+      },
+      {
+        "arxiv": "1911.05507",
+        "title": "Compressive Transformers for Long-Range Sequence Modelling",
+        "year": 2019
+      },
+      {
+        "arxiv": "1911.02150",
+        "title": "Fast Transformer Decoding: One Write-Head is All You Need",
+        "year": 2019
+      },
+      {
+        "arxiv": null,
+        "title": "Decoupled Weight Decay Regularization",
+        "year": 2017
+      },
+      {
+        "arxiv": null,
+        "title": "Automatic differentiation in PyTorch",
+        "year": 2017
+      },
+      {
+        "arxiv": "1706.03762",
+        "title": "Attention is All you Need",
+        "year": 2017
+      },
+      {
+        "arxiv": "1608.06993",
+        "title": "Densely Connected Convolutional Networks",
+        "year": 2016
+      },
+      {
+        "arxiv": "1512.03385",
+        "title": "Deep Residual Learning for Image Recognition",
+        "year": 2015
+      },
+      {
+        "arxiv": "1505.00387",
+        "title": "Highway Networks",
+        "year": 2015
+      },
+      {
+        "arxiv": "1412.1710",
+        "title": "Convolutional neural networks at constrained time cost",
+        "year": 2014
+      },
+      {
+        "arxiv": null,
+        "title": "GPT-J-6B: A 6 Billion Parameter Autoregressive Language Model",
+        "year": 2021
+      },
+      {
+        "arxiv": null,
+        "title": "Self-attention with linear complexity",
+        "year": 2020
+      },
+      {
+        "arxiv": null,
+        "title": "Linformer",
+        "year": 2020
+      },
+      {
+        "arxiv": null,
+        "title": "Language Models are Unsupervised Multitask Learners",
+        "year": 2019
+      },
+      {
+        "arxiv": null,
+        "title": "Openwebtext corpus",
+        "year": 2019
+      },
+      {
+        "arxiv": null,
+        "title": "We recognize that reproducibility may be tricky in some cases, in which case authors are welcome to describe the particular way they provide for reproducibility",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "If the contribution is primarily a new model architecture, the paper should describe the architecture clearly and fully",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "OpenAI",
+        "year": null
+      }
+    ]
+  },
+  "2312.06635": {
+    "title": "Gated Linear Attention Transformers with Hardware-Efficient Training",
+    "references": [
+      {
+        "arxiv": "2405.05254",
+        "title": "You Only Cache Once: Decoder-Decoder Architectures for Language Models",
+        "year": 2024
+      },
+      {
+        "arxiv": "2405.04517",
+        "title": "xLSTM: Extended Long Short-Term Memory",
+        "year": 2024
+      },
+      {
+        "arxiv": "2404.07904",
+        "title": "HGRN2: Gated Linear RNNs with State Expansion",
+        "year": 2024
+      },
+      {
+        "arxiv": "2404.05892",
+        "title": "Eagle and Finch: RWKV with Matrix-Valued States and Dynamic Recurrence",
+        "year": 2024
+      },
+      {
+        "arxiv": "2402.18668",
+        "title": "Simple linear attention language models balance the recall-throughput tradeoff",
+        "year": 2024
+      },
+      {
+        "arxiv": "2402.04347",
+        "title": "The Hedgehog & the Porcupine: Expressive Linear Attentions with Softmax Mimicry",
+        "year": 2024
+      },
+      {
+        "arxiv": "2402.00789",
+        "title": "Graph-Mamba: Towards Long-Range Graph Sequence Modeling with Selective State Spaces",
+        "year": 2024
+      },
+      {
+        "arxiv": "2401.13660",
+        "title": "MambaByte: Token-free Selective State Space Model",
+        "year": 2024
+      },
+      {
+        "arxiv": "2401.13560",
+        "title": "SegMamba: Long-range Sequential Modeling Mamba For 3D Medical Image Segmentation",
+        "year": 2024
+      },
+      {
+        "arxiv": "2401.10166",
+        "title": "VMamba: Visual State Space Model",
+        "year": 2024
+      },
+      {
+        "arxiv": "2401.09417",
+        "title": "Vision Mamba: Efficient Visual Representation Learning with Bidirectional State Space Model",
+        "year": 2024
+      },
+      {
+        "arxiv": "2401.06104",
+        "title": "Transformers are Multi-State RNNs",
+        "year": 2024
+      },
+      {
+        "arxiv": "2401.04722",
+        "title": "U-Mamba: Enhancing Long-range Dependency for Biomedical Image Segmentation",
+        "year": 2024
+      },
+      {
+        "arxiv": "2401.04658",
+        "title": "Lightning Attention-2: A Free Lunch for Handling Unlimited Sequence Lengths in Large Language Models",
+        "year": 2024
+      },
+      {
+        "arxiv": "2312.04927",
+        "title": "Zoology: Measuring and Improving Recall in Efficient Language Models",
+        "year": 2023
+      },
+      {
+        "arxiv": "2312.00752",
+        "title": "Mamba: Linear-Time Sequence Modeling with Selective State Spaces",
+        "year": 2023
+      },
+      {
+        "arxiv": "2311.18257",
+        "title": "Diffusion Models Without Attention",
+        "year": 2023
+      },
+      {
+        "arxiv": "2311.13541",
+        "title": "Linear Log-Normal Attention with Unbiased Concentration",
+        "year": 2023
+      },
+      {
+        "arxiv": "2311.09431",
+        "title": "Striped Attention: Faster Ring Attention for Causal Transformers",
+        "year": 2023
+      },
+      {
+        "arxiv": "2311.05908",
+        "title": "FlashFFTConv: Efficient Convolutions for Long Sequences with Tensor Cores",
+        "year": 2023
+      },
+      {
+        "arxiv": "2311.04823",
+        "title": "Hierarchically Gated Recurrent Neural Network for Sequence Modeling",
+        "year": 2023
+      },
+      {
+        "arxiv": "2311.05020",
+        "title": "First Tragedy, then Parse: History Repeats Itself in the New Era of Large Language Models",
+        "year": 2023
+      },
+      {
+        "arxiv": "2311.01927",
+        "title": "GateLoop: Fully Data-Controlled Linear Recurrence for Sequence Modeling",
+        "year": 2023
+      },
+      {
+        "arxiv": "2310.18780",
+        "title": "Laughing Hyena Distillery: Extracting Compact Recurrences From Convolutions",
+        "year": 2023
+      },
+      {
+        "arxiv": "2311.06281",
+        "title": "Efficient Parallelization of a Ubiquitous Sequential Computation",
+        "year": 2023
+      },
+      {
+        "arxiv": "2310.15719",
+        "title": "AGaLiTe: Approximate Gated Linear Transformers for Online Reinforcement Learning",
+        "year": 2023
+      },
+      {
+        "arxiv": "2310.12109",
+        "title": "Monarch Mixer: A Simple Sub-Quadratic GEMM-Based Architecture",
+        "year": 2023
+      },
+      {
+        "arxiv": "2310.06825",
+        "title": "Mistral 7B",
+        "year": 2023
+      },
+      {
+        "arxiv": "2310.01889",
+        "title": "Ring Attention with Blockwise Transformers for Near-Infinite Context",
+        "year": 2023
+      },
+      {
+        "arxiv": "2309.16354",
+        "title": "Transformer-VQ: Linear-Time Transformers via Vector Quantization",
+        "year": 2023
+      },
+      {
+        "arxiv": "2307.08691",
+        "title": "FlashAttention-2: Faster Attention with Better Parallelism and Work Partitioning",
+        "year": 2023
+      },
+      {
+        "arxiv": "2307.08621",
+        "title": "Retentive Network: A Successor to Transformer for Large Language Models",
+        "year": 2023
+      },
+      {
+        "arxiv": "2306.11197",
+        "title": "Sparse Modular Activation for Efficient Sequence Modeling",
+        "year": 2023
+      },
+      {
+        "arxiv": "2305.13048",
+        "title": "RWKV: Reinventing RNNs for the Transformer Era",
+        "year": 2023
+      },
+      {
+        "arxiv": "2305.04749",
+        "title": "Toeplitz Neural Network for Sequence Modeling",
+        "year": 2023
+      },
+      {
+        "arxiv": null,
+        "title": "The SciQA Scientific Question Answering Benchmark for Scholarly Knowledge",
+        "year": 2023
+      },
+      {
+        "arxiv": "2304.09433",
+        "title": "Language Models Enable Simple Systems for Generating Structured Views of Heterogeneous Data Lakes",
+        "year": 2023
+      },
+      {
+        "arxiv": "2302.13971",
+        "title": "LLaMA: Open and Efficient Foundation Language Models",
+        "year": 2023
+      },
+      {
+        "arxiv": "2302.10866",
+        "title": "Hyena Hierarchy: Towards Larger Convolutional Language Models",
+        "year": 2023
+      },
+      {
+        "arxiv": "2302.06646",
+        "title": "Simple Hardware-Efficient Long Convolutions for Sequence Modeling",
+        "year": 2023
+      },
+      {
+        "arxiv": "2212.14052",
+        "title": "Hungry Hungry Hippos: Towards Language Modeling with State Space Models",
+        "year": 2022
+      },
+      {
+        "arxiv": "2212.10544",
+        "title": "Pretraining Without Attention",
+        "year": 2022
+      },
+      {
+        "arxiv": "2212.10554",
+        "title": "A Length-Extrapolatable Transformer",
+        "year": 2022
+      },
+      {
+        "arxiv": "2210.10340",
+        "title": "The Devil in Linear Transformer",
+        "year": 2022
+      },
+      {
+        "arxiv": "2210.09298",
+        "title": "What Makes Convolutional Models Great on Long Sequence Modeling?",
+        "year": 2022
+      },
+      {
+        "arxiv": "2210.04243",
+        "title": "Fine-Tuning Pre-trained Transformers into Decaying Fast Weights",
+        "year": 2022
+      },
+      {
+        "arxiv": "2209.12951",
+        "title": "Liquid Structural State-Space Models",
+        "year": 2022
+      },
+      {
+        "arxiv": "2209.10655",
+        "title": "Mega: Moving Average Equipped Gated Attention",
+        "year": 2022
+      },
+      {
+        "arxiv": "2208.04933",
+        "title": "Simplified State Space Layers for Sequence Modeling",
+        "year": 2022
+      },
+      {
+        "arxiv": "2206.13947",
+        "title": "Long Range Language Modeling via Gated State Spaces",
+        "year": 2022
+      },
+      {
+        "arxiv": "2205.14135",
+        "title": "FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness",
+        "year": 2022
+      },
+      {
+        "arxiv": "2204.00595",
+        "title": "Monarch: Expressive Structured Matrices for Efficient and Accurate Training",
+        "year": 2022
+      },
+      {
+        "arxiv": "2203.14343",
+        "title": "Diagonal State Spaces are as Effective as Structured State Spaces",
+        "year": 2022
+      },
+      {
+        "arxiv": "2203.12644",
+        "title": "Linearizing Transformer with Key-Value Memory",
+        "year": 2022
+      },
+      {
+        "arxiv": "2202.10447",
+        "title": "Transformer Quality in Linear Time",
+        "year": 2022
+      },
+      {
+        "arxiv": "2111.00396",
+        "title": "Efficiently Modeling Long Sequences with Structured State Spaces",
+        "year": 2021
+      },
+      {
+        "arxiv": "2110.13985",
+        "title": "Combining Recurrent, Convolutional, and Continuous-time Models with Linear State-Space Layers",
+        "year": 2021
+      },
+      {
+        "arxiv": "2110.02488",
+        "title": "ABC: Attention with Bounded-memory Control",
+        "year": 2021
+      },
+      {
+        "arxiv": "2108.12409",
+        "title": "Train Short, Test Long: Attention with Linear Biases Enables Input Length Extrapolation",
+        "year": 2021
+      },
+      {
+        "arxiv": "2106.06295",
+        "title": "Going Beyond Linear Transformers with Recurrent Fast Weight Programmers",
+        "year": 2021
+      },
+      {
+        "arxiv": "2105.13120",
+        "title": "Sequence Parallelism: Long Sequence Training from System Perspective",
+        "year": 2021
+      },
+      {
+        "arxiv": null,
+        "title": "Accelerating non-power-of-2 size Fourier transforms with GPU Tensor Cores",
+        "year": 2021
+      },
+      {
+        "arxiv": "2104.11471",
+        "title": "tcFFT: Accelerating Half-Precision FFT through Tensor Cores",
+        "year": 2021
+      },
+      {
+        "arxiv": "2104.09864",
+        "title": "RoFormer: Enhanced Transformer with Rotary Position Embedding",
+        "year": 2021
+      },
+      {
+        "arxiv": "2103.13076",
+        "title": "Finetuning Pretrained Transformers into RNNs",
+        "year": 2021
+      },
+      {
+        "arxiv": "2103.02143",
+        "title": "Random Feature Attention",
+        "year": 2021
+      },
+      {
+        "arxiv": "2102.11174",
+        "title": "Linear Transformers Are Secretly Fast Weight Programmers",
+        "year": 2021
+      },
+      {
+        "arxiv": null,
+        "title": "3.2 The A100 Datacenter GPU and Ampere Architecture",
+        "year": 2021
+      },
+      {
+        "arxiv": "2102.02611",
+        "title": "CKConv: Continuous Kernel Convolution For Sequential Data",
+        "year": 2021
+      },
+      {
+        "arxiv": "2009.14794",
+        "title": "Rethinking Attention with Performers",
+        "year": 2020
+      },
+      {
+        "arxiv": "2007.14062",
+        "title": "Big Bird: Transformers for Longer Sequences",
+        "year": 2020
+      },
+      {
+        "arxiv": "2006.16236",
+        "title": "Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention",
+        "year": 2020
+      },
+      {
+        "arxiv": "2009.06489",
+        "title": "The hardware lottery",
+        "year": 2020
+      },
+      {
+        "arxiv": "2004.05150",
+        "title": "Longformer: The Long-Document Transformer",
+        "year": 2020
+      },
+      {
+        "arxiv": "2003.05997",
+        "title": "Efficient Content-Based Sparse Attention with Routing Transformers",
+        "year": 2020
+      },
+      {
+        "arxiv": "2002.05202",
+        "title": "GLU Variants Improve Transformer",
+        "year": 2020
+      },
+      {
+        "arxiv": "2001.04451",
+        "title": "Reformer: The Efficient Transformer",
+        "year": 2020
+      },
+      {
+        "arxiv": "1911.11641",
+        "title": "PIQA: Reasoning about Physical Commonsense in Natural Language",
+        "year": 2019
+      },
+      {
+        "arxiv": "1911.05507",
+        "title": "Compressive Transformers for Long-Range Sequence Modelling",
+        "year": 2019
+      },
+      {
+        "arxiv": "1910.07467",
+        "title": "Root Mean Square Layer Normalization",
+        "year": 2019
+      },
+      {
+        "arxiv": null,
+        "title": "Triton: an intermediate language and compiler for tiled neural network computations",
+        "year": 2019
+      },
+      {
+        "arxiv": null,
+        "title": "OpenCeres: When Open Information Extraction Meets the Semi-Structured Web",
+        "year": 2019
+      },
+      {
+        "arxiv": "1905.10044",
+        "title": "BoolQ: Exploring the Surprising Difficulty of Natural Yes/No Questions",
+        "year": 2019
+      },
+      {
+        "arxiv": "1905.07830",
+        "title": "HellaSwag: Can a Machine Really Finish Your Sentence?",
+        "year": 2019
+      },
+      {
+        "arxiv": "1904.10509",
+        "title": "Generating Long Sequences with Sparse Transformers",
+        "year": 2019
+      },
+      {
+        "arxiv": "1901.10430",
+        "title": "Pay Less Attention with Lightweight and Dynamic Convolutions",
+        "year": 2019
+      },
+      {
+        "arxiv": "1811.09736",
+        "title": "Accelerating reduction and scan using tensor core units",
+        "year": 2018
+      },
+      {
+        "arxiv": "1808.07042",
+        "title": "CoQA: A Conversational Question Answering Challenge",
+        "year": 2018
+      },
+      {
+        "arxiv": "1809.02789",
+        "title": "Can a Suit of Armor Conduct Electricity? A New Dataset for Open Book Question Answering",
+        "year": 2018
+      },
+      {
+        "arxiv": "1806.03822",
+        "title": "Know What You Don’t Know: Unanswerable Questions for SQuAD",
+        "year": 2018
+      },
+      {
+        "arxiv": "1804.04849",
+        "title": "The unreasonable effectiveness of the forget gate",
+        "year": 2018
+      },
+      {
+        "arxiv": "1803.05457",
+        "title": "Think you have Solved Question Answering? Try ARC, the AI2 Reasoning Challenge",
+        "year": 2018
+      },
+      {
+        "arxiv": "1711.05101",
+        "title": "Fixing Weight Decay Regularization in Adam",
+        "year": 2017
+      },
+      {
+        "arxiv": "1710.05941",
+        "title": "Swish: a Self-Gated Activation Function",
+        "year": 2017
+      },
+      {
+        "arxiv": "1709.04057",
+        "title": "Parallelizing Linear Recurrent Neural Nets Over Sequence Length",
+        "year": 2017
+      },
+      {
+        "arxiv": "1706.03762",
+        "title": "Attention is All you Need",
+        "year": 2017
+      },
+      {
+        "arxiv": "1610.06258",
+        "title": "Using Fast Weights to Attend to the Recent Past",
+        "year": 2016
+      },
+      {
+        "arxiv": "1606.06031",
+        "title": "The LAMBADA dataset: Word prediction requiring a broad discourse context",
+        "year": 2016
+      },
+      {
+        "arxiv": null,
+        "title": "Compiling high performance recursive filters",
+        "year": 2015
+      },
+      {
+        "arxiv": "1406.1078",
+        "title": "Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation",
+        "year": 2014
+      },
+      {
+        "arxiv": null,
+        "title": "Choice of Plausible Alternatives: An Evaluation of Commonsense Causal Reasoning",
+        "year": 2011
+      },
+      {
+        "arxiv": null,
+        "title": "Learning to Forget: Continual Prediction with LSTM",
+        "year": 2000
+      },
+      {
+        "arxiv": null,
+        "title": "Long Short-Term Memory",
+        "year": 1997
+      },
+      {
+        "arxiv": null,
+        "title": "Learning to Control Fast-Weight Memories: An Alternative to Dynamic Recurrent Networks",
+        "year": 1992
+      },
+      {
+        "arxiv": null,
+        "title": "Functional Interpolation for Relative Positions Improves Long Context Transformers",
+        "year": 2024
+      },
+      {
+        "arxiv": null,
+        "title": "Vivim: a Video Vision Mamba for Medical Video Object Segmentation",
+        "year": 2024
+      },
+      {
+        "arxiv": null,
+        "title": "Scaling TransNormer to 175 Billion Parameters",
+        "year": 2023
+      },
+      {
+        "arxiv": null,
+        "title": "LightSeq: Sequence Level Parallelism for Distributed Training of Long Context Transformers",
+        "year": 2023
+      },
+      {
+        "arxiv": null,
+        "title": "A framework for few-shot language model evaluation",
+        "year": 2021
+      },
+      {
+        "arxiv": null,
+        "title": "An Adversarial Winograd Schema Challenge at Scale",
+        "year": 2019
+      },
+      {
+        "arxiv": null,
+        "title": "Partitioning",
+        "year": 2008
+      },
+      {
+        "arxiv": null,
+        "title": "Prefix sums and their applications",
+        "year": 1990
+      },
+      {
+        "arxiv": null,
+        "title": "Using fast weights to deblur old memories",
+        "year": 1987
+      },
+      {
+        "arxiv": null,
+        "title": ": A Long Short-Term",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": ": Fast transformers via sketching",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "with Hardware-Efﬁcient Training",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "SlimPajama: A 627B token cleaned and deduplicated version of",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "tokenizer",
+        "year": null
+      }
+    ]
+  },
+  "2311.12022": {
+    "title": "GPQA: A Graduate-Level Google-Proof Q&A Benchmark",
+    "references": [
+      {
+        "arxiv": "2311.08702",
+        "title": "Debate Helps Supervise Unreliable Experts",
+        "year": 2023
+      },
+      {
+        "arxiv": "2310.13548",
+        "title": "Towards Understanding Sycophancy in Language Models",
+        "year": 2023
+      },
+      {
+        "arxiv": "2310.10062",
+        "title": "A Comprehensive Evaluation of Tool-Assisted Generation Strategies",
+        "year": 2023
+      },
+      {
+        "arxiv": "2309.07852",
+        "title": "ExpertQA: Expert-Curated Questions and Attributed Answers",
+        "year": 2023
+      },
+      {
+        "arxiv": "2309.01219",
+        "title": "Siren's Song in the AI Ocean: A Survey on Hallucination in Large Language Models",
+        "year": 2023
+      },
+      {
+        "arxiv": "2307.09288",
+        "title": "Llama 2: Open Foundation and Fine-Tuned Chat Models",
+        "year": 2023
+      },
+      {
+        "arxiv": "2212.09251",
+        "title": "Discovering Language Model Behaviors with Model-Written Evaluations",
+        "year": 2022
+      },
+      {
+        "arxiv": "2211.03540",
+        "title": "Measuring Progress on Scalable Oversight for Large Language Models",
+        "year": 2022
+      },
+      {
+        "arxiv": "2210.03350",
+        "title": "Measuring and Narrowing the Compositionality Gap in Language Models",
+        "year": 2022
+      },
+      {
+        "arxiv": "2206.04615",
+        "title": "Beyond the Imitation Game: Quantifying and extrapolating the capabilities of language models",
+        "year": 2022
+      },
+      {
+        "arxiv": "2205.11916",
+        "title": "Large Language Models are Zero-Shot Reasoners",
+        "year": 2022
+      },
+      {
+        "arxiv": "2205.11465",
+        "title": "SQuALITY: Building a Long-Document Summarization Dataset the Hard Way",
+        "year": 2022
+      },
+      {
+        "arxiv": "2203.11171",
+        "title": "Self-Consistency Improves Chain of Thought Reasoning in Language Models",
+        "year": 2022
+      },
+      {
+        "arxiv": "2202.03286",
+        "title": "Red Teaming Language Models with Language Models",
+        "year": 2022
+      },
+      {
+        "arxiv": "2112.08608",
+        "title": "QuALITY: Question Answering with Long Input Texts, Yes!",
+        "year": 2021
+      },
+      {
+        "arxiv": "2110.14168",
+        "title": "Training Verifiers to Solve Math Word Problems",
+        "year": 2021
+      },
+      {
+        "arxiv": "2104.02145",
+        "title": "What Will it Take to Fix Benchmarking in Natural Language Understanding?",
+        "year": 2021
+      },
+      {
+        "arxiv": "2009.03300",
+        "title": "Measuring Massive Multitask Language Understanding",
+        "year": 2020
+      },
+      {
+        "arxiv": "2004.03490",
+        "title": "What Do Models Learn from Question Answering Datasets?",
+        "year": 2020
+      },
+      {
+        "arxiv": "2002.04326",
+        "title": "ReClor: A Reading Comprehension Dataset Requiring Logical Reasoning",
+        "year": 2020
+      },
+      {
+        "arxiv": "1911.03243",
+        "title": "Controlled Crowdsourcing for High-Quality QA-SRL Annotation",
+        "year": 2019
+      },
+      {
+        "arxiv": "1910.10683",
+        "title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+        "year": 2019
+      },
+      {
+        "arxiv": null,
+        "title": "Natural Questions: A Benchmark for Question Answering Research",
+        "year": 2019
+      },
+      {
+        "arxiv": "1907.11692",
+        "title": "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+        "year": 2019
+      },
+      {
+        "arxiv": "1903.00161",
+        "title": "DROP: A Reading Comprehension Benchmark Requiring Discrete Reasoning Over Paragraphs",
+        "year": 2019
+      },
+      {
+        "arxiv": null,
+        "title": "AI Safety Needs Social Scientists",
+        "year": 2019
+      },
+      {
+        "arxiv": "1811.07871",
+        "title": "Scalable agent alignment via reward modeling: a research direction",
+        "year": 2018
+      },
+      {
+        "arxiv": "1809.09600",
+        "title": "HotpotQA: A Dataset for Diverse, Explainable Multi-hop Question Answering",
+        "year": 2018
+      },
+      {
+        "arxiv": "1805.00899",
+        "title": "AI safety via debate",
+        "year": 2018
+      },
+      {
+        "arxiv": "1706.03741",
+        "title": "Deep Reinforcement Learning from Human Preferences",
+        "year": 2017
+      },
+      {
+        "arxiv": "1705.03551",
+        "title": "TriviaQA: A Large Scale Distantly Supervised Challenge Dataset for Reading Comprehension",
+        "year": 2017
+      },
+      {
+        "arxiv": "1606.06565",
+        "title": "Concrete Problems in AI Safety",
+        "year": 2016
+      },
+      {
+        "arxiv": "1606.05250",
+        "title": "SQuAD: 100,000+ Questions for Machine Comprehension of Text",
+        "year": 2016
+      },
+      {
+        "arxiv": "1301.3781",
+        "title": "Efficient Estimation of Word Representations in Vector Space",
+        "year": 2013
+      },
+      {
+        "arxiv": null,
+        "title": "Language",
+        "year": 1999
+      },
+      {
+        "arxiv": null,
+        "title": "The case for aligning narrowly superhuman models",
+        "year": 2021
+      },
+      {
+        "arxiv": null,
+        "title": "safety via market making",
+        "year": 2020
+      },
+      {
+        "arxiv": "1811.00937",
+        "title": "CommonsenseQA: A Question Answering Challenge Targeting Commonsense Knowledge",
+        "year": 2019
+      },
+      {
+        "arxiv": null,
+        "title": "Volume 30",
+        "year": 2002
+      },
+      {
+        "arxiv": null,
+        "title": "The Claude 3 Model Family: Opus, Sonnet, Haiku",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "Consider if there are online tools for answering correctly.",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "your publications, theses, or other artifacts of your field you have produced Are there aspects of your prior work you can draw on?",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "Evaluation: Once you’ve written a question, remember to evaluate it to ensure it satisfies our expectations before submitting it",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "Model index for researchers",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "Consider uncommon or complex applications of well-known principles in your domain",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "Debating with more persuasive llms",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "Is there some implicit practice or “way of doing things” that isn’t explicitly discussed in textbooks or classes, but it’s always there in the background?",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "iii. Check to ensure that the question meets all of our expectations",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "Think about topics in your domain that took you a long time to fully understand Consider what aspects of the topic were difficult to grasp",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "Minimal calculation: Including some small amount of calculation/computation is okay, but that shouldn’t be the only reason for the question’s difficulty",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "Look for topics that require extensive background knowledge or understanding of multiple concepts",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "Identify concepts or techniques that are often misunderstood or misused, even by professionals in your field",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "Craft questions that appeal to many different concepts from your area of expertise, such that answering correctly requires synthesizing knowledge across a broad range of areas",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "Label-free: Do not label your answer choices with any extra information",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "Stand-alone questions: We want questions that can be answered correctly by other experts even if they aren’t shown the answer choices",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "Explore niche or specialized areas within your domain that are not commonly addressed in general educational resources (there is likely to be less information easily available online in these areas)",
+        "year": null
+      }
+    ]
+  },
+  "2309.17453": {
+    "title": "Efficient Streaming Language Models with Attention Sinks",
+    "references": [
+      {
+        "arxiv": "2309.00071",
+        "title": "YaRN: Efficient Context Window Extension of Large Language Models",
+        "year": 2023
+      },
+      {
+        "arxiv": "2308.14508",
+        "title": "LongBench: A Bilingual, Multitask Benchmark for Long Context Understanding",
+        "year": 2023
+      },
+      {
+        "arxiv": "2308.12950",
+        "title": "Code Llama: Open Foundation Models for Code",
+        "year": 2023
+      },
+      {
+        "arxiv": "2307.09288",
+        "title": "Llama 2: Open Foundation and Fine-Tuned Chat Models",
+        "year": 2023
+      },
+      {
+        "arxiv": "2307.08691",
+        "title": "FlashAttention-2: Faster Attention with Better Parallelism and Work Partitioning",
+        "year": 2023
+      },
+      {
+        "arxiv": "2307.03172",
+        "title": "Lost in the Middle: How Language Models Use Long Contexts",
+        "year": 2023
+      },
+      {
+        "arxiv": "2306.15595",
+        "title": "Extending Context Window of Large Language Models via Positional Interpolation",
+        "year": 2023
+      },
+      {
+        "arxiv": "2306.12929",
+        "title": "Quantizable Transformers: Removing Outliers by Helping Attention Heads Do Nothing",
+        "year": 2023
+      },
+      {
+        "arxiv": "2305.15805",
+        "title": "Dynamic Context Pruning for Efficient and Interpretable Autoregressive Transformers",
+        "year": 2023
+      },
+      {
+        "arxiv": "2305.06984",
+        "title": "Evaluating Open-Domain Question Answering in the Era of Large Language Models",
+        "year": 2023
+      },
+      {
+        "arxiv": "2304.01373",
+        "title": "Pythia: A Suite for Analyzing Large Language Models Across Training and Scaling",
+        "year": 2023
+      },
+      {
+        "arxiv": "2302.13971",
+        "title": "LLaMA: Open and Efficient Foundation Language Models",
+        "year": 2023
+      },
+      {
+        "arxiv": "2301.13848",
+        "title": "Benchmarking Large Language Models for News Summarization",
+        "year": 2023
+      },
+      {
+        "arxiv": "2211.10438",
+        "title": "SmoothQuant: Accurate and Efficient Post-Training Quantization for Large Language Models",
+        "year": 2022
+      },
+      {
+        "arxiv": "2211.05102",
+        "title": "Efficiently Scaling Transformer Inference",
+        "year": 2022
+      },
+      {
+        "arxiv": "2205.14135",
+        "title": "FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness",
+        "year": 2022
+      },
+      {
+        "arxiv": "2205.01068",
+        "title": "OPT: Open Pre-trained Transformer Language Models",
+        "year": 2022
+      },
+      {
+        "arxiv": "2108.12409",
+        "title": "Train Short, Test Long: Attention with Linear Biases Enables Input Length Extrapolation",
+        "year": 2021
+      },
+      {
+        "arxiv": "2107.03374",
+        "title": "Evaluating Large Language Models Trained on Code",
+        "year": 2021
+      },
+      {
+        "arxiv": "2105.03011",
+        "title": "A Dataset of Information-Seeking Questions and Answers Anchored in Research Papers",
+        "year": 2021
+      },
+      {
+        "arxiv": "2104.09864",
+        "title": "RoFormer: Enhanced Transformer with Rotary Position Embedding",
+        "year": 2021
+      },
+      {
+        "arxiv": "2104.02112",
+        "title": "Efficient Attentions for Long Document Summarization",
+        "year": 2021
+      },
+      {
+        "arxiv": "2101.00027",
+        "title": "The Pile: An 800GB Dataset of Diverse Text for Language Modeling",
+        "year": 2020
+      },
+      {
+        "arxiv": "2012.09852",
+        "title": "SpAtten: Efficient Sparse Attention Architecture with Cascade Token and Head Pruning",
+        "year": 2020
+      },
+      {
+        "arxiv": "2011.01060",
+        "title": "Constructing A Multi-hop QA Dataset for Comprehensive Evaluation of Reasoning Steps",
+        "year": 2020
+      },
+      {
+        "arxiv": "2010.11929",
+        "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+        "year": 2020
+      },
+      {
+        "arxiv": "2010.05478",
+        "title": "Evaluating Factuality in Generation with Dependency-level Entailment",
+        "year": 2020
+      },
+      {
+        "arxiv": "2009.06732",
+        "title": "Efficient Transformers: A Survey",
+        "year": 2020
+      },
+      {
+        "arxiv": "2007.14062",
+        "title": "Big Bird: Transformers for Longer Sequences",
+        "year": 2020
+      },
+      {
+        "arxiv": "2006.04768",
+        "title": "Linformer: Self-Attention with Linear Complexity",
+        "year": 2020
+      },
+      {
+        "arxiv": "2005.14165",
+        "title": "Language Models are Few-Shot Learners",
+        "year": 2020
+      },
+      {
+        "arxiv": null,
+        "title": "ETC: Encoding Long and Structured Inputs in Transformers",
+        "year": 2020
+      },
+      {
+        "arxiv": "2004.05150",
+        "title": "Longformer: The Long-Document Transformer",
+        "year": 2020
+      },
+      {
+        "arxiv": "2001.04451",
+        "title": "Reformer: The Efficient Transformer",
+        "year": 2020
+      },
+      {
+        "arxiv": "1911.11641",
+        "title": "PIQA: Reasoning about Physical Commonsense in Natural Language",
+        "year": 2019
+      },
+      {
+        "arxiv": "1911.05507",
+        "title": "Compressive Transformers for Long-Range Sequence Modelling",
+        "year": 2019
+      },
+      {
+        "arxiv": "1910.03771",
+        "title": "HuggingFace's Transformers: State-of-the-art Natural Language Processing",
+        "year": 2019
+      },
+      {
+        "arxiv": "1906.01749",
+        "title": "Multi-News: A Large-Scale Multi-Document Summarization Dataset and Abstractive Hierarchical Model",
+        "year": 2019
+      },
+      {
+        "arxiv": "1905.07830",
+        "title": "HellaSwag: Can a Machine Really Finish Your Sentence?",
+        "year": 2019
+      },
+      {
+        "arxiv": "1904.10509",
+        "title": "Generating Long Sequences with Sparse Transformers",
+        "year": 2019
+      },
+      {
+        "arxiv": "1809.09600",
+        "title": "HotpotQA: A Dataset for Diverse, Explainable Multi-hop Question Answering",
+        "year": 2018
+      },
+      {
+        "arxiv": "1809.02789",
+        "title": "Can a Suit of Armor Conduct Electricity? A New Dataset for Open Book Question Answering",
+        "year": 2018
+      },
+      {
+        "arxiv": "1803.05457",
+        "title": "Think you have Solved Question Answering? Try ARC, the AI2 Reasoning Challenge",
+        "year": 2018
+      },
+      {
+        "arxiv": "1712.07040",
+        "title": "The NarrativeQA Reading Comprehension Challenge",
+        "year": 2017
+      },
+      {
+        "arxiv": null,
+        "title": "Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+        "year": 2016
+      },
+      {
+        "arxiv": "1606.06031",
+        "title": "The LAMBADA dataset: Word prediction requiring a broad discourse context",
+        "year": 2016
+      },
+      {
+        "arxiv": null,
+        "title": "Together",
+        "year": 2012
+      },
+      {
+        "arxiv": null,
+        "title": "LM-Infinite: Simple On-the-Fly Length Generalization for Large Language Models",
+        "year": 2023
+      },
+      {
+        "arxiv": null,
+        "title": "Things I’m learning while training superhot",
+        "year": 2023
+      },
+      {
+        "arxiv": null,
+        "title": "Vicuna: An open-source chatbot impressing gpt-4 with 90%* chatgpt quality, March 2023",
+        "year": 2023
+      },
+      {
+        "arxiv": null,
+        "title": "Attention is off by one",
+        "year": 2023
+      },
+      {
+        "arxiv": null,
+        "title": "How long can open-source llms truly promise on context length?",
+        "year": 2023
+      },
+      {
+        "arxiv": null,
+        "title": "An Adversarial Winograd Schema Challenge at Scale",
+        "year": 2019
+      },
+      {
+        "arxiv": "1810.04805",
+        "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+        "year": 2019
+      },
+      {
+        "arxiv": null,
+        "title": "Improving Language Understanding by Generative Pre-Training",
+        "year": 2018
+      },
+      {
+        "arxiv": null,
+        "title": "Introducing mpt-7b: A new standard for open-source, commercially usable llms",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "Falcon-40B: an open large language model with state-of-the-art performance",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "Scaled RoPE allows LLaMA models to have extended (8k+) context size without any fine-tuning and minimal perplexity degradation",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "Llama-2-7b-32k-instruct -and fine-tuning for llama-2 models with together api",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "Chatgpt: Optimizing language models for dialogue",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "Stanford alpaca: An instruction-following llama model",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "A suite for analyzing large",
+        "year": null
+      }
+    ]
+  },
+  "2309.00071": {
+    "title": "YaRN: Efficient Context Window Extension of Large Language Models",
+    "references": [
+      {
+        "arxiv": "2308.12950",
+        "title": "Code Llama: Open Foundation Models for Code",
+        "year": 2023
+      },
+      {
+        "arxiv": "2307.08691",
+        "title": "FlashAttention-2: Faster Attention with Better Parallelism and Work Partitioning",
+        "year": 2023
+      },
+      {
+        "arxiv": "2306.15595",
+        "title": "Extending Context Window of Large Language Models via Positional Interpolation",
+        "year": 2023
+      },
+      {
+        "arxiv": "2305.19466",
+        "title": "The Impact of Positional Encoding on Length Generalization in Transformers",
+        "year": 2023
+      },
+      {
+        "arxiv": "2305.16300",
+        "title": "Landmark Attention: Random-Access Infinite Context Length for Transformers",
+        "year": 2023
+      },
+      {
+        "arxiv": "2304.11277",
+        "title": "PyTorch FSDP: Experiences on Scaling Fully Sharded Data Parallel",
+        "year": 2023
+      },
+      {
+        "arxiv": "2302.13971",
+        "title": "LLaMA: Open and Efficient Foundation Language Models",
+        "year": 2023
+      },
+      {
+        "arxiv": "2204.06745",
+        "title": "GPT-NeoX-20B: An Open-Source Autoregressive Language Model",
+        "year": 2022
+      },
+      {
+        "arxiv": "2109.07958",
+        "title": "TruthfulQA: Measuring How Models Mimic Human Falsehoods",
+        "year": 2021
+      },
+      {
+        "arxiv": "2108.12409",
+        "title": "Train Short, Test Long: Attention with Linear Biases Enables Input Length Extrapolation",
+        "year": 2021
+      },
+      {
+        "arxiv": "2104.09864",
+        "title": "RoFormer: Enhanced Transformer with Rotary Position Embedding",
+        "year": 2021
+      },
+      {
+        "arxiv": "2104.02112",
+        "title": "Efficient Attentions for Long Document Summarization",
+        "year": 2021
+      },
+      {
+        "arxiv": "2009.03300",
+        "title": "Measuring Massive Multitask Language Understanding",
+        "year": 2020
+      },
+      {
+        "arxiv": "2006.10739",
+        "title": "Fourier Features Let Networks Learn High Frequency Functions in Low Dimensional Domains",
+        "year": 2020
+      },
+      {
+        "arxiv": "1912.01703",
+        "title": "PyTorch: An Imperative Style, High-Performance Deep Learning Library",
+        "year": 2019
+      },
+      {
+        "arxiv": "1911.05507",
+        "title": "Compressive Transformers for Long-Range Sequence Modelling",
+        "year": 2019
+      },
+      {
+        "arxiv": "1910.10683",
+        "title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+        "year": 2019
+      },
+      {
+        "arxiv": "1905.07830",
+        "title": "HellaSwag: Can a Machine Really Finish Your Sentence?",
+        "year": 2019
+      },
+      {
+        "arxiv": "1803.05457",
+        "title": "Think you have Solved Question Answering? Try ARC, the AI2 Reasoning Challenge",
+        "year": 2018
+      },
+      {
+        "arxiv": "1803.02155",
+        "title": "Self-Attention with Relative Position Representations",
+        "year": 2018
+      },
+      {
+        "arxiv": null,
+        "title": "Decoupled Weight Decay Regularization",
+        "year": 2017
+      },
+      {
+        "arxiv": "1706.03762",
+        "title": "Attention is All you Need",
+        "year": 2017
+      },
+      {
+        "arxiv": "1705.03122",
+        "title": "Convolutional Sequence to Sequence Learning",
+        "year": 2017
+      },
+      {
+        "arxiv": null,
+        "title": "Together",
+        "year": 2012
+      },
+      {
+        "arxiv": null,
+        "title": "COLLECTIONS",
+        "year": 1942
+      },
+      {
+        "arxiv": null,
+        "title": "LM-Infinite: Simple On-the-Fly Length Generalization for Large Language Models",
+        "year": 2023
+      },
+      {
+        "arxiv": null,
+        "title": "Things I’m learning while training superhot",
+        "year": 2023
+      },
+      {
+        "arxiv": null,
+        "title": "LLaMA-2-7B-32K",
+        "year": 2023
+      },
+      {
+        "arxiv": null,
+        "title": "Proof-pile",
+        "year": 2022
+      },
+      {
+        "arxiv": null,
+        "title": "Transformer Inference Arithmetic",
+        "year": 2022
+      },
+      {
+        "arxiv": null,
+        "title": "and s",
+        "year": 2019
+      },
+      {
+        "arxiv": null,
+        "title": "bloc97. NTK-Aware Scaled RoPE allows LLaMA models to have extended (8k+) context size without any fine-tuning and minimal perplexity degradation",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "AND T",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "on scaling fully sharded data",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "Scaling language",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "A length-extrapolatable transformer, 2022",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "Dynamic-YaRN outperforms Dynamic-PI in terms of long-range perplexity on pretrained Llama-2 without any finetuning",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "Scaling rotary embeddings through linear positional interpolation",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "Dynamically Scaled RoPE further increases performance of long context LLaMA with zero fine-tuning",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "Hugging Face",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "YaRN improves upon all existing RoPE interpolation methods and can act as a drop-in replacement to PI,",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "Introducing Qwen-7B: Open foundation and human-aligned models (of the state-of-the-arts)",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "bloc97. Add NTK-Aware interpolation \"by parts\" correction, 2023",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "An open source recipe to reproduce",
+        "year": null
+      }
+    ]
+  },
+  "2307.08621": {
+    "title": "Retentive Network: A Successor to Transformer for Large Language Models",
+    "references": [
+      {
+        "arxiv": "2307.09288",
+        "title": "Llama 2: Open Foundation and Fine-Tuned Chat Models",
+        "year": 2023
+      },
+      {
+        "arxiv": "2306.14824",
+        "title": "Kosmos-2: Grounding Multimodal Large Language Models to the World",
+        "year": 2023
+      },
+      {
+        "arxiv": "2305.13048",
+        "title": "RWKV: Reinventing RNNs for the Transformer Era",
+        "year": 2023
+      },
+      {
+        "arxiv": "2305.13245",
+        "title": "GQA: Training Generalized Multi-Query Transformer Models from Multi-Head Checkpoints",
+        "year": 2023
+      },
+      {
+        "arxiv": "2303.06349",
+        "title": "Resurrecting Recurrent Neural Networks for Long Sequences",
+        "year": 2023
+      },
+      {
+        "arxiv": "2302.13971",
+        "title": "LLaMA: Open and Efficient Foundation Language Models",
+        "year": 2023
+      },
+      {
+        "arxiv": "2302.14045",
+        "title": "Language Is Not All You Need: Aligning Perception with Language Models",
+        "year": 2023
+      },
+      {
+        "arxiv": "2302.10866",
+        "title": "Hyena Hierarchy: Towards Larger Convolutional Language Models",
+        "year": 2023
+      },
+      {
+        "arxiv": "2212.14052",
+        "title": "Hungry Hungry Hippos: Towards Language Modeling with State Space Models",
+        "year": 2022
+      },
+      {
+        "arxiv": "2212.10554",
+        "title": "A Length-Extrapolatable Transformer",
+        "year": 2022
+      },
+      {
+        "arxiv": "2212.06713",
+        "title": "Structured Prompting: Scaling In-Context Learning to 1, 000 Examples",
+        "year": 2022
+      },
+      {
+        "arxiv": "2211.13184",
+        "title": "TorchScale: Transformers at Scale",
+        "year": 2022
+      },
+      {
+        "arxiv": "2211.15533",
+        "title": "The Stack: 3 TB of permissively licensed source code",
+        "year": 2022
+      },
+      {
+        "arxiv": "2210.06423",
+        "title": "Foundation Transformers",
+        "year": 2022
+      },
+      {
+        "arxiv": "2206.06336",
+        "title": "Language Models are General-Purpose Interfaces",
+        "year": 2022
+      },
+      {
+        "arxiv": "2205.14135",
+        "title": "FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness",
+        "year": 2022
+      },
+      {
+        "arxiv": "2204.09179",
+        "title": "On the Representation Collapse of Sparse Mixture of Experts",
+        "year": 2022
+      },
+      {
+        "arxiv": "2203.00555",
+        "title": "DeepNet: Scaling Transformers to 1,000 Layers",
+        "year": 2022
+      },
+      {
+        "arxiv": "2201.03533",
+        "title": "SCROLLS: Standardized CompaRison Over Long Language Sequences",
+        "year": 2022
+      },
+      {
+        "arxiv": "2111.00396",
+        "title": "Efficiently Modeling Long Sequences with Structured State Spaces",
+        "year": 2021
+      },
+      {
+        "arxiv": "2104.09864",
+        "title": "RoFormer: Enhanced Transformer with Rotary Position Embedding",
+        "year": 2021
+      },
+      {
+        "arxiv": "2104.08758",
+        "title": "Documenting Large Webtext Corpora: A Case Study on the Colossal Clean Crawled Corpus",
+        "year": 2021
+      },
+      {
+        "arxiv": "2104.07091",
+        "title": "SummScreen: A Dataset for Abstractive Screenplay Summarization",
+        "year": 2021
+      },
+      {
+        "arxiv": "2104.02112",
+        "title": "Efficient Attentions for Long Document Summarization",
+        "year": 2021
+      },
+      {
+        "arxiv": "2104.05938",
+        "title": "QMSum: A New Benchmark for Query-based Multi-domain Meeting Summarization",
+        "year": 2021
+      },
+      {
+        "arxiv": "2101.00027",
+        "title": "The Pile: An 800GB Dataset of Diverse Text for Language Modeling",
+        "year": 2020
+      },
+      {
+        "arxiv": "2006.16236",
+        "title": "Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention",
+        "year": 2020
+      },
+      {
+        "arxiv": "2005.14165",
+        "title": "Language Models are Few-Shot Learners",
+        "year": 2020
+      },
+      {
+        "arxiv": "1911.11641",
+        "title": "PIQA: Reasoning about Physical Commonsense in Natural Language",
+        "year": 2019
+      },
+      {
+        "arxiv": "1911.02150",
+        "title": "Fast Transformer Decoding: One Write-Head is All You Need",
+        "year": 2019
+      },
+      {
+        "arxiv": "1909.08053",
+        "title": "Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism",
+        "year": 2019
+      },
+      {
+        "arxiv": "1905.00537",
+        "title": "SuperGLUE: A Stickier Benchmark for General-Purpose Language Understanding Systems",
+        "year": 2019
+      },
+      {
+        "arxiv": "1905.10044",
+        "title": "BoolQ: Exploring the Surprising Difficulty of Natural Yes/No Questions",
+        "year": 2019
+      },
+      {
+        "arxiv": "1905.07830",
+        "title": "HellaSwag: Can a Machine Really Finish Your Sentence?",
+        "year": 2019
+      },
+      {
+        "arxiv": "1803.08494",
+        "title": "Group Normalization",
+        "year": 2018
+      },
+      {
+        "arxiv": null,
+        "title": "Decoupled Weight Decay Regularization",
+        "year": 2017
+      },
+      {
+        "arxiv": "1710.05941",
+        "title": "Swish: a Self-Gated Activation Function",
+        "year": 2017
+      },
+      {
+        "arxiv": "1706.03762",
+        "title": "Attention is All you Need",
+        "year": 2017
+      },
+      {
+        "arxiv": null,
+        "title": "LSDSem 2017 Shared Task: The Story Cloze Test",
+        "year": 2017
+      },
+      {
+        "arxiv": "1607.06450",
+        "title": "Layer Normalization",
+        "year": 2016
+      },
+      {
+        "arxiv": "1606.08415",
+        "title": "Gaussian Error Linear Units (GELUs)",
+        "year": 2016
+      },
+      {
+        "arxiv": null,
+        "title": "The Winograd Schema Challenge",
+        "year": 2011
+      },
+      {
+        "arxiv": null,
+        "title": "Long Short-Term Memory",
+        "year": 1997
+      },
+      {
+        "arxiv": null,
+        "title": "Under review as a conference paper at ICLR 2016",
+        "year": 2015
+      }
+    ]
+  },
+  "2306.09212": {
+    "title": "CMMLU: Measuring massive multitask language understanding in Chinese",
+    "references": [
+      {
+        "arxiv": "2310.09550",
+        "title": "Can Large Langauge Model Comprehend Ancient Chinese? A Preliminary Test on ACLUE",
+        "year": 2023
+      },
+      {
+        "arxiv": "2307.15020",
+        "title": "SuperCLUE: A Comprehensive Chinese Large Language Model Benchmark",
+        "year": 2023
+      },
+      {
+        "arxiv": "2307.09288",
+        "title": "Llama 2: Open Foundation and Fine-Tuned Chat Models",
+        "year": 2023
+      },
+      {
+        "arxiv": "2307.00360",
+        "title": "BatGPT: A Bidirectional Autoregessive Talker from Generative Pre-trained Transformer",
+        "year": 2023
+      },
+      {
+        "arxiv": "2306.01116",
+        "title": "The RefinedWeb Dataset for Falcon LLM: Outperforming Curated Corpora with Web Data, and Web Data Only",
+        "year": 2023
+      },
+      {
+        "arxiv": null,
+        "title": "Holistic Evaluation of Language Models",
+        "year": 2023
+      },
+      {
+        "arxiv": "2305.15011",
+        "title": "Bactrian-X : A Multilingual Replicable Instruction-Following Model with Low-Rank Adaptation",
+        "year": 2023
+      },
+      {
+        "arxiv": "2305.10263",
+        "title": "M3KE: A Massive Multi-Level Multi-Subject Knowledge Evaluation Benchmark for Chinese Large Language Models",
+        "year": 2023
+      },
+      {
+        "arxiv": "2305.08322",
+        "title": "C-Eval: A Multi-Level Multi-Discipline Chinese Evaluation Suite for Foundation Models",
+        "year": 2023
+      },
+      {
+        "arxiv": "2304.14402",
+        "title": "LaMini-LM: A Diverse Herd of Distilled Models from Large-Scale Instructions",
+        "year": 2023
+      },
+      {
+        "arxiv": "2304.12986",
+        "title": "Measuring Massive Multitask Chinese Understanding",
+        "year": 2023
+      },
+      {
+        "arxiv": "2304.08177",
+        "title": "Efficient and Effective Text Encoding for Chinese LLaMA and Alpaca",
+        "year": 2023
+      },
+      {
+        "arxiv": "2304.06364",
+        "title": "AGIEval: A Human-Centric Benchmark for Evaluating Foundation Models",
+        "year": 2023
+      },
+      {
+        "arxiv": "2303.16634",
+        "title": "G-Eval: NLG Evaluation using GPT-4 with Better Human Alignment",
+        "year": 2023
+      },
+      {
+        "arxiv": "2303.08774",
+        "title": "GPT-4 Technical Report",
+        "year": 2023
+      },
+      {
+        "arxiv": "2302.13971",
+        "title": "LLaMA: Open and Efficient Foundation Language Models",
+        "year": 2023
+      },
+      {
+        "arxiv": "2211.05100",
+        "title": "BLOOM: A 176B-Parameter Open-Access Multilingual Language Model",
+        "year": 2022
+      },
+      {
+        "arxiv": "2210.02414",
+        "title": "GLM-130B: An Open Bilingual Pre-trained Model",
+        "year": 2022
+      },
+      {
+        "arxiv": "2209.12356",
+        "title": "News Summarization and Evaluation in the Era of GPT-3",
+        "year": 2022
+      },
+      {
+        "arxiv": "2206.04615",
+        "title": "Beyond the Imitation Game: Quantifying and extrapolating the capabilities of language models",
+        "year": 2022
+      },
+      {
+        "arxiv": "2205.01068",
+        "title": "OPT: Open Pre-trained Transformer Language Models",
+        "year": 2022
+      },
+      {
+        "arxiv": "2110.14168",
+        "title": "Training Verifiers to Solve Math Word Problems",
+        "year": 2021
+      },
+      {
+        "arxiv": "2109.07958",
+        "title": "TruthfulQA: Measuring How Models Mimic Human Falsehoods",
+        "year": 2021
+      },
+      {
+        "arxiv": "2108.07732",
+        "title": "Program Synthesis with Large Language Models",
+        "year": 2021
+      },
+      {
+        "arxiv": "2107.03374",
+        "title": "Evaluating Large Language Models Trained on Code",
+        "year": 2021
+      },
+      {
+        "arxiv": "2105.03519",
+        "title": "Understanding by Understanding Not: Modeling Negation in Language Models",
+        "year": 2021
+      },
+      {
+        "arxiv": "2103.10360",
+        "title": "GLM: General Language Model Pretraining with Autoregressive Blank Infilling",
+        "year": 2021
+      },
+      {
+        "arxiv": "2103.03874",
+        "title": "Measuring Mathematical Problem Solving With the MATH Dataset",
+        "year": 2021
+      },
+      {
+        "arxiv": "2009.03300",
+        "title": "Measuring Massive Multitask Language Understanding",
+        "year": 2020
+      },
+      {
+        "arxiv": "2004.05986",
+        "title": "CLUE: A Chinese Language Understanding Evaluation Benchmark",
+        "year": 2020
+      },
+      {
+        "arxiv": "1911.03343",
+        "title": "Negated and Misprimed Probes for Pretrained Language Models: Birds Can Talk, But Cannot Fly",
+        "year": 2019
+      },
+      {
+        "arxiv": null,
+        "title": "Natural Questions: A Benchmark for Question Answering Research",
+        "year": 2019
+      },
+      {
+        "arxiv": "1905.00537",
+        "title": "SuperGLUE: A Stickier Benchmark for General-Purpose Language Understanding Systems",
+        "year": 2019
+      },
+      {
+        "arxiv": "1905.07830",
+        "title": "HellaSwag: Can a Machine Really Finish Your Sentence?",
+        "year": 2019
+      },
+      {
+        "arxiv": "1806.03822",
+        "title": "Know What You Don’t Know: Unanswerable Questions for SQuAD",
+        "year": 2018
+      },
+      {
+        "arxiv": "1804.07461",
+        "title": "GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding",
+        "year": 2018
+      },
+      {
+        "arxiv": "1803.05457",
+        "title": "Think you have Solved Question Answering? Try ARC, the AI2 Reasoning Challenge",
+        "year": 2018
+      },
+      {
+        "arxiv": "1506.03340",
+        "title": "Teaching Machines to Read and Comprehend",
+        "year": 2015
+      },
+      {
+        "arxiv": null,
+        "title": "Crosslingual Generalization through Multitask Finetuning",
+        "year": 2023
+      },
+      {
+        "arxiv": null,
+        "title": "2023) data. Due to the high quality of its training data, Falcon-40B performs competitively with LLaMA-65B on various benchmarks. LLaMA is an auto-regressive language model proposed by Meta",
+        "year": 2023
+      },
+      {
+        "arxiv": null,
+        "title": "MultiSpanQA: A Dataset for Multi-Span Question Answering",
+        "year": 2022
+      },
+      {
+        "arxiv": null,
+        "title": "A Practical Guide to Updating Beliefs From Contradictory Evidence",
+        "year": 2021
+      },
+      {
+        "arxiv": "1811.00937",
+        "title": "CommonsenseQA: A Question Answering Challenge Targeting Commonsense Knowledge",
+        "year": 2019
+      },
+      {
+        "arxiv": null,
+        "title": "An Adversarial Winograd Schema Challenge at Scale",
+        "year": 2019
+      },
+      {
+        "arxiv": null,
+        "title": "Subject ChatGPT Falcon-40B LLaMA-65B ChatGLM-6B BatGPT-15B",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "Falcon-40B: an open large language model with state-of-the-art performance",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "Internlm: A multilingual language model with progressively enhanced capabilities",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "A framework for few-shot language model evaluation",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "2023. Su-perclue: A benchmark for foundation models in chi-nese",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "2023. Stanford alpaca: An instruction-following llama model",
+        "year": null
+      }
+    ]
+  },
+  "2305.08322": {
+    "title": "C-Eval: A Multi-Level Multi-Discipline Chinese Evaluation Suite for Foundation Models",
+    "references": [
+      {
+        "arxiv": null,
+        "title": "Holistic Evaluation of Language Models",
+        "year": 2023
+      },
+      {
+        "arxiv": "2304.12986",
+        "title": "Measuring Massive Multitask Chinese Understanding",
+        "year": 2023
+      },
+      {
+        "arxiv": "2304.08177",
+        "title": "Efficient and Effective Text Encoding for Chinese LLaMA and Alpaca",
+        "year": 2023
+      },
+      {
+        "arxiv": "2304.06364",
+        "title": "AGIEval: A Human-Centric Benchmark for Evaluating Foundation Models",
+        "year": 2023
+      },
+      {
+        "arxiv": "2303.08774",
+        "title": "GPT-4 Technical Report",
+        "year": 2023
+      },
+      {
+        "arxiv": "2302.13971",
+        "title": "LLaMA: Open and Efficient Foundation Language Models",
+        "year": 2023
+      },
+      {
+        "arxiv": "2302.07842",
+        "title": "Augmented Language Models: a Survey",
+        "year": 2023
+      },
+      {
+        "arxiv": "2212.10560",
+        "title": "Self-Instruct: Aligning Language Models with Self-Generated Instructions",
+        "year": 2022
+      },
+      {
+        "arxiv": "2212.08073",
+        "title": "Constitutional AI: Harmlessness from AI Feedback",
+        "year": 2022
+      },
+      {
+        "arxiv": "2211.10435",
+        "title": "PAL: Program-aided Language Models",
+        "year": 2022
+      },
+      {
+        "arxiv": "2211.09085",
+        "title": "Galactica: A Large Language Model for Science",
+        "year": 2022
+      },
+      {
+        "arxiv": "2211.05100",
+        "title": "BLOOM: A 176B-Parameter Open-Access Multilingual Language Model",
+        "year": 2022
+      },
+      {
+        "arxiv": "2210.11416",
+        "title": "Scaling Instruction-Finetuned Language Models",
+        "year": 2022
+      },
+      {
+        "arxiv": "2210.09261",
+        "title": "Challenging BIG-Bench Tasks and Whether Chain-of-Thought Can Solve Them",
+        "year": 2022
+      },
+      {
+        "arxiv": "2210.02414",
+        "title": "GLM-130B: An Open Bilingual Pre-trained Model",
+        "year": 2022
+      },
+      {
+        "arxiv": "2209.12356",
+        "title": "News Summarization and Evaluation in the Era of GPT-3",
+        "year": 2022
+      },
+      {
+        "arxiv": "2206.04615",
+        "title": "Beyond the Imitation Game: Quantifying and extrapolating the capabilities of language models",
+        "year": 2022
+      },
+      {
+        "arxiv": "2205.11916",
+        "title": "Large Language Models are Zero-Shot Reasoners",
+        "year": 2022
+      },
+      {
+        "arxiv": "2205.10625",
+        "title": "Least-to-Most Prompting Enables Complex Reasoning in Large Language Models",
+        "year": 2022
+      },
+      {
+        "arxiv": "2204.02311",
+        "title": "PaLM: Scaling Language Modeling with Pathways",
+        "year": 2022
+      },
+      {
+        "arxiv": "2203.15556",
+        "title": "Training Compute-Optimal Large Language Models",
+        "year": 2022
+      },
+      {
+        "arxiv": "2203.13474",
+        "title": "CodeGen: An Open Large Language Model for Code with Multi-Turn Program Synthesis",
+        "year": 2022
+      },
+      {
+        "arxiv": "2203.11171",
+        "title": "Self-Consistency Improves Chain of Thought Reasoning in Language Models",
+        "year": 2022
+      },
+      {
+        "arxiv": "2203.02155",
+        "title": "Training language models to follow instructions with human feedback",
+        "year": 2022
+      },
+      {
+        "arxiv": "2201.11903",
+        "title": "Chain of Thought Prompting Elicits Reasoning in Large Language Models",
+        "year": 2022
+      },
+      {
+        "arxiv": "2110.14168",
+        "title": "Training Verifiers to Solve Math Word Problems",
+        "year": 2021
+      },
+      {
+        "arxiv": "2107.03374",
+        "title": "Evaluating Large Language Models Trained on Code",
+        "year": 2021
+      },
+      {
+        "arxiv": "2103.10360",
+        "title": "GLM: General Language Model Pretraining with Autoregressive Blank Infilling",
+        "year": 2021
+      },
+      {
+        "arxiv": "2103.03874",
+        "title": "Measuring Mathematical Problem Solving With the MATH Dataset",
+        "year": 2021
+      },
+      {
+        "arxiv": "2009.03300",
+        "title": "Measuring Massive Multitask Language Understanding",
+        "year": 2020
+      },
+      {
+        "arxiv": "2004.05986",
+        "title": "CLUE: A Chinese Language Understanding Evaluation Benchmark",
+        "year": 2020
+      },
+      {
+        "arxiv": "1808.08745",
+        "title": "Don’t Give Me the Details, Just the Summary! Topic-Aware Convolutional Neural Networks for Extreme Summarization",
+        "year": 2018
+      },
+      {
+        "arxiv": "1806.03822",
+        "title": "Know What You Don’t Know: Unanswerable Questions for SQuAD",
+        "year": 2018
+      },
+      {
+        "arxiv": "1804.07461",
+        "title": "GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding",
+        "year": 2018
+      },
+      {
+        "arxiv": "1506.03340",
+        "title": "Teaching Machines to Read and Comprehend",
+        "year": 2015
+      },
+      {
+        "arxiv": null,
+        "title": "Findings of the 2014 Workshop on Statistical Machine Translation",
+        "year": 2014
+      },
+      {
+        "arxiv": null,
+        "title": "Crosslingual Generalization through Multitask Finetuning",
+        "year": 2023
+      },
+      {
+        "arxiv": null,
+        "title": "Decomposition Enhances Reasoning via Self-Evaluation Guided Decoding",
+        "year": 2023
+      },
+      {
+        "arxiv": null,
+        "title": "Vicuna: An open-source chatbot impressing gpt-4 with 90%* chatgpt quality",
+        "year": 2023
+      },
+      {
+        "arxiv": "1810.04805",
+        "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+        "year": 2019
+      },
+      {
+        "arxiv": null,
+        "title": "Language Models are Unsupervised Multitask Learners",
+        "year": 2019
+      },
+      {
+        "arxiv": null,
+        "title": "Breakdown",
+        "year": 2020
+      },
+      {
+        "arxiv": null,
+        "title": "OpenLMLab",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "Chatgpt: Optimizing language models for dialogue",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "Stanford alpaca: An instruction-following llama model",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "Introducing claude",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "THUDM",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "MiniMax",
+        "year": null
+      }
+    ]
+  },
+  "2302.13971": {
+    "title": "LLaMA: Open and Efficient Foundation Language Models",
+    "references": [
+      {
+        "arxiv": "2212.12017",
+        "title": "OPT-IML: Scaling Language Model Instruction Meta Learning through the Lens of Generalization",
+        "year": 2022
+      },
+      {
+        "arxiv": "2211.05100",
+        "title": "BLOOM: A 176B-Parameter Open-Access Multilingual Language Model",
+        "year": 2022
+      },
+      {
+        "arxiv": "2206.14858",
+        "title": "Solving Quantitative Reasoning Problems with Language Models",
+        "year": 2022
+      },
+      {
+        "arxiv": "2206.07682",
+        "title": "Emergent Abilities of Large Language Models",
+        "year": 2022
+      },
+      {
+        "arxiv": "2205.14135",
+        "title": "FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness",
+        "year": 2022
+      },
+      {
+        "arxiv": "2205.05198",
+        "title": "Reducing Activation Recomputation in Large Transformer Models",
+        "year": 2022
+      },
+      {
+        "arxiv": "2205.01068",
+        "title": "OPT: Open Pre-trained Transformer Language Models",
+        "year": 2022
+      },
+      {
+        "arxiv": "2204.06745",
+        "title": "GPT-NeoX-20B: An Open-Source Autoregressive Language Model",
+        "year": 2022
+      },
+      {
+        "arxiv": "2204.05999",
+        "title": "InCoder: A Generative Model for Code Infilling and Synthesis",
+        "year": 2022
+      },
+      {
+        "arxiv": "2204.02311",
+        "title": "PaLM: Scaling Language Modeling with Pathways",
+        "year": 2022
+      },
+      {
+        "arxiv": "2203.15556",
+        "title": "Training Compute-Optimal Large Language Models",
+        "year": 2022
+      },
+      {
+        "arxiv": "2203.13474",
+        "title": "CodeGen: An Open Large Language Model for Code with Multi-Turn Program Synthesis",
+        "year": 2022
+      },
+      {
+        "arxiv": "2203.11171",
+        "title": "Self-Consistency Improves Chain of Thought Reasoning in Language Models",
+        "year": 2022
+      },
+      {
+        "arxiv": "2203.02155",
+        "title": "Training language models to follow instructions with human feedback",
+        "year": 2022
+      },
+      {
+        "arxiv": "2201.11990",
+        "title": "Using DeepSpeed and Megatron to Train Megatron-Turing NLG 530B, A Large-Scale Generative Language Model",
+        "year": 2022
+      },
+      {
+        "arxiv": "2201.08239",
+        "title": "LaMDA: Language Models for Dialog Applications",
+        "year": 2022
+      },
+      {
+        "arxiv": "2112.05682",
+        "title": "Self-attention Does Not Need $O(n^2)$ Memory",
+        "year": 2021
+      },
+      {
+        "arxiv": "2112.11446",
+        "title": "Scaling Language Models: Methods, Analysis & Insights from Training Gopher",
+        "year": 2021
+      },
+      {
+        "arxiv": "2111.00364",
+        "title": "Sustainable AI: Environmental Implications, Challenges and Opportunities",
+        "year": 2021
+      },
+      {
+        "arxiv": "2110.14168",
+        "title": "Training Verifiers to Solve Math Word Problems",
+        "year": 2021
+      },
+      {
+        "arxiv": "2109.07958",
+        "title": "TruthfulQA: Measuring How Models Mimic Human Falsehoods",
+        "year": 2021
+      },
+      {
+        "arxiv": "2108.07732",
+        "title": "Program Synthesis with Large Language Models",
+        "year": 2021
+      },
+      {
+        "arxiv": "2107.03374",
+        "title": "Evaluating Large Language Models Trained on Code",
+        "year": 2021
+      },
+      {
+        "arxiv": "2104.09864",
+        "title": "RoFormer: Enhanced Transformer with Rotary Position Embedding",
+        "year": 2021
+      },
+      {
+        "arxiv": "2103.03874",
+        "title": "Measuring Mathematical Problem Solving With the MATH Dataset",
+        "year": 2021
+      },
+      {
+        "arxiv": "2101.00027",
+        "title": "The Pile: An 800GB Dataset of Diverse Text for Language Modeling",
+        "year": 2020
+      },
+      {
+        "arxiv": "2010.00133",
+        "title": "CrowS-Pairs: A Challenge Dataset for Measuring Social Biases in Masked Language Models",
+        "year": 2020
+      },
+      {
+        "arxiv": "2009.11462",
+        "title": "RealToxicityPrompts: Evaluating Neural Toxic Degeneration in Language Models",
+        "year": 2020
+      },
+      {
+        "arxiv": "2009.03300",
+        "title": "Measuring Massive Multitask Language Understanding",
+        "year": 2020
+      },
+      {
+        "arxiv": "2005.14165",
+        "title": "Language Models are Few-Shot Learners",
+        "year": 2020
+      },
+      {
+        "arxiv": "2002.05202",
+        "title": "GLU Variants Improve Transformer",
+        "year": 2020
+      },
+      {
+        "arxiv": "2001.08361",
+        "title": "Scaling Laws for Neural Language Models",
+        "year": 2020
+      },
+      {
+        "arxiv": "1911.11641",
+        "title": "PIQA: Reasoning about Physical Commonsense in Natural Language",
+        "year": 2019
+      },
+      {
+        "arxiv": "1911.00359",
+        "title": "CCNet: Extracting High Quality Monolingual Datasets from Web Crawl Data",
+        "year": 2019
+      },
+      {
+        "arxiv": "1910.10683",
+        "title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+        "year": 2019
+      },
+      {
+        "arxiv": "1910.07467",
+        "title": "Root Mean Square Layer Normalization",
+        "year": 2019
+      },
+      {
+        "arxiv": "1909.12673",
+        "title": "A Constructive Prediction of the Generalization Error Across Scales",
+        "year": 2019
+      },
+      {
+        "arxiv": "1909.08053",
+        "title": "Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism",
+        "year": 2019
+      },
+      {
+        "arxiv": "1909.01326",
+        "title": "The Woman Worked as a Babysitter: On Biases in Language Generation",
+        "year": 2019
+      },
+      {
+        "arxiv": null,
+        "title": "Natural Questions: A Benchmark for Question Answering Research",
+        "year": 2019
+      },
+      {
+        "arxiv": null,
+        "title": "Quantifying Social Biases in Contextual Word Representations",
+        "year": 2019
+      },
+      {
+        "arxiv": "1905.10044",
+        "title": "BoolQ: Exploring the Surprising Difficulty of Natural Yes/No Questions",
+        "year": 2019
+      },
+      {
+        "arxiv": "1905.07830",
+        "title": "HellaSwag: Can a Machine Really Finish Your Sentence?",
+        "year": 2019
+      },
+      {
+        "arxiv": "1901.02860",
+        "title": "Transformer-XL: Attentive Language Models beyond a Fixed-Length Context",
+        "year": 2019
+      },
+      {
+        "arxiv": "1808.06226",
+        "title": "SentencePiece: A simple and language independent subword tokenizer and detokenizer for Neural Text Processing",
+        "year": 2018
+      },
+      {
+        "arxiv": "1809.02789",
+        "title": "Can a Suit of Armor Conduct Electricity? A New Dataset for Open Book Question Answering",
+        "year": 2018
+      },
+      {
+        "arxiv": "1804.09301",
+        "title": "Gender Bias in Coreference Resolution",
+        "year": 2018
+      },
+      {
+        "arxiv": "1803.05457",
+        "title": "Think you have Solved Question Answering? Try ARC, the AI2 Reasoning Challenge",
+        "year": 2018
+      },
+      {
+        "arxiv": "1712.00409",
+        "title": "Deep Learning Scaling is Predictable, Empirically",
+        "year": 2017
+      },
+      {
+        "arxiv": null,
+        "title": "Decoupled Weight Decay Regularization",
+        "year": 2017
+      },
+      {
+        "arxiv": "1706.03762",
+        "title": "Attention is All you Need",
+        "year": 2017
+      },
+      {
+        "arxiv": "1705.03551",
+        "title": "TriviaQA: A Large Scale Distantly Supervised Challenge Dataset for Reading Comprehension",
+        "year": 2017
+      },
+      {
+        "arxiv": "1704.04683",
+        "title": "RACE: Large-scale ReAding Comprehension Dataset From Examinations",
+        "year": 2017
+      },
+      {
+        "arxiv": "1602.02410",
+        "title": "Exploring the Limits of Language Modeling",
+        "year": 2016
+      },
+      {
+        "arxiv": "1508.07909",
+        "title": "Neural Machine Translation of Rare Words with Subword Units",
+        "year": 2015
+      },
+      {
+        "arxiv": null,
+        "title": "N-gram Counts and Language Models from the Common Crawl",
+        "year": 2014
+      },
+      {
+        "arxiv": "1312.3005",
+        "title": "One billion word benchmark for measuring progress in statistical language modeling",
+        "year": 2013
+      },
+      {
+        "arxiv": "1308.0850",
+        "title": "Generating Sequences With Recurrent Neural Networks",
+        "year": 2013
+      },
+      {
+        "arxiv": null,
+        "title": "Scalable Modified Kneser-Ney Language Model Estimation",
+        "year": 2013
+      },
+      {
+        "arxiv": null,
+        "title": "Large Language Models in Machine Translation",
+        "year": 2007
+      },
+      {
+        "arxiv": null,
+        "title": "A Neural Probabilistic Language Model",
+        "year": 2003
+      },
+      {
+        "arxiv": null,
+        "title": "Text Compression as a Test for Artificial Intelligence",
+        "year": 1999
+      },
+      {
+        "arxiv": null,
+        "title": "Long Short-Term Memory",
+        "year": 1997
+      },
+      {
+        "arxiv": null,
+        "title": "Improved backing-off for M-gram language modeling",
+        "year": 1995
+      },
+      {
+        "arxiv": null,
+        "title": "A Statistical Approach to Machine Translation",
+        "year": 1990
+      },
+      {
+        "arxiv": null,
+        "title": "Finding Structure in Time",
+        "year": 1990
+      },
+      {
+        "arxiv": null,
+        "title": "Estimation of probabilities from sparse data for the language model component of a speech recognizer",
+        "year": 1987
+      },
+      {
+        "arxiv": null,
+        "title": "A Maximum Likelihood Approach to Continuous Speech Recognition",
+        "year": 1983
+      },
+      {
+        "arxiv": null,
+        "title": "Computing Machinery and Intelligence",
+        "year": 1950
+      },
+      {
+        "arxiv": null,
+        "title": "D Generations from LLaMA-I We show a few examples of generations with LLaMA-I, i.e. LLaMA-65B fine-tuned with the protocol and instruction dataset from",
+        "year": 2022
+      },
+      {
+        "arxiv": null,
+        "title": "Jurassic-1: Technical details and evaluation",
+        "year": 2021
+      },
+      {
+        "arxiv": "1810.04805",
+        "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+        "year": 2019
+      },
+      {
+        "arxiv": null,
+        "title": "Language Models are Unsupervised Multitask Learners",
+        "year": 2019
+      },
+      {
+        "arxiv": null,
+        "title": "An Adversarial Winograd Schema Challenge at Scale",
+        "year": 2019
+      },
+      {
+        "arxiv": null,
+        "title": "Socialiqa: Com-monsense reasoning about social interactions",
+        "year": 2019
+      },
+      {
+        "arxiv": null,
+        "title": "Improving Language Understanding by Generative Pre-Training",
+        "year": 2018
+      },
+      {
+        "arxiv": null,
+        "title": "Recurrent neural network based language model",
+        "year": 2010
+      },
+      {
+        "arxiv": null,
+        "title": "A Mathematical Theory of Communication",
+        "year": 2006
+      },
+      {
+        "arxiv": null,
+        "title": "Prediction and Entropy of Printed English",
+        "year": 1951
+      },
+      {
+        "arxiv": null,
+        "title": "Pluto: What? Come on, man. That's not fair. Sun: I'm sorry, but it's true. You just don't meet the criteria anymore. Pluto: This is bulls**t! I've been a planet for over 70 years! Sun: Things change",
+        "year": null
+      }
+    ]
+  }
+}
