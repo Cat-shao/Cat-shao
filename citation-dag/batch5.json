@@ -1,0 +1,3062 @@
+{
+  "2103.17239": {
+    "title": "Going deeper with Image Transformers",
+    "references": [
+      {
+        "arxiv": "2103.00112",
+        "title": "Transformer in Transformer",
+        "year": 2021
+      },
+      {
+        "arxiv": "2102.08602",
+        "title": "LambdaNetworks: Modeling Long-Range Interactions Without Attention",
+        "year": 2021
+      },
+      {
+        "arxiv": "2102.06171",
+        "title": "High-Performance Large-Scale Image Recognition Without Normalization",
+        "year": 2021
+      },
+      {
+        "arxiv": "2102.05644",
+        "title": "Training Vision Transformers for Image Retrieval",
+        "year": 2021
+      },
+      {
+        "arxiv": "2101.11986",
+        "title": "Tokens-to-Token ViT: Training Vision Transformers from Scratch on ImageNet",
+        "year": 2021
+      },
+      {
+        "arxiv": "2101.11605",
+        "title": "Bottleneck Transformers for Visual Recognition",
+        "year": 2021
+      },
+      {
+        "arxiv": "2101.08692",
+        "title": "Characterizing signal propagation to close the performance gap in unnormalized ResNets",
+        "year": 2021
+      },
+      {
+        "arxiv": "2012.12877",
+        "title": "Training data-efficient image transformers & distillation through attention",
+        "year": 2020
+      },
+      {
+        "arxiv": "2010.11929",
+        "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+        "year": 2020
+      },
+      {
+        "arxiv": "2010.11430",
+        "title": "Self-Training and Pre-Training are Complementary for Speech Recognition",
+        "year": 2020
+      },
+      {
+        "arxiv": "2010.10504",
+        "title": "Pushing the Limits of Semi-Supervised Learning for Automatic Speech Recognition",
+        "year": 2020
+      },
+      {
+        "arxiv": null,
+        "title": "Improving Transformer Optimization Through Better Initialization",
+        "year": 2020
+      },
+      {
+        "arxiv": "2006.07159",
+        "title": "Are we done with ImageNet?",
+        "year": 2020
+      },
+      {
+        "arxiv": "2006.03677",
+        "title": "Visual Transformers: Token-based Image Representation and Processing for Computer Vision",
+        "year": 2020
+      },
+      {
+        "arxiv": null,
+        "title": "Augment Your Batch: Improving Generalization Through Instance Repetition",
+        "year": 2020
+      },
+      {
+        "arxiv": "2005.14165",
+        "title": "Language Models are Few-Shot Learners",
+        "year": 2020
+      },
+      {
+        "arxiv": "2005.12872",
+        "title": "End-to-End Object Detection with Transformers",
+        "year": 2020
+      },
+      {
+        "arxiv": "2004.13621",
+        "title": "Exploring Self-Attention for Image Recognition",
+        "year": 2020
+      },
+      {
+        "arxiv": "2004.08955",
+        "title": "ResNeSt: Split-Attention Networks",
+        "year": 2020
+      },
+      {
+        "arxiv": "2004.07320",
+        "title": "Training with Quantization Noise for Extreme Model Compression",
+        "year": 2020
+      },
+      {
+        "arxiv": "2003.13678",
+        "title": "Designing Network Design Spaces",
+        "year": 2020
+      },
+      {
+        "arxiv": "2003.10580",
+        "title": "Meta Pseudo Labels",
+        "year": 2020
+      },
+      {
+        "arxiv": "2003.08237",
+        "title": "Fixing the train-test resolution discrepancy: FixEfficientNet",
+        "year": 2020
+      },
+      {
+        "arxiv": "2003.04887",
+        "title": "ReZero is All You Need: Fast Convergence at Large Depth",
+        "year": 2020
+      },
+      {
+        "arxiv": "2003.02436",
+        "title": "Talking-Heads Attention",
+        "year": 2020
+      },
+      {
+        "arxiv": null,
+        "title": "Batch Normalization Biases Residual Blocks Towards the Identity Function in Deep Networks",
+        "year": 2020
+      },
+      {
+        "arxiv": null,
+        "title": "5分で分かる!? 有名論文ナナメ読み：Jacob Devlin et al. : BERT : Pre-training of Deep Bidirectional Transformers for Language Understanding",
+        "year": 2020
+      },
+      {
+        "arxiv": "1912.03458",
+        "title": "Dynamic Convolution: Attention Over Convolution Kernels",
+        "year": 2019
+      },
+      {
+        "arxiv": "1912.01703",
+        "title": "PyTorch: An Imperative Style, High-Performance Deep Learning Library",
+        "year": 2019
+      },
+      {
+        "arxiv": "1911.09665",
+        "title": "Adversarial Examples Improve Image Recognition",
+        "year": 2019
+      },
+      {
+        "arxiv": "1911.08460",
+        "title": "End-to-end ASR: from Supervised to Semi-Supervised Learning with Modern Architectures",
+        "year": 2019
+      },
+      {
+        "arxiv": "1909.13719",
+        "title": "Randaugment: Practical automated data augmentation with a reduced search space",
+        "year": 2019
+      },
+      {
+        "arxiv": "1909.11556",
+        "title": "Reducing Transformer Depth on Demand with Structured Dropout",
+        "year": 2019
+      },
+      {
+        "arxiv": "1909.06317",
+        "title": "A Comparative Study on Transformer vs RNN in Speech Applications",
+        "year": 2019
+      },
+      {
+        "arxiv": "1907.11692",
+        "title": "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+        "year": 2019
+      },
+      {
+        "arxiv": "1906.06423",
+        "title": "Fixing the train-test resolution discrepancy",
+        "year": 2019
+      },
+      {
+        "arxiv": "1906.05909",
+        "title": "Stand-Alone Self-Attention in Vision Models",
+        "year": 2019
+      },
+      {
+        "arxiv": "1905.11946",
+        "title": "EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks",
+        "year": 2019
+      },
+      {
+        "arxiv": "1905.03072",
+        "title": "RWTH ASR Systems for LibriSpeech: Hybrid vs Attention - w/o Data Augmentation",
+        "year": 2019
+      },
+      {
+        "arxiv": "1904.10509",
+        "title": "Generating Long Sequences with Sparse Transformers",
+        "year": 2019
+      },
+      {
+        "arxiv": "1904.09925",
+        "title": "Attention Augmented Convolutional Networks",
+        "year": 2019
+      },
+      {
+        "arxiv": "1903.06586",
+        "title": "Selective Kernel Networks",
+        "year": 2019
+      },
+      {
+        "arxiv": "1902.05509",
+        "title": "MultiGrain: a unified image embedding for classes and instances",
+        "year": 2019
+      },
+      {
+        "arxiv": "1902.10811",
+        "title": "Do ImageNet Classifiers Generalize to ImageNet?",
+        "year": 2019
+      },
+      {
+        "arxiv": "1901.09321",
+        "title": "Fixup Initialization: Residual Learning Without Normalization",
+        "year": 2019
+      },
+      {
+        "arxiv": "1807.03039",
+        "title": "Glow: Generative Flow with Invertible 1x1 Convolutions",
+        "year": 2018
+      },
+      {
+        "arxiv": "1806.05393",
+        "title": "Dynamical Isometry and a Mean Field Theory of CNNs: How to Train 10, 000-Layer Vanilla Convolutional Neural Networks",
+        "year": 2018
+      },
+      {
+        "arxiv": "1803.03635",
+        "title": "The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks",
+        "year": 2018
+      },
+      {
+        "arxiv": "1802.06901",
+        "title": "Deterministic Non-Autoregressive Neural Sequence Modeling by Iterative Refinement",
+        "year": 2018
+      },
+      {
+        "arxiv": "1802.05751",
+        "title": "Image Transformer",
+        "year": 2018
+      },
+      {
+        "arxiv": "1711.07971",
+        "title": "Non-local Neural Networks",
+        "year": 2017
+      },
+      {
+        "arxiv": "1711.05101",
+        "title": "Fixing Weight Decay Regularization in Adam",
+        "year": 2017
+      },
+      {
+        "arxiv": "1711.02281",
+        "title": "Non-Autoregressive Neural Machine Translation",
+        "year": 2017
+      },
+      {
+        "arxiv": "1709.01507",
+        "title": "Squeeze-and-Excitation Networks",
+        "year": 2017
+      },
+      {
+        "arxiv": "1706.03762",
+        "title": "Attention is All you Need",
+        "year": 2017
+      },
+      {
+        "arxiv": "1703.06211",
+        "title": "Deformable Convolutional Networks",
+        "year": 2017
+      },
+      {
+        "arxiv": "1611.05431",
+        "title": "Aggregated Residual Transformations for Deep Neural Networks",
+        "year": 2016
+      },
+      {
+        "arxiv": "1607.06450",
+        "title": "Layer Normalization",
+        "year": 2016
+      },
+      {
+        "arxiv": "1603.09382",
+        "title": "Deep Networks with Stochastic Depth",
+        "year": 2016
+      },
+      {
+        "arxiv": "1603.05027",
+        "title": "Identity Mappings in Deep Residual Networks",
+        "year": 2016
+      },
+      {
+        "arxiv": "1512.03385",
+        "title": "Deep Residual Learning for Image Recognition",
+        "year": 2015
+      },
+      {
+        "arxiv": "1507.06228",
+        "title": "Training Very Deep Networks",
+        "year": 2015
+      },
+      {
+        "arxiv": "1505.00387",
+        "title": "Highway Networks",
+        "year": 2015
+      },
+      {
+        "arxiv": "1502.03167",
+        "title": "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift",
+        "year": 2015
+      },
+      {
+        "arxiv": "1412.6550",
+        "title": "FitNets: Hints for Thin Deep Nets",
+        "year": 2014
+      },
+      {
+        "arxiv": "1409.4842",
+        "title": "Going deeper with convolutions",
+        "year": 2014
+      },
+      {
+        "arxiv": "1409.1556",
+        "title": "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+        "year": 2014
+      },
+      {
+        "arxiv": "1409.0575",
+        "title": "ImageNet Large Scale Visual Recognition Challenge",
+        "year": 2014
+      },
+      {
+        "arxiv": null,
+        "title": "3D Object Representations for Fine-Grained Categorization",
+        "year": 2013
+      },
+      {
+        "arxiv": null,
+        "title": "ImageNet classification with deep convolutional neural networks",
+        "year": 2012
+      },
+      {
+        "arxiv": null,
+        "title": "Understanding the difficulty of training deep feedforward neural networks",
+        "year": 2010
+      },
+      {
+        "arxiv": null,
+        "title": "ImageNet: A large-scale hierarchical image database",
+        "year": 2009
+      },
+      {
+        "arxiv": null,
+        "title": "Automated Flower Classification over a Large Number of Classes",
+        "year": 2008
+      },
+      {
+        "arxiv": null,
+        "title": "A non-local algorithm for image denoising",
+        "year": 2005
+      },
+      {
+        "arxiv": null,
+        "title": "Language Models are Unsupervised Multitask Learners",
+        "year": 2019
+      },
+      {
+        "arxiv": "1810.04805",
+        "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+        "year": 2019
+      },
+      {
+        "arxiv": null,
+        "title": "Edouard",
+        "year": 2019
+      },
+      {
+        "arxiv": null,
+        "title": "The inaturalist challenge 2019 dataset",
+        "year": 2019
+      },
+      {
+        "arxiv": null,
+        "title": "Pytorch image models. https://github.com/rwightman/ pytorch-image-models, 2019",
+        "year": 2019
+      },
+      {
+        "arxiv": null,
+        "title": "Learning Multiple Layers of Features from Tiny Images",
+        "year": 2009
+      },
+      {
+        "arxiv": null,
+        "title": "Matthias Minderer",
+        "year": null
+      }
+    ]
+  },
+  "2103.03874": {
+    "title": "Measuring Mathematical Problem Solving With the MATH Dataset",
+    "references": [
+      {
+        "arxiv": "2108.07732",
+        "title": "Program Synthesis with Large Language Models",
+        "year": 2021
+      },
+      {
+        "arxiv": "2107.03374",
+        "title": "Evaluating Large Language Models Trained on Code",
+        "year": 2021
+      },
+      {
+        "arxiv": "2102.01293",
+        "title": "Scaling Laws for Transfer",
+        "year": 2021
+      },
+      {
+        "arxiv": "2101.06223",
+        "title": "LIME: Learning Inductive Bias for Primitives of Mathematical Reasoning",
+        "year": 2021
+      },
+      {
+        "arxiv": "2010.14701",
+        "title": "Scaling Laws for Autoregressive Generative Modeling",
+        "year": 2020
+      },
+      {
+        "arxiv": null,
+        "title": "Transformers: State-of-the-Art Natural Language Processing",
+        "year": 2020
+      },
+      {
+        "arxiv": "2009.03300",
+        "title": "Measuring Massive Multitask Language Understanding",
+        "year": 2020
+      },
+      {
+        "arxiv": "2009.03393",
+        "title": "Generative Language Modeling for Automated Theorem Proving",
+        "year": 2020
+      },
+      {
+        "arxiv": null,
+        "title": "A Promising Path Towards Autoformalization and General Artificial Intelligence",
+        "year": 2020
+      },
+      {
+        "arxiv": "2010.15875",
+        "title": "Retrieve, Program, Repeat: Complex Knowledge Base Question Answering via Alternate Meta-learning",
+        "year": 2020
+      },
+      {
+        "arxiv": "2106.15772",
+        "title": "A Diverse Corpus for Evaluating and Developing English Math Word Problem Solvers",
+        "year": 2020
+      },
+      {
+        "arxiv": "2006.09265",
+        "title": "Modelling High-Level Mathematical Reasoning in Mechanised Declarative Proofs",
+        "year": 2020
+      },
+      {
+        "arxiv": null,
+        "title": "Mathematical Reasoning via Self-supervised Skip-tree Training",
+        "year": 2020
+      },
+      {
+        "arxiv": "2006.03654",
+        "title": "DeBERTa: Decoding-enhanced BERT with Disentangled Attention",
+        "year": 2020
+      },
+      {
+        "arxiv": "2005.14165",
+        "title": "Language Models are Few-Shot Learners",
+        "year": 2020
+      },
+      {
+        "arxiv": "2005.05512",
+        "title": "MathZero, The Classification Problem, and Set-Theoretic Type Theory",
+        "year": 2020
+      },
+      {
+        "arxiv": "2005.00700",
+        "title": "UnifiedQA: Crossing Format Boundaries With a Single QA System",
+        "year": 2020
+      },
+      {
+        "arxiv": "2004.10964",
+        "title": "Don’t Stop Pretraining: Adapt Language Models to Domains and Tasks",
+        "year": 2020
+      },
+      {
+        "arxiv": null,
+        "title": "5分で分かる!? 有名論文ナナメ読み：Jacob Devlin et al. : BERT : Pre-training of Deep Bidirectional Transformers for Language Understanding",
+        "year": 2020
+      },
+      {
+        "arxiv": "2001.08361",
+        "title": "Scaling Laws for Neural Language Models",
+        "year": 2020
+      },
+      {
+        "arxiv": "1912.01412",
+        "title": "Deep Learning for Symbolic Mathematics",
+        "year": 2019
+      },
+      {
+        "arxiv": "1911.06904",
+        "title": "Improving Graph Neural Network Representations of Logical Formulae with Subgraph Pooling",
+        "year": 2019
+      },
+      {
+        "arxiv": "1910.13461",
+        "title": "BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension",
+        "year": 2019
+      },
+      {
+        "arxiv": "1910.10683",
+        "title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+        "year": 2019
+      },
+      {
+        "arxiv": "1905.13319",
+        "title": "MathQA: Towards Interpretable Math Word Problem Solving with Operation-Based Formalisms",
+        "year": 2019
+      },
+      {
+        "arxiv": "1905.00537",
+        "title": "SuperGLUE: A Stickier Benchmark for General-Purpose Language Understanding Systems",
+        "year": 2019
+      },
+      {
+        "arxiv": "1904.03241",
+        "title": "HOList: An Environment for Machine Learning of Higher-Order Theorem Proving (extended version)",
+        "year": 2019
+      },
+      {
+        "arxiv": "1904.01557",
+        "title": "Analysing Mathematical Reasoning Abilities of Neural Models",
+        "year": 2019
+      },
+      {
+        "arxiv": "1806.00608",
+        "title": "GamePad: A Learning Environment for Theorem Proving",
+        "year": 2018
+      },
+      {
+        "arxiv": null,
+        "title": "Decoupled Weight Decay Regularization",
+        "year": 2017
+      },
+      {
+        "arxiv": "1706.03762",
+        "title": "Attention is All you Need",
+        "year": 2017
+      },
+      {
+        "arxiv": "1705.04146",
+        "title": "Program Induction by Rationale Generation: Learning to Solve and Explain Algebraic Word Problems",
+        "year": 2017
+      },
+      {
+        "arxiv": "1610.02136",
+        "title": "A Baseline for Detecting Misclassified and Out-of-Distribution Examples in Neural Networks",
+        "year": 2016
+      },
+      {
+        "arxiv": null,
+        "title": "How well do Computers Solve Math Word Problems? Large-Scale Dataset Construction and Evaluation",
+        "year": 2016
+      },
+      {
+        "arxiv": "1511.06434",
+        "title": "Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks",
+        "year": 2015
+      },
+      {
+        "arxiv": "1409.3215",
+        "title": "Sequence to Sequence Learning with Neural Networks",
+        "year": 2014
+      },
+      {
+        "arxiv": null,
+        "title": "The Unreasonable Effectiveness of Mathematics in the Natural Sciences",
+        "year": 2011
+      },
+      {
+        "arxiv": null,
+        "title": "Beyond the Turing Test",
+        "year": 2009
+      },
+      {
+        "arxiv": "0712.3329",
+        "title": "Universal Intelligence: A Definition of Machine Intelligence",
+        "year": 2007
+      },
+      {
+        "arxiv": null,
+        "title": "How To Solve It",
+        "year": 1991
+      },
+      {
+        "arxiv": null,
+        "title": "Uniﬁedqa",
+        "year": 2020
+      },
+      {
+        "arxiv": null,
+        "title": "for symbolic",
+        "year": 2020
+      },
+      {
+        "arxiv": null,
+        "title": "2020) introduce BART, which has a bidirectional encoder and unidirectional decoder",
+        "year": 2020
+      },
+      {
+        "arxiv": "1810.04805",
+        "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+        "year": 2019
+      },
+      {
+        "arxiv": null,
+        "title": "The Unreasonable Effectiveness of Mathematics in the Natural Sciences",
+        "year": 2004
+      },
+      {
+        "arxiv": null,
+        "title": "A Formal Definition of Intelligence Based on an Intensional Variant of Algorithmic Complexity",
+        "year": 2003
+      },
+      {
+        "arxiv": null,
+        "title": "George Pólya",
+        "year": 1977
+      },
+      {
+        "arxiv": null,
+        "title": "multiplying polynomials; multiplying polynomials 0.5; multiplying positive and negative fractions",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "code for reproducing results",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "Let S be the set of complex numbers of the form a + bi , where a and b are integers. We say that z ∈ S is a unit if there exists a w ∈ S such that zw = 1",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "The length of a rectangle is 3 x + 10 feet and its width is x + 12 feet. If the perimeter of the rectangle is 76 feet, how many square feet are in the area of the rectangle?",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "integration using completing the square; integration using long division; integration using trigonometric identities",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "integration with partial fractions; intercepts from an equation; interpret quadratic models; interval of convergence; inverse of a 3x3 matrix; inverses of functions",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "If n gives a remainder of 3 when divided by 7 , then what remainder does 2 n + 1 give when divided by 7 ? 16",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "probability with permutations and combinations; problems involving definite integrals (algebraic)",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "Khan Academy Modules (4/4): properties of exponents (rational exponents); proportion word problems; pythagorean identities; pythagorean theorem",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "We have a triangle (cid:52) ABC where AC = 17 , BC = 15 , and AB = 8 . Let M be the midpoint of AB",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "integration by parts; integration by parts: definite integrals",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "multiplying rational numbers; multivariable chain rule; multivariable chain rule intro; negative exponents",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "parametric curve arc length; parametric equations differentiation; parametric velocity and speed",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "special right triangles; square and cube challenge; square roots of perfect squares",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "Khan Academy Modules (3/4): integrate and differentiate power series",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "A European train compartment has six seats",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "hopital's rule: 0/0; l'hopital's rule: ∞/∞; lagrange error bound",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "Let p ( x ) be a cubic polynomial such that p (2) = 0 , p ( − 1) = 0 , p (4) = 6 , and p (5) = 8",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "Let H be the hyperbola with foci at ( ± 5 , 0) and vertices at ( ± 3 , 0) , and let C be the circle with center (0 , 0) and radius 4 . Given that H and C intersect at four points",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "relative minima and maxima; remainder theorem; remainder theorem and factors",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "systems of equations with substitution; systems of equations word problems; tangents to polar curves",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "-digit divisors); divide with remainders (2-digit by 1-digit); dividing complex numbers",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "number of solutions of quadratic equations; one step equations; one step equations with multiplication",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "Find the remainder when 1 + 2 + 2 2 + 2 3 + · · · + 2 100 is divided by 7",
+        "year": null
+      }
+    ]
+  },
+  "2102.11174": {
+    "title": "Linear Transformers Are Secretly Fast Weight Programmers",
+    "references": [
+      {
+        "arxiv": "2103.02143",
+        "title": "Random Feature Attention",
+        "year": 2021
+      },
+      {
+        "arxiv": "2102.08602",
+        "title": "LambdaNetworks: Modeling Long-Range Interactions Without Attention",
+        "year": 2021
+      },
+      {
+        "arxiv": "2012.14905",
+        "title": "Meta Learning Backpropagation And Improving It",
+        "year": 2020
+      },
+      {
+        "arxiv": "2012.05208",
+        "title": "On the Binding Problem in Artificial Neural Networks",
+        "year": 2020
+      },
+      {
+        "arxiv": "2011.07831",
+        "title": "Learning Associative Inference Using Fast Weight Memory",
+        "year": 2020
+      },
+      {
+        "arxiv": "2011.04006",
+        "title": "Long Range Arena: A Benchmark for Efficient Transformers",
+        "year": 2020
+      },
+      {
+        "arxiv": null,
+        "title": "On the Modularity of Hypernetworks",
+        "year": 2020
+      },
+      {
+        "arxiv": "2009.14794",
+        "title": "Rethinking Attention with Performers",
+        "year": 2020
+      },
+      {
+        "arxiv": "2008.02217",
+        "title": "Hopfield Networks is All You Need",
+        "year": 2020
+      },
+      {
+        "arxiv": null,
+        "title": "How Much Self-Attention Do We Needƒ Trading Attention for Feed-Forward Layers",
+        "year": 2020
+      },
+      {
+        "arxiv": null,
+        "title": "5分で分かる!? 有名論文ナナメ読み：Jacob Devlin et al. : BERT : Pre-training of Deep Bidirectional Transformers for Language Understanding",
+        "year": 2020
+      },
+      {
+        "arxiv": "1912.01703",
+        "title": "PyTorch: An Imperative Style, High-Performance Deep Learning Library",
+        "year": 2019
+      },
+      {
+        "arxiv": null,
+        "title": "Training Language Models for Long-Span Cross-Sentence Evaluation",
+        "year": 2019
+      },
+      {
+        "arxiv": "1911.05507",
+        "title": "Compressive Transformers for Long-Range Sequence Modelling",
+        "year": 2019
+      },
+      {
+        "arxiv": "1908.11775",
+        "title": "Transformer Dissection: An Unified Understanding for Transformer’s Attention via the Lens of Kernel",
+        "year": 2019
+      },
+      {
+        "arxiv": "1907.09720",
+        "title": "Metalearned Neural Memory",
+        "year": 2019
+      },
+      {
+        "arxiv": "1905.04226",
+        "title": "Language Modeling with Deep Transformers",
+        "year": 2019
+      },
+      {
+        "arxiv": "1904.01038",
+        "title": "fairseq: A Fast, Extensible Toolkit for Sequence Modeling",
+        "year": 2019
+      },
+      {
+        "arxiv": "1901.02860",
+        "title": "Transformer-XL: Attentive Language Models beyond a Fixed-Length Context",
+        "year": 2019
+      },
+      {
+        "arxiv": "1812.01243",
+        "title": "Efficient Attention: Attention with Linear Complexities",
+        "year": 2018
+      },
+      {
+        "arxiv": "1811.12143",
+        "title": "Learning to Reason with Third-Order Tensor Products",
+        "year": 2018
+      },
+      {
+        "arxiv": "2002.10585",
+        "title": "Backpropamine: training self-modifying neural networks with differentiable neuromodulated plasticity",
+        "year": 2018
+      },
+      {
+        "arxiv": "1809.10853",
+        "title": "Adaptive Input Representations for Neural Language Modeling",
+        "year": 2018
+      },
+      {
+        "arxiv": "1808.04444",
+        "title": "Character-Level Language Modeling with Deeper Self-Attention",
+        "year": 2018
+      },
+      {
+        "arxiv": "1807.05076",
+        "title": "Metalearning with Hebbian Fast Weights",
+        "year": 2018
+      },
+      {
+        "arxiv": "1806.00187",
+        "title": "Scaling Neural Machine Translation",
+        "year": 2018
+      },
+      {
+        "arxiv": "1804.08771",
+        "title": "A Call for Clarity in Reporting BLEU Scores",
+        "year": 2018
+      },
+      {
+        "arxiv": "1804.02464",
+        "title": "Differentiable plasticity: training plastic neural networks with backpropagation",
+        "year": 2018
+      },
+      {
+        "arxiv": "1709.07871",
+        "title": "FiLM: Visual Reasoning with a General Conditioning Layer",
+        "year": 2017
+      },
+      {
+        "arxiv": "1706.03762",
+        "title": "Attention is All you Need",
+        "year": 2017
+      },
+      {
+        "arxiv": "1703.03130",
+        "title": "A Structured Self-attentive Sentence Embedding",
+        "year": 2017
+      },
+      {
+        "arxiv": "1703.00837",
+        "title": "Meta Networks",
+        "year": 2017
+      },
+      {
+        "arxiv": "1702.01929",
+        "title": "On a Model of Associative Memory with Huge Storage Capacity",
+        "year": 2017
+      },
+      {
+        "arxiv": "1610.06258",
+        "title": "Using Fast Weights to Attend to the Recent Past",
+        "year": 2016
+      },
+      {
+        "arxiv": "1609.09106",
+        "title": "HyperNetworks",
+        "year": 2016
+      },
+      {
+        "arxiv": "1609.07843",
+        "title": "Pointer Sentinel Mixture Models",
+        "year": 2016
+      },
+      {
+        "arxiv": "1606.01933",
+        "title": "A Decomposable Attention Model for Natural Language Inference",
+        "year": 2016
+      },
+      {
+        "arxiv": "1606.01164",
+        "title": "Dense Associative Memory for Pattern Recognition",
+        "year": 2016
+      },
+      {
+        "arxiv": "1605.09673",
+        "title": "Dynamic Filter Networks",
+        "year": 2016
+      },
+      {
+        "arxiv": "1601.06733",
+        "title": "Long Short-Term Memory-Networks for Machine Reading",
+        "year": 2016
+      },
+      {
+        "arxiv": "1511.07289",
+        "title": "Fast and Accurate Deep Network Learning by Exponential Linear Units (ELUs)",
+        "year": 2015
+      },
+      {
+        "arxiv": "1511.05756",
+        "title": "Image Question Answering Using Convolutional Neural Network with Dynamic Parameter Prediction",
+        "year": 2015
+      },
+      {
+        "arxiv": "1508.07909",
+        "title": "Neural Machine Translation of Rare Words with Subword Units",
+        "year": 2015
+      },
+      {
+        "arxiv": null,
+        "title": "A Dynamic Convolutional Layer for short rangeweather prediction",
+        "year": 2015
+      },
+      {
+        "arxiv": "1412.6980",
+        "title": "Adam: A Method for Stochastic Optimization",
+        "year": 2014
+      },
+      {
+        "arxiv": "1409.0473",
+        "title": "Neural Machine Translation by Jointly Learning to Align and Translate",
+        "year": 2014
+      },
+      {
+        "arxiv": "1308.0850",
+        "title": "Generating Sequences With Recurrent Neural Networks",
+        "year": 2013
+      },
+      {
+        "arxiv": null,
+        "title": "Bleu: a Method for Automatic Evaluation of Machine Translation",
+        "year": 2002
+      },
+      {
+        "arxiv": null,
+        "title": "Long Short-Term Memory",
+        "year": 1997
+      },
+      {
+        "arxiv": null,
+        "title": "Reducing the Ratio Between Learning Complexity and Number of Time Varying Variables in Fully Recurrent Nets",
+        "year": 1993
+      },
+      {
+        "arxiv": null,
+        "title": "Learning to Control Fast-Weight Memories: An Alternative to Dynamic Recurrent Networks",
+        "year": 1992
+      },
+      {
+        "arxiv": null,
+        "title": "A stochastic version of the delta rule",
+        "year": 1990
+      },
+      {
+        "arxiv": null,
+        "title": "Dynamic connections in neural networks",
+        "year": 1990
+      },
+      {
+        "arxiv": null,
+        "title": "Bidirectional associative memories",
+        "year": 1988
+      },
+      {
+        "arxiv": null,
+        "title": "Neural networks and physical systems with emergent collective computational abilities.",
+        "year": 1982
+      },
+      {
+        "arxiv": null,
+        "title": "The existence of persistent states in the brain",
+        "year": 1974
+      },
+      {
+        "arxiv": null,
+        "title": "Correlation Matrix Memories",
+        "year": 1972
+      },
+      {
+        "arxiv": null,
+        "title": "Learning Matrices and Their Applications",
+        "year": 1963
+      },
+      {
+        "arxiv": "1810.04805",
+        "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+        "year": 2019
+      },
+      {
+        "arxiv": null,
+        "title": "Language Models are Unsupervised Multitask Learners",
+        "year": 2019
+      },
+      {
+        "arxiv": null,
+        "title": "Gated Fast Weights for On-The-Fly Neural Program Generation",
+        "year": 2017
+      },
+      {
+        "arxiv": null,
+        "title": "Adaptive Switching Circuits",
+        "year": 2016
+      },
+      {
+        "arxiv": null,
+        "title": "Dropout: a simple way to prevent neural networks from overfitting",
+        "year": 2014
+      },
+      {
+        "arxiv": null,
+        "title": "Die Lernmatrix",
+        "year": 2004
+      },
+      {
+        "arxiv": null,
+        "title": "IBM Research Report Bleu: a Method for Automatic Evaluation of Machine Translation",
+        "year": 2001
+      },
+      {
+        "arxiv": null,
+        "title": "The Correlation Theory of Brain Function",
+        "year": 1994
+      },
+      {
+        "arxiv": null,
+        "title": "Tensor Product Variable Binding and the Representation of Symbolic Structures in Connectionist Systems",
+        "year": 1991
+      },
+      {
+        "arxiv": null,
+        "title": "Neural nets learn to program neural nets with fast weights—like today’s Transformer variants",
+        "year": 1991
+      },
+      {
+        "arxiv": null,
+        "title": "Associative memory",
+        "year": 1987
+      },
+      {
+        "arxiv": null,
+        "title": "Using fast weights to deblur old memories",
+        "year": 1987
+      },
+      {
+        "arxiv": null,
+        "title": "The organization of behavior: a neuropsycholocigal theory",
+        "year": 1949
+      },
+      {
+        "arxiv": null,
+        "title": "Linear Transformers Are Secretly Fast Weight Programmers",
+        "year": null
+      }
+    ]
+  },
+  "2009.03300": {
+    "title": "Measuring Massive Multitask Language Understanding",
+    "references": [
+      {
+        "arxiv": "2008.12009",
+        "title": "A Survey of Evaluation Metrics Used for NLG Systems",
+        "year": 2020
+      },
+      {
+        "arxiv": "2008.02275",
+        "title": "Aligning AI With Shared Human Values",
+        "year": 2020
+      },
+      {
+        "arxiv": "2005.14165",
+        "title": "Language Models are Few-Shot Learners",
+        "year": 2020
+      },
+      {
+        "arxiv": "2005.00700",
+        "title": "UnifiedQA: Crossing Format Boundaries With a Single QA System",
+        "year": 2020
+      },
+      {
+        "arxiv": "2004.10151",
+        "title": "Experience Grounds Language",
+        "year": 2020
+      },
+      {
+        "arxiv": "2004.07780",
+        "title": "Shortcut learning in deep neural networks",
+        "year": 2020
+      },
+      {
+        "arxiv": "2004.03607",
+        "title": "Evaluating Machines by their Real-World Language Use",
+        "year": 2020
+      },
+      {
+        "arxiv": null,
+        "title": "5分で分かる!? 有名論文ナナメ読み：Jacob Devlin et al. : BERT : Pre-training of Deep Bidirectional Transformers for Language Understanding",
+        "year": 2020
+      },
+      {
+        "arxiv": "2001.08361",
+        "title": "Scaling Laws for Neural Language Models",
+        "year": 2020
+      },
+      {
+        "arxiv": "1911.11641",
+        "title": "PIQA: Reasoning about Physical Commonsense in Natural Language",
+        "year": 2019
+      },
+      {
+        "arxiv": "1910.11473",
+        "title": "QASC: A Dataset for Question Answering via Sentence Composition",
+        "year": 2019
+      },
+      {
+        "arxiv": "1910.10683",
+        "title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+        "year": 2019
+      },
+      {
+        "arxiv": "1909.11942",
+        "title": "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
+        "year": 2019
+      },
+      {
+        "arxiv": "1909.10155",
+        "title": "Verified Uncertainty Calibration",
+        "year": 2019
+      },
+      {
+        "arxiv": "1909.01958",
+        "title": "From 'F' to 'A' on the N.Y. Regents Science Exams: An Overview of the Aristo Project",
+        "year": 2019
+      },
+      {
+        "arxiv": "1909.01066",
+        "title": "Language Models as Knowledge Bases?",
+        "year": 2019
+      },
+      {
+        "arxiv": "1909.00277",
+        "title": "Cosmos QA: Machine Reading Comprehension with Contextual Commonsense Reasoning",
+        "year": 2019
+      },
+      {
+        "arxiv": "1907.11692",
+        "title": "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+        "year": 2019
+      },
+      {
+        "arxiv": "1907.07174",
+        "title": "Natural Adversarial Examples",
+        "year": 2019
+      },
+      {
+        "arxiv": "1906.02530",
+        "title": "Can You Trust Your Model's Uncertainty? Evaluating Predictive Uncertainty Under Dataset Shift",
+        "year": 2019
+      },
+      {
+        "arxiv": "1905.00537",
+        "title": "SuperGLUE: A Stickier Benchmark for General-Purpose Language Understanding Systems",
+        "year": 2019
+      },
+      {
+        "arxiv": "1905.07830",
+        "title": "HellaSwag: Can a Machine Really Finish Your Sentence?",
+        "year": 2019
+      },
+      {
+        "arxiv": "1812.04606",
+        "title": "Deep Anomaly Detection with Outlier Exposure",
+        "year": 2018
+      },
+      {
+        "arxiv": "1809.02789",
+        "title": "Can a Suit of Armor Conduct Electricity? A New Dataset for Open Book Question Answering",
+        "year": 2018
+      },
+      {
+        "arxiv": "1804.07461",
+        "title": "GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding",
+        "year": 2018
+      },
+      {
+        "arxiv": "1803.05457",
+        "title": "Think you have Solved Question Answering? Try ARC, the AI2 Reasoning Challenge",
+        "year": 2018
+      },
+      {
+        "arxiv": "1706.04599",
+        "title": "On Calibration of Modern Neural Networks",
+        "year": 2017
+      },
+      {
+        "arxiv": "1704.04683",
+        "title": "RACE: Large-scale ReAding Comprehension Dataset From Examinations",
+        "year": 2017
+      },
+      {
+        "arxiv": null,
+        "title": "The Arcade Learning Environment: An Evaluation Platform for General Agents (Extended Abstract)",
+        "year": 2015
+      },
+      {
+        "arxiv": null,
+        "title": "MCTest: A Challenge Dataset for the Open-Domain Machine Comprehension of Text",
+        "year": 2013
+      },
+      {
+        "arxiv": "1207.4708",
+        "title": "The Arcade Learning Environment: An Evaluation Platform for General Agents",
+        "year": 2012
+      },
+      {
+        "arxiv": null,
+        "title": "Computing Machinery and Intelligence",
+        "year": 1950
+      },
+      {
+        "arxiv": "1810.04805",
+        "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+        "year": 2019
+      },
+      {
+        "arxiv": null,
+        "title": "Language Models are Unsupervised Multitask Learners",
+        "year": 2019
+      },
+      {
+        "arxiv": null,
+        "title": "Which of the following “miseries” alluded to above were most condemned by Anti-Federalists of the post-Revolutionary era? (A) Organized response to Bacon’s Rebellion",
+        "year": 1776
+      }
+    ]
+  },
+  "2006.16236": {
+    "title": "Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention",
+    "references": [
+      {
+        "arxiv": "2005.12872",
+        "title": "End-to-End Object Detection with Transformers",
+        "year": 2020
+      },
+      {
+        "arxiv": null,
+        "title": "5分で分かる!? 有名論文ナナメ読み：Jacob Devlin et al. : BERT : Pre-training of Deep Bidirectional Transformers for Language Understanding",
+        "year": 2020
+      },
+      {
+        "arxiv": "2001.04451",
+        "title": "Reformer: The Efficient Transformer",
+        "year": 2020
+      },
+      {
+        "arxiv": "1912.01703",
+        "title": "PyTorch: An Imperative Style, High-Performance Deep Learning Library",
+        "year": 2019
+      },
+      {
+        "arxiv": "1911.03584",
+        "title": "On the Relationship between Self-Attention and Convolutional Layers",
+        "year": 2019
+      },
+      {
+        "arxiv": "1910.06188",
+        "title": "Q8BERT: Quantized 8Bit BERT",
+        "year": 2019
+      },
+      {
+        "arxiv": "1909.11942",
+        "title": "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
+        "year": 2019
+      },
+      {
+        "arxiv": "1908.11775",
+        "title": "Transformer Dissection: An Unified Understanding for Transformer’s Attention via the Lens of Kernel",
+        "year": 2019
+      },
+      {
+        "arxiv": "1908.03265",
+        "title": "On the Variance of the Adaptive Learning Rate and Beyond",
+        "year": 2019
+      },
+      {
+        "arxiv": "1907.11692",
+        "title": "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+        "year": 2019
+      },
+      {
+        "arxiv": "1907.10747",
+        "title": "Sampled Softmax with Random Fourier Features",
+        "year": 2019
+      },
+      {
+        "arxiv": "1907.05242",
+        "title": "Large Memory Layers with Product Keys",
+        "year": 2019
+      },
+      {
+        "arxiv": "1906.08237",
+        "title": "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+        "year": 2019
+      },
+      {
+        "arxiv": "1906.05909",
+        "title": "Stand-Alone Self-Attention in Vision Models",
+        "year": 2019
+      },
+      {
+        "arxiv": "1905.07799",
+        "title": "Adaptive Attention Span in Transformers",
+        "year": 2019
+      },
+      {
+        "arxiv": "1905.02450",
+        "title": "MASS: Masked Sequence to Sequence Pre-training for Language Generation",
+        "year": 2019
+      },
+      {
+        "arxiv": "1905.10650",
+        "title": "Are Sixteen Heads Really Better than One?",
+        "year": 2019
+      },
+      {
+        "arxiv": "1904.10509",
+        "title": "Generating Long Sequences with Sparse Transformers",
+        "year": 2019
+      },
+      {
+        "arxiv": "1901.02860",
+        "title": "Transformer-XL: Attentive Language Models beyond a Fixed-Length Context",
+        "year": 2019
+      },
+      {
+        "arxiv": "1812.01243",
+        "title": "Efficient Attention: Attention with Linear Complexities",
+        "year": 2018
+      },
+      {
+        "arxiv": "1807.03819",
+        "title": "Universal Transformers",
+        "year": 2018
+      },
+      {
+        "arxiv": "1803.09519",
+        "title": "Self-Attentional Acoustic Models",
+        "year": 2018
+      },
+      {
+        "arxiv": "1712.00527",
+        "title": "Adaptive Sampled Softmax with Kernel Based Sampling",
+        "year": 2017
+      },
+      {
+        "arxiv": "1706.03762",
+        "title": "Attention is All you Need",
+        "year": 2017
+      },
+      {
+        "arxiv": "1701.05517",
+        "title": "PixelCNN++: Improving the PixelCNN with Discretized Logistic Mixture Likelihood and Other Modifications",
+        "year": 2017
+      },
+      {
+        "arxiv": "1511.07289",
+        "title": "Fast and Accurate Deep Network Learning by Exponential Linear Units (ELUs)",
+        "year": 2015
+      },
+      {
+        "arxiv": "1412.6980",
+        "title": "Adam: A Method for Stochastic Optimization",
+        "year": 2014
+      },
+      {
+        "arxiv": "1409.3215",
+        "title": "Sequence to Sequence Learning with Neural Networks",
+        "year": 2014
+      },
+      {
+        "arxiv": "1409.0473",
+        "title": "Neural Machine Translation by Jointly Learning to Align and Translate",
+        "year": 2014
+      },
+      {
+        "arxiv": null,
+        "title": "A Scalable Hierarchical Distributed Language Model",
+        "year": 2008
+      },
+      {
+        "arxiv": null,
+        "title": "Connectionist temporal classification: labelling unsegmented sequence data with recurrent neural networks",
+        "year": 2006
+      },
+      {
+        "arxiv": "cs/0108006",
+        "title": "Classes for fast maximum entropy training",
+        "year": 2001
+      },
+      {
+        "arxiv": null,
+        "title": "Long Short-Term Memory",
+        "year": 1997
+      },
+      {
+        "arxiv": null,
+        "title": "The Design for the Wall Street Journal-based CSR Corpus",
+        "year": 1992
+      },
+      {
+        "arxiv": null,
+        "title": "ELECTRA: Pre-training text encoders as discriminators rather than generators",
+        "year": 2020
+      },
+      {
+        "arxiv": "1810.04805",
+        "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+        "year": 2019
+      },
+      {
+        "arxiv": null,
+        "title": "Language Models are Unsupervised Multitask Learners",
+        "year": 2019
+      },
+      {
+        "arxiv": null,
+        "title": "Improving Language Understanding by Generative Pre-Training",
+        "year": 2018
+      },
+      {
+        "arxiv": null,
+        "title": "Connectionist Temporal Classiﬁcation: Labelling Unsegmented Sequences with Recurrent Neural Networks",
+        "year": 2016
+      },
+      {
+        "arxiv": null,
+        "title": "Mnist handwritten digit database",
+        "year": 2010
+      },
+      {
+        "arxiv": null,
+        "title": "Learning Multiple Layers of Features from Tiny Images",
+        "year": 2009
+      },
+      {
+        "arxiv": null,
+        "title": "Hierarchical Probabilistic Neural Network Language Model",
+        "year": 2005
+      },
+      {
+        "arxiv": null,
+        "title": "Transformers are RNNs",
+        "year": null
+      }
+    ]
+  },
+  "2003.04887": {
+    "title": "ReZero is All You Need: Fast Convergence at Large Depth",
+    "references": [
+      {
+        "arxiv": "2005.14165",
+        "title": "Language Models are Few-Shot Learners",
+        "year": 2020
+      },
+      {
+        "arxiv": "2002.10444",
+        "title": "Batch Normalization Biases Deep Residual Networks Towards Shallow Paths",
+        "year": 2020
+      },
+      {
+        "arxiv": null,
+        "title": "Batch Normalization Biases Residual Blocks Towards the Identity Function in Deep Networks",
+        "year": 2020
+      },
+      {
+        "arxiv": "2002.04745",
+        "title": "On Layer Normalization in the Transformer Architecture",
+        "year": 2020
+      },
+      {
+        "arxiv": "1910.10683",
+        "title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+        "year": 2019
+      },
+      {
+        "arxiv": "1910.05895",
+        "title": "Transformers without Tears: Improving the Normalization of Self-Attention",
+        "year": 2019
+      },
+      {
+        "arxiv": "1906.02243",
+        "title": "Energy and Policy Considerations for Deep Learning in NLP",
+        "year": 2019
+      },
+      {
+        "arxiv": null,
+        "title": "Efficient Training of BERT by Progressively Stacking",
+        "year": 2019
+      },
+      {
+        "arxiv": null,
+        "title": "Reducing BERT Pre-Training Time from 3 Days to 76 Minutes",
+        "year": 2019
+      },
+      {
+        "arxiv": "1901.09321",
+        "title": "Fixup Initialization: Residual Learning Without Normalization",
+        "year": 2019
+      },
+      {
+        "arxiv": "1901.08987",
+        "title": "Dynamical Isometry and a Mean Field Theory of LSTMs and GRUs",
+        "year": 2019
+      },
+      {
+        "arxiv": "1812.01187",
+        "title": "Bag of Tricks for Image Classification with Convolutional Neural Networks",
+        "year": 2018
+      },
+      {
+        "arxiv": "1808.04444",
+        "title": "Character-Level Language Modeling with Deeper Self-Attention",
+        "year": 2018
+      },
+      {
+        "arxiv": "1806.05393",
+        "title": "Dynamical Isometry and a Mean Field Theory of CNNs: How to Train 10, 000-Layer Vanilla Convolutional Neural Networks",
+        "year": 2018
+      },
+      {
+        "arxiv": "1802.09979",
+        "title": "The Emergence of Spectral Universality in Deep Networks",
+        "year": 2018
+      },
+      {
+        "arxiv": null,
+        "title": "Super-convergence: very fast training of neural networks using large learning rates",
+        "year": 2018
+      },
+      {
+        "arxiv": "1712.08969",
+        "title": "Mean Field Residual Networks: On the Edge of Chaos",
+        "year": 2017
+      },
+      {
+        "arxiv": "1711.04735",
+        "title": "Resurrecting the sigmoid in deep learning through dynamical isometry: theory and practice",
+        "year": 2017
+      },
+      {
+        "arxiv": "1706.03762",
+        "title": "Attention is All you Need",
+        "year": 2017
+      },
+      {
+        "arxiv": "1706.02515",
+        "title": "Self-Normalizing Neural Networks",
+        "year": 2017
+      },
+      {
+        "arxiv": "1706.02677",
+        "title": "Accurate, Large Minibatch SGD: Training ImageNet in 1 Hour",
+        "year": 2017
+      },
+      {
+        "arxiv": "1611.01232",
+        "title": "Deep Information Propagation",
+        "year": 2016
+      },
+      {
+        "arxiv": "1611.04231",
+        "title": "Identity Matters in Deep Learning",
+        "year": 2016
+      },
+      {
+        "arxiv": "1611.01260",
+        "title": "Learning Identity Mappings with Residual Gates",
+        "year": 2016
+      },
+      {
+        "arxiv": "1609.07843",
+        "title": "Pointer Sentinel Mixture Models",
+        "year": 2016
+      },
+      {
+        "arxiv": "1607.06450",
+        "title": "Layer Normalization",
+        "year": 2016
+      },
+      {
+        "arxiv": null,
+        "title": "Bridging Nonlinearities and Stochastic Regularizers with Gaussian Error Linear Units",
+        "year": 2016
+      },
+      {
+        "arxiv": "1606.05340",
+        "title": "Exponential expressivity in deep neural networks through transient chaos",
+        "year": 2016
+      },
+      {
+        "arxiv": "1603.05027",
+        "title": "Identity Mappings in Deep Residual Networks",
+        "year": 2016
+      },
+      {
+        "arxiv": "1512.03385",
+        "title": "Deep Residual Learning for Image Recognition",
+        "year": 2015
+      },
+      {
+        "arxiv": "1511.06422",
+        "title": "All you need is a good init",
+        "year": 2015
+      },
+      {
+        "arxiv": "1505.00387",
+        "title": "Highway Networks",
+        "year": 2015
+      },
+      {
+        "arxiv": "1502.03167",
+        "title": "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift",
+        "year": 2015
+      },
+      {
+        "arxiv": "1502.01852",
+        "title": "Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification",
+        "year": 2015
+      },
+      {
+        "arxiv": "1402.1869",
+        "title": "On the Number of Linear Regions of Deep Neural Networks",
+        "year": 2014
+      },
+      {
+        "arxiv": "1312.6120",
+        "title": "Exact solutions to the nonlinear dynamics of learning in deep linear neural networks",
+        "year": 2013
+      },
+      {
+        "arxiv": null,
+        "title": "Adaptive Subgradient Methods for Online Learning and Stochastic Optimization",
+        "year": 2011
+      },
+      {
+        "arxiv": null,
+        "title": "Understanding the difficulty of training deep feedforward neural networks",
+        "year": 2010
+      },
+      {
+        "arxiv": null,
+        "title": "Long Short-Term Memory",
+        "year": 1997
+      },
+      {
+        "arxiv": null,
+        "title": "Turing-nlg: A 17-billion-parameter language model",
+        "year": 2020
+      },
+      {
+        "arxiv": null,
+        "title": "Language Models are Unsupervised Multitask Learners",
+        "year": 2019
+      },
+      {
+        "arxiv": "1810.04805",
+        "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+        "year": 2019
+      },
+      {
+        "arxiv": null,
+        "title": "DAWNBench : An End-to-End Deep Learning Benchmark and Competition",
+        "year": 2017
+      },
+      {
+        "arxiv": null,
+        "title": "Deep Learning",
+        "year": 2016
+      },
+      {
+        "arxiv": null,
+        "title": "Initialize every other layer using a standard method (e.g., [He et al.",
+        "year": 2015
+      },
+      {
+        "arxiv": null,
+        "title": "Large text compression benchmark",
+        "year": 2009
+      }
+    ]
+  },
+  "2002.04745": {
+    "title": "On Layer Normalization in the Transformer Architecture",
+    "references": [
+      {
+        "arxiv": null,
+        "title": "5分で分かる!? 有名論文ナナメ読み：Jacob Devlin et al. : BERT : Pre-training of Deep Bidirectional Transformers for Language Understanding",
+        "year": 2020
+      },
+      {
+        "arxiv": "1910.05895",
+        "title": "Transformers without Tears: Improving the Normalization of Self-Attention",
+        "year": 2019
+      },
+      {
+        "arxiv": "1908.03265",
+        "title": "On the Variance of the Adaptive Learning Rate and Beyond",
+        "year": 2019
+      },
+      {
+        "arxiv": "1907.11692",
+        "title": "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+        "year": 2019
+      },
+      {
+        "arxiv": "1906.08237",
+        "title": "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+        "year": 2019
+      },
+      {
+        "arxiv": "1906.02762",
+        "title": "Understanding and Improving Transformer From a Multi-Particle Dynamic System Point of View",
+        "year": 2019
+      },
+      {
+        "arxiv": "1906.01787",
+        "title": "Learning Deep Transformer Models for Machine Translation",
+        "year": 2019
+      },
+      {
+        "arxiv": "1904.10509",
+        "title": "Generating Long Sequences with Sparse Transformers",
+        "year": 2019
+      },
+      {
+        "arxiv": "1902.08129",
+        "title": "A Mean Field Theory of Batch Normalization",
+        "year": 2019
+      },
+      {
+        "arxiv": "1902.06720",
+        "title": "Wide neural networks of any depth evolve as linear models under gradient descent",
+        "year": 2019
+      },
+      {
+        "arxiv": "1902.04760",
+        "title": "Scaling Limits of Wide Neural Networks with Weight Sharing: Gaussian Process Behavior, Gradient Independence, and Neural Tangent Kernel Derivation",
+        "year": 2019
+      },
+      {
+        "arxiv": "1901.09321",
+        "title": "Fixup Initialization: Residual Learning Without Normalization",
+        "year": 2019
+      },
+      {
+        "arxiv": "1901.02860",
+        "title": "Transformer-XL: Attentive Language Models beyond a Fixed-Length Context",
+        "year": 2019
+      },
+      {
+        "arxiv": "1812.01187",
+        "title": "Bag of Tricks for Image Classification with Convolutional Neural Networks",
+        "year": 2018
+      },
+      {
+        "arxiv": "1809.10853",
+        "title": "Adaptive Input Representations for Neural Language Modeling",
+        "year": 2018
+      },
+      {
+        "arxiv": "1808.04444",
+        "title": "Character-Level Language Modeling with Deeper Self-Attention",
+        "year": 2018
+      },
+      {
+        "arxiv": "1807.03819",
+        "title": "Universal Transformers",
+        "year": 2018
+      },
+      {
+        "arxiv": "1806.05393",
+        "title": "Dynamical Isometry and a Mean Field Theory of CNNs: How to Train 10, 000-Layer Vanilla Convolutional Neural Networks",
+        "year": 2018
+      },
+      {
+        "arxiv": "1804.00247",
+        "title": "Training Tips for the Transformer Model",
+        "year": 2018
+      },
+      {
+        "arxiv": "1803.07416",
+        "title": "Tensor2Tensor for Neural Machine Translation",
+        "year": 2018
+      },
+      {
+        "arxiv": "1805.11462",
+        "title": "OpenNMT: Neural Machine Translation Toolkit",
+        "year": 2018
+      },
+      {
+        "arxiv": "1711.00165",
+        "title": "Deep Neural Networks as Gaussian Processes",
+        "year": 2017
+      },
+      {
+        "arxiv": null,
+        "title": "ImageNet Training in Minutes",
+        "year": 2017
+      },
+      {
+        "arxiv": "1706.03762",
+        "title": "Attention is All you Need",
+        "year": 2017
+      },
+      {
+        "arxiv": "1706.02677",
+        "title": "Accurate, Large Minibatch SGD: Training ImageNet in 1 Hour",
+        "year": 2017
+      },
+      {
+        "arxiv": "1705.03122",
+        "title": "Convolutional Sequence to Sequence Learning",
+        "year": 2017
+      },
+      {
+        "arxiv": "1703.06870",
+        "title": "Mask R-CNN",
+        "year": 2017
+      },
+      {
+        "arxiv": "1612.08083",
+        "title": "Language Modeling with Gated Convolutional Networks",
+        "year": 2016
+      },
+      {
+        "arxiv": "1609.04747",
+        "title": "An overview of gradient descent optimization algorithms",
+        "year": 2016
+      },
+      {
+        "arxiv": "1607.06450",
+        "title": "Layer Normalization",
+        "year": 2016
+      },
+      {
+        "arxiv": "1512.03385",
+        "title": "Deep Residual Learning for Image Recognition",
+        "year": 2015
+      },
+      {
+        "arxiv": "1512.00567",
+        "title": "Rethinking the Inception Architecture for Computer Vision",
+        "year": 2015
+      },
+      {
+        "arxiv": "1508.07909",
+        "title": "Neural Machine Translation of Rare Words with Subword Units",
+        "year": 2015
+      },
+      {
+        "arxiv": "1506.06724",
+        "title": "Aligning Books and Movies: Towards Story-Like Visual Explanations by Watching Movies and Reading Books",
+        "year": 2015
+      },
+      {
+        "arxiv": "1412.6980",
+        "title": "Adam: A Method for Stochastic Optimization",
+        "year": 2014
+      },
+      {
+        "arxiv": "1409.3215",
+        "title": "Sequence to Sequence Learning with Neural Networks",
+        "year": 2014
+      },
+      {
+        "arxiv": "1409.0473",
+        "title": "Neural Machine Translation by Jointly Learning to Align and Translate",
+        "year": 2014
+      },
+      {
+        "arxiv": "1212.5701",
+        "title": "ADADELTA: An Adaptive Learning Rate Method",
+        "year": 2012
+      },
+      {
+        "arxiv": null,
+        "title": "Adaptive Subgradient Methods for Online Learning and Stochastic Optimization",
+        "year": 2011
+      },
+      {
+        "arxiv": null,
+        "title": "Understanding the difficulty of training deep feedforward neural networks",
+        "year": 2010
+      },
+      {
+        "arxiv": null,
+        "title": "The Third PASCAL Recognizing Textual Entailment Challenge",
+        "year": 2007
+      },
+      {
+        "arxiv": null,
+        "title": "Moses: Open Source Toolkit for Statistical Machine Translation",
+        "year": 2007
+      },
+      {
+        "arxiv": null,
+        "title": "Bleu: a Method for Automatic Evaluation of Machine Translation",
+        "year": 2002
+      },
+      {
+        "arxiv": null,
+        "title": "The Base Model",
+        "year": 1996
+      },
+      {
+        "arxiv": null,
+        "title": "High-dimensional statistics: A non-asymptotic viewpoint , volume 48",
+        "year": 2019
+      },
+      {
+        "arxiv": "1810.04805",
+        "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+        "year": 2019
+      },
+      {
+        "arxiv": null,
+        "title": "Language Models are Unsupervised Multitask Learners",
+        "year": 2019
+      },
+      {
+        "arxiv": null,
+        "title": "Fine-tuning on GLUE tasks We use the validation set for evaluation. To fine-tune the models, following Devlin et al",
+        "year": 2019
+      },
+      {
+        "arxiv": null,
+        "title": "On layer normalization in the transformer architecture",
+        "year": 2019
+      },
+      {
+        "arxiv": null,
+        "title": "Understanding back-translation at scale",
+        "year": 2018
+      },
+      {
+        "arxiv": null,
+        "title": "Lecture 6.5-rmsprop, coursera: Neural networks for machine learning",
+        "year": 2012
+      },
+      {
+        "arxiv": null,
+        "title": "The Seventh PASCAL Recognizing Textual Entailment Challenge",
+        "year": 2011
+      },
+      {
+        "arxiv": null,
+        "title": "The Sixth PASCAL Recognizing Textual Entailment Challenge",
+        "year": 2009
+      },
+      {
+        "arxiv": null,
+        "title": "The Fourth PASCAL Recognizing Textual Entailment Challenge",
+        "year": 2008
+      },
+      {
+        "arxiv": null,
+        "title": "Open Source Toolkit for Statistical Machine Translation: Factored Translation Models and Lattice Decoding",
+        "year": 2006
+      },
+      {
+        "arxiv": null,
+        "title": "Automatically Constructing a Corpus of Sentential Paraphrases",
+        "year": 2005
+      },
+      {
+        "arxiv": null,
+        "title": "contain about 153K/7K/7K sentence pairs, respectively",
+        "year": null
+      }
+    ]
+  },
+  "2001.08361": {
+    "title": "Scaling Laws for Neural Language Models",
+    "references": [
+      {
+        "arxiv": "1910.10683",
+        "title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+        "year": 2019
+      },
+      {
+        "arxiv": "1909.12673",
+        "title": "A Constructive Prediction of the Generalization Error Across Scales",
+        "year": 2019
+      },
+      {
+        "arxiv": "1909.11942",
+        "title": "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
+        "year": 2019
+      },
+      {
+        "arxiv": "1907.11692",
+        "title": "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+        "year": 2019
+      },
+      {
+        "arxiv": "1907.04164",
+        "title": "Which Algorithmic Choices Matter at Which Batch Sizes? Insights From a Noisy Quadratic Model",
+        "year": 2019
+      },
+      {
+        "arxiv": "1906.08237",
+        "title": "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+        "year": 2019
+      },
+      {
+        "arxiv": "1906.06669",
+        "title": "One Epoch Is All You Need",
+        "year": 2019
+      },
+      {
+        "arxiv": "1906.02909",
+        "title": "AutoGrow: Automatic Layer Growing in Deep Convolutional Networks",
+        "year": 2019
+      },
+      {
+        "arxiv": "1905.11946",
+        "title": "EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks",
+        "year": 2019
+      },
+      {
+        "arxiv": "1905.00537",
+        "title": "SuperGLUE: A Stickier Benchmark for General-Purpose Language Understanding Systems",
+        "year": 2019
+      },
+      {
+        "arxiv": "1904.10509",
+        "title": "Generating Long Sequences with Sparse Transformers",
+        "year": 2019
+      },
+      {
+        "arxiv": "1902.06720",
+        "title": "Wide neural networks of any depth evolve as linear models under gradient descent",
+        "year": 2019
+      },
+      {
+        "arxiv": "1909.01736",
+        "title": "Beyond human-level accuracy: computational challenges in deep learning",
+        "year": 2019
+      },
+      {
+        "arxiv": "1901.10159",
+        "title": "An Investigation into Neural Net Optimization via Hessian Eigenvalue Density",
+        "year": 2019
+      },
+      {
+        "arxiv": "1901.01608",
+        "title": "Scaling description of generalization with number of parameters in deep learning",
+        "year": 2019
+      },
+      {
+        "arxiv": null,
+        "title": "Reconciling modern machine learning and the bias-variance trade-off",
+        "year": 2018
+      },
+      {
+        "arxiv": "1812.06162",
+        "title": "An Empirical Model of Large-Batch Training",
+        "year": 2018
+      },
+      {
+        "arxiv": null,
+        "title": "GPipe: Efficient Training of Giant Neural Networks using Pipeline Parallelism",
+        "year": 2018
+      },
+      {
+        "arxiv": "1811.07062",
+        "title": "The Full Spectrum of Deep Net Hessians At Scale: Dynamics with Sample Size",
+        "year": 2018
+      },
+      {
+        "arxiv": "1811.03600",
+        "title": "Measuring the Effects of Data Parallelism on Neural Network Training",
+        "year": 2018
+      },
+      {
+        "arxiv": "1811.02084",
+        "title": "Mesh-TensorFlow: Deep Learning for Supercomputers",
+        "year": 2018
+      },
+      {
+        "arxiv": "1812.04754",
+        "title": "Gradient Descent Happens in a Tiny Subspace",
+        "year": 2018
+      },
+      {
+        "arxiv": null,
+        "title": "Introduction to the Theory of Complex Systems",
+        "year": 2018
+      },
+      {
+        "arxiv": "1807.03819",
+        "title": "Universal Transformers",
+        "year": 2018
+      },
+      {
+        "arxiv": "1806.07572",
+        "title": "Neural Tangent Kernel: Convergence and Generalization in Neural Networks",
+        "year": 2018
+      },
+      {
+        "arxiv": null,
+        "title": "Thank",
+        "year": 2018
+      },
+      {
+        "arxiv": "1804.04235",
+        "title": "Adafactor: Adaptive Learning Rates with Sublinear Memory Cost",
+        "year": 2018
+      },
+      {
+        "arxiv": "1801.10198",
+        "title": "Generating Wikipedia by Summarizing Long Sequences",
+        "year": 2018
+      },
+      {
+        "arxiv": "1712.00409",
+        "title": "Deep Learning Scaling is Predictable, Empirically",
+        "year": 2017
+      },
+      {
+        "arxiv": "1710.03667",
+        "title": "High-dimensional dynamics of generalization error in neural networks",
+        "year": 2017
+      },
+      {
+        "arxiv": "1907.07844",
+        "title": "Growing a Brain: Fine-Tuning by Increasing Model Capacity",
+        "year": 2017
+      },
+      {
+        "arxiv": "1706.03762",
+        "title": "Attention is All you Need",
+        "year": 2017
+      },
+      {
+        "arxiv": "1605.07146",
+        "title": "Wide Residual Networks",
+        "year": 2016
+      },
+      {
+        "arxiv": null,
+        "title": "Residual Networks Behave Like Ensembles of Relatively Shallow Networks",
+        "year": 2016
+      },
+      {
+        "arxiv": "1508.07909",
+        "title": "Neural Machine Translation of Rare Words with Subword Units",
+        "year": 2015
+      },
+      {
+        "arxiv": "1506.06724",
+        "title": "Aligning Books and Movies: Towards Story-Like Visual Explanations by Watching Movies and Reading Books",
+        "year": 2015
+      },
+      {
+        "arxiv": "1412.6980",
+        "title": "Adam: A Method for Stochastic Optimization",
+        "year": 2014
+      },
+      {
+        "arxiv": null,
+        "title": "ImageNet classification with deep convolutional neural networks",
+        "year": 2012
+      },
+      {
+        "arxiv": "1207.0658",
+        "title": "On the origin of long-range correlations in texts",
+        "year": 2012
+      },
+      {
+        "arxiv": "1005.0208",
+        "title": "Analysis of a Random Forests Model",
+        "year": 2010
+      },
+      {
+        "arxiv": null,
+        "title": "All of Nonparametric Statistics",
+        "year": 2007
+      },
+      {
+        "arxiv": null,
+        "title": "All of Nonparametric Statistics",
+        "year": 2005
+      },
+      {
+        "arxiv": "cs/0108005",
+        "title": "A bit of progress in language modeling",
+        "year": 2001
+      },
+      {
+        "arxiv": null,
+        "title": "Scaling to Very Very Large Corpora for Natural Language Disambiguation",
+        "year": 2001
+      },
+      {
+        "arxiv": "cond-mat/0204108",
+        "title": "Entropy and Long-Range Correlations in Literary English",
+        "year": 1993
+      },
+      {
+        "arxiv": null,
+        "title": "Language Models are Unsupervised Multitask Learners",
+        "year": 2019
+      },
+      {
+        "arxiv": "1810.04805",
+        "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+        "year": 2019
+      },
+      {
+        "arxiv": null,
+        "title": "Improving Language Understanding by Generative Pre-Training",
+        "year": 2018
+      },
+      {
+        "arxiv": null,
+        "title": "GPU Kernels for Block-Sparse Weights",
+        "year": 2017
+      },
+      {
+        "arxiv": null,
+        "title": "Criticality in Formal Languages and Statistical Physics∗",
+        "year": 2017
+      },
+      {
+        "arxiv": null,
+        "title": "Power-law dependence of performance on position in context",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "26 23 Comparison of Power-Law and Logarithmic Fits",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "Optimal model size and serial number of steps versus compute budget",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "Performance at different context positions versus model size",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "Another look at sample efficiency",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "The Common Crawl Foundation",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "Comparison between empirical and adjusted compute trends",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "Performance versus compute budget or number of parameter updates",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "Early stopping lower bound and training curves for overfit models",
+        "year": null
+      }
+    ]
+  },
+  "1910.07467": {
+    "title": "Root Mean Square Layer Normalization",
+    "references": [
+      {
+        "arxiv": "1905.13324",
+        "title": "A Lightweight Recurrent Network for Sequence Modeling",
+        "year": 2019
+      },
+      {
+        "arxiv": null,
+        "title": "Conceptual Captions: A Cleaned, Hypernymed, Image Alt-text Dataset For Automatic Image Captioning",
+        "year": 2018
+      },
+      {
+        "arxiv": "1806.02375",
+        "title": "Understanding Batch Normalization",
+        "year": 2018
+      },
+      {
+        "arxiv": "1805.11604",
+        "title": "How Does Batch Normalization Help Optimization? (No, It Is Not About Internal Covariate Shift)",
+        "year": 2018
+      },
+      {
+        "arxiv": "1804.10752",
+        "title": "Syllable-Based Sequence-to-Sequence Speech Recognition with the Transformer in Mandarin Chinese",
+        "year": 2018
+      },
+      {
+        "arxiv": "1804.09849",
+        "title": "The Best of Both Worlds: Combining Recent Advances in Neural Machine Translation",
+        "year": 2018
+      },
+      {
+        "arxiv": "1804.08771",
+        "title": "A Call for Clarity in Reporting BLEU Scores",
+        "year": 2018
+      },
+      {
+        "arxiv": "1803.08494",
+        "title": "Group Normalization",
+        "year": 2018
+      },
+      {
+        "arxiv": "1803.01814",
+        "title": "Norm matters: efficient and accurate normalization schemes in deep networks",
+        "year": 2018
+      },
+      {
+        "arxiv": "1802.09769",
+        "title": "$L1$ -Norm Batch Normalization for Efficient Training of Deep Neural Networks",
+        "year": 2018
+      },
+      {
+        "arxiv": "1802.05751",
+        "title": "Image Transformer",
+        "year": 2018
+      },
+      {
+        "arxiv": null,
+        "title": "Automatic differentiation in PyTorch",
+        "year": 2017
+      },
+      {
+        "arxiv": "1710.01329",
+        "title": "Improving Lexical Choice in Neural Machine Translation",
+        "year": 2017
+      },
+      {
+        "arxiv": "1706.03762",
+        "title": "Attention is All you Need",
+        "year": 2017
+      },
+      {
+        "arxiv": "1703.04357",
+        "title": "Nematus: a Toolkit for Neural Machine Translation",
+        "year": 2017
+      },
+      {
+        "arxiv": "1702.03275",
+        "title": "Batch Renormalization: Towards Reducing Minibatch Dependence in Batch-Normalized Models",
+        "year": 2017
+      },
+      {
+        "arxiv": "1607.08022",
+        "title": "Instance Normalization: The Missing Ingredient for Fast Stylization",
+        "year": 2016
+      },
+      {
+        "arxiv": "1607.06450",
+        "title": "Layer Normalization",
+        "year": 2016
+      },
+      {
+        "arxiv": "1605.08695",
+        "title": "TensorFlow: A system for large-scale machine learning",
+        "year": 2016
+      },
+      {
+        "arxiv": "1605.02688",
+        "title": "Theano: A Python framework for fast computation of mathematical expressions",
+        "year": 2016
+      },
+      {
+        "arxiv": "1603.09025",
+        "title": "Recurrent Batch Normalization",
+        "year": 2016
+      },
+      {
+        "arxiv": "1603.01431",
+        "title": "Normalization Propagation: A Parametric Technique for Removing Internal Covariate Shift in Deep Networks",
+        "year": 2016
+      },
+      {
+        "arxiv": "1602.07868",
+        "title": "Weight Normalization: A Simple Reparameterization to Accelerate Training of Deep Neural Networks",
+        "year": 2016
+      },
+      {
+        "arxiv": "1511.06361",
+        "title": "Order-Embeddings of Images and Language",
+        "year": 2015
+      },
+      {
+        "arxiv": "1510.01378",
+        "title": "Batch normalized recurrent neural networks",
+        "year": 2015
+      },
+      {
+        "arxiv": "1508.07909",
+        "title": "Neural Machine Translation of Rare Words with Subword Units",
+        "year": 2015
+      },
+      {
+        "arxiv": "1506.03340",
+        "title": "Teaching Machines to Read and Comprehend",
+        "year": 2015
+      },
+      {
+        "arxiv": "1502.03167",
+        "title": "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift",
+        "year": 2015
+      },
+      {
+        "arxiv": "1412.6980",
+        "title": "Adam: A Method for Stochastic Optimization",
+        "year": 2014
+      },
+      {
+        "arxiv": "1411.2539",
+        "title": "Unifying Visual-Semantic Embeddings with Multimodal Neural Language Models",
+        "year": 2014
+      },
+      {
+        "arxiv": "1409.1556",
+        "title": "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+        "year": 2014
+      },
+      {
+        "arxiv": "1409.0473",
+        "title": "Neural Machine Translation by Jointly Learning to Align and Translate",
+        "year": 2014
+      },
+      {
+        "arxiv": "1406.1078",
+        "title": "Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation",
+        "year": 2014
+      },
+      {
+        "arxiv": "1405.0312",
+        "title": "Microsoft COCO: Common Objects in Context",
+        "year": 2014
+      },
+      {
+        "arxiv": null,
+        "title": "Toward a perception-based theory of probabilistic reasoning with imprecise probabilities",
+        "year": 2002
+      },
+      {
+        "arxiv": null,
+        "title": "Learning Multiple Layers of Features from Tiny Images",
+        "year": 2009
+      },
+      {
+        "arxiv": null,
+        "title": "CIFAR-10 Classification We apply layer normalization to the width and height dimensions of image representation, and perform gain scaling and bias shifting on the channel dimension",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "Dauphin , and Tengyu Ma . Residual learning without normalization via 373 better initialization",
+        "year": null
+      }
+    ]
+  },
+  "1910.05895": {
+    "title": "Transformers without Tears: Improving the Normalization of Self-Attention",
+    "references": [
+      {
+        "arxiv": "2002.04745",
+        "title": "On Layer Normalization in the Transformer Architecture",
+        "year": 2020
+      },
+      {
+        "arxiv": "1910.07467",
+        "title": "Root Mean Square Layer Normalization",
+        "year": 2019
+      },
+      {
+        "arxiv": "1908.03265",
+        "title": "On the Variance of the Adaptive Learning Rate and Beyond",
+        "year": 2019
+      },
+      {
+        "arxiv": "1907.01470",
+        "title": "Augmenting Self-attention with Persistent Memory",
+        "year": 2019
+      },
+      {
+        "arxiv": "1906.02629",
+        "title": "When Does Label Smoothing Help?",
+        "year": 2019
+      },
+      {
+        "arxiv": "1906.01787",
+        "title": "Learning Deep Transformer Models for Machine Translation",
+        "year": 2019
+      },
+      {
+        "arxiv": "1904.01038",
+        "title": "fairseq: A Fast, Extensible Toolkit for Sequence Modeling",
+        "year": 2019
+      },
+      {
+        "arxiv": "1903.00089",
+        "title": "Massively Multilingual Neural Machine Translation",
+        "year": 2019
+      },
+      {
+        "arxiv": "1902.09113",
+        "title": "Star-Transformer",
+        "year": 2019
+      },
+      {
+        "arxiv": "1901.09321",
+        "title": "Fixup Initialization: Residual Learning Without Normalization",
+        "year": 2019
+      },
+      {
+        "arxiv": "1901.10055",
+        "title": "Self-attention Networks for Connectionist Temporal Classification in Speech Recognition",
+        "year": 2019
+      },
+      {
+        "arxiv": "1808.04189",
+        "title": "Rapid Adaptation of Neural Machine Translation to New Languages",
+        "year": 2018
+      },
+      {
+        "arxiv": "1808.07512",
+        "title": "SwitchOut: an Efficient Data Augmentation Algorithm for Neural Machine Translation",
+        "year": 2018
+      },
+      {
+        "arxiv": "1807.06610",
+        "title": "Learning Noise-Invariant Representations for Robust Speech Recognition",
+        "year": 2018
+      },
+      {
+        "arxiv": "1806.00187",
+        "title": "Scaling Neural Machine Translation",
+        "year": 2018
+      },
+      {
+        "arxiv": "1805.11604",
+        "title": "How Does Batch Normalization Help Optimization? (No, It Is Not About Internal Covariate Shift)",
+        "year": 2018
+      },
+      {
+        "arxiv": "1804.09849",
+        "title": "The Best of Both Worlds: Combining Recent Advances in Neural Machine Translation",
+        "year": 2018
+      },
+      {
+        "arxiv": "1804.06323",
+        "title": "When and Why Are Pre-Trained Word Embeddings Useful for Neural Machine Translation?",
+        "year": 2018
+      },
+      {
+        "arxiv": null,
+        "title": "Speech-Transformer: A No-Recurrence Sequence-to-Sequence Model for Speech Recognition",
+        "year": 2018
+      },
+      {
+        "arxiv": "1804.04235",
+        "title": "Adafactor: Adaptive Learning Rates with Sublinear Memory Cost",
+        "year": 2018
+      },
+      {
+        "arxiv": "1804.00247",
+        "title": "Training Tips for the Transformer Model",
+        "year": 2018
+      },
+      {
+        "arxiv": "1803.07416",
+        "title": "Tensor2Tensor for Neural Machine Translation",
+        "year": 2018
+      },
+      {
+        "arxiv": "1710.01329",
+        "title": "Improving Lexical Choice in Neural Machine Translation",
+        "year": 2017
+      },
+      {
+        "arxiv": "1706.03762",
+        "title": "Attention is All you Need",
+        "year": 2017
+      },
+      {
+        "arxiv": "1702.05870",
+        "title": "Cosine Normalization: Using Cosine Similarity Instead of Dot Product in Neural Networks",
+        "year": 2017
+      },
+      {
+        "arxiv": "1701.06548",
+        "title": "Regularizing Neural Networks by Penalizing Confident Output Distributions",
+        "year": 2017
+      },
+      {
+        "arxiv": "1608.05859",
+        "title": "Using the Output Embedding to Improve Language Models",
+        "year": 2016
+      },
+      {
+        "arxiv": "1607.06450",
+        "title": "Layer Normalization",
+        "year": 2016
+      },
+      {
+        "arxiv": "1606.02891",
+        "title": "Edinburgh Neural Machine Translation Systems for WMT 16",
+        "year": 2016
+      },
+      {
+        "arxiv": null,
+        "title": "Residual Networks Behave Like Ensembles of Relatively Shallow Networks",
+        "year": 2016
+      },
+      {
+        "arxiv": "1603.05027",
+        "title": "Identity Mappings in Deep Residual Networks",
+        "year": 2016
+      },
+      {
+        "arxiv": "1512.03385",
+        "title": "Deep Residual Learning for Image Recognition",
+        "year": 2015
+      },
+      {
+        "arxiv": "1512.00567",
+        "title": "Rethinking the Inception Architecture for Computer Vision",
+        "year": 2015
+      },
+      {
+        "arxiv": "1508.07909",
+        "title": "Neural Machine Translation of Rare Words with Subword Units",
+        "year": 2015
+      },
+      {
+        "arxiv": "1508.04025",
+        "title": "Effective Approaches to Attention-based Neural Machine Translation",
+        "year": 2015
+      },
+      {
+        "arxiv": "1502.03167",
+        "title": "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift",
+        "year": 2015
+      },
+      {
+        "arxiv": "1412.6980",
+        "title": "Adam: A Method for Stochastic Optimization",
+        "year": 2014
+      },
+      {
+        "arxiv": "1211.5063",
+        "title": "On the difficulty of training recurrent neural networks",
+        "year": 2012
+      },
+      {
+        "arxiv": null,
+        "title": "Understanding the difficulty of training deep feedforward neural networks",
+        "year": 2010
+      },
+      {
+        "arxiv": null,
+        "title": "Statistical Significance Tests for Machine Translation Evaluation",
+        "year": 2004
+      },
+      {
+        "arxiv": null,
+        "title": "Bleu: a Method for Automatic Evaluation of Machine Translation",
+        "year": 2002
+      },
+      {
+        "arxiv": null,
+        "title": "A Training details",
+        "year": 2021
+      },
+      {
+        "arxiv": null,
+        "title": "UvA-DARE ( Digital Academic Repository ) Attention , learn to solve routing problems !",
+        "year": 2019
+      },
+      {
+        "arxiv": null,
+        "title": "We wanted to compare with the latest lowresource works of (Neubig and Hu, 2018; Aharoni et al., 2019) on the TED Talks corpus (Qi et al., 2018)",
+        "year": 2019
+      },
+      {
+        "arxiv": null,
+        "title": "Residual learning without normalization via better initialization",
+        "year": 2019
+      },
+      {
+        "arxiv": null,
+        "title": "The Sockeye Neural Machine Translation Toolkit at AMTA 2018",
+        "year": 2018
+      },
+      {
+        "arxiv": null,
+        "title": "The IWSLT 2015 Evaluation Campaign",
+        "year": 2015
+      },
+      {
+        "arxiv": null,
+        "title": "The pairs are English (en) to Hebrew (he",
+        "year": null
+      }
+    ]
+  },
+  "1907.09720": {
+    "title": "Metalearned Neural Memory",
+    "references": [
+      {
+        "arxiv": "1811.09556",
+        "title": "Learning Attractor Dynamics for Generative Memory",
+        "year": 2018
+      },
+      {
+        "arxiv": "1811.12143",
+        "title": "Learning to Reason with Third-Order Tensor Products",
+        "year": 2018
+      },
+      {
+        "arxiv": "1807.06473",
+        "title": "Contextual Memory Trees",
+        "year": 2018
+      },
+      {
+        "arxiv": "1807.05076",
+        "title": "Metalearning with Hebbian Fast Weights",
+        "year": 2018
+      },
+      {
+        "arxiv": "1804.02464",
+        "title": "Differentiable plasticity: training plastic neural networks with backpropagation",
+        "year": 2018
+      },
+      {
+        "arxiv": "1804.01756",
+        "title": "The Kanerva Machine: A Generative Distributed Memory",
+        "year": 2018
+      },
+      {
+        "arxiv": null,
+        "title": "Rapid Adaptation with Conditionally Shifted Neurons",
+        "year": 2017
+      },
+      {
+        "arxiv": "1709.05706",
+        "title": "Memory Augmented Control Networks",
+        "year": 2017
+      },
+      {
+        "arxiv": "1709.04905",
+        "title": "One-Shot Visual Imitation Learning via Meta-Learning",
+        "year": 2017
+      },
+      {
+        "arxiv": "1709.07871",
+        "title": "FiLM: Visual Reasoning with a General Conditioning Layer",
+        "year": 2017
+      },
+      {
+        "arxiv": null,
+        "title": "A Simple Neural Attentive Meta-Learner",
+        "year": 2017
+      },
+      {
+        "arxiv": "1703.03400",
+        "title": "Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks",
+        "year": 2017
+      },
+      {
+        "arxiv": "1703.00837",
+        "title": "Meta Networks",
+        "year": 2017
+      },
+      {
+        "arxiv": "1611.05763",
+        "title": "Learning to reinforcement learn",
+        "year": 2016
+      },
+      {
+        "arxiv": null,
+        "title": "Random synaptic feedback weights support error backpropagation for deep learning",
+        "year": 2016
+      },
+      {
+        "arxiv": null,
+        "title": "Optimization as a Model for Few-Shot Learning",
+        "year": 2016
+      },
+      {
+        "arxiv": "1611.03530",
+        "title": "Understanding deep learning requires rethinking generalization",
+        "year": 2016
+      },
+      {
+        "arxiv": "1611.02779",
+        "title": "RL$^2$: Fast Reinforcement Learning via Slow Reinforcement Learning",
+        "year": 2016
+      },
+      {
+        "arxiv": "1610.09027",
+        "title": "Scaling Memory-Augmented Neural Networks with Sparse Reads and Writes",
+        "year": 2016
+      },
+      {
+        "arxiv": "1610.07629",
+        "title": "A Learned Representation For Artistic Style",
+        "year": 2016
+      },
+      {
+        "arxiv": "1610.06258",
+        "title": "Using Fast Weights to Attend to the Recent Past",
+        "year": 2016
+      },
+      {
+        "arxiv": null,
+        "title": "Hybrid computing using a neural network with dynamic external memory",
+        "year": 2016
+      },
+      {
+        "arxiv": "1609.09106",
+        "title": "HyperNetworks",
+        "year": 2016
+      },
+      {
+        "arxiv": "1609.01596",
+        "title": "Direct Feedback Alignment Provides Learning in Deep Neural Networks",
+        "year": 2016
+      },
+      {
+        "arxiv": "1608.05343",
+        "title": "Decoupled Neural Interfaces using Synthetic Gradients",
+        "year": 2016
+      },
+      {
+        "arxiv": "1607.04315",
+        "title": "Neural Semantic Encoders",
+        "year": 2016
+      },
+      {
+        "arxiv": null,
+        "title": "Meta-Learning with Memory-Augmented Neural Networks",
+        "year": 2016
+      },
+      {
+        "arxiv": "1606.04474",
+        "title": "Learning to learn by gradient descent by gradient descent",
+        "year": 2016
+      },
+      {
+        "arxiv": "1606.04080",
+        "title": "Matching Networks for One Shot Learning",
+        "year": 2016
+      },
+      {
+        "arxiv": null,
+        "title": "A Computational Model for Episodic Memory Inspired by the Brain",
+        "year": 2016
+      },
+      {
+        "arxiv": "1602.01783",
+        "title": "Asynchronous Methods for Deep Reinforcement Learning",
+        "year": 2016
+      },
+      {
+        "arxiv": "1506.07285",
+        "title": "Ask Me Anything: Dynamic Memory Networks for Natural Language Processing",
+        "year": 2015
+      },
+      {
+        "arxiv": "1506.02626",
+        "title": "Learning both Weights and Connections for Efficient Neural Network",
+        "year": 2015
+      },
+      {
+        "arxiv": "1506.00511",
+        "title": "Predicting Deep Zero-Shot Convolutional Neural Networks Using Textual Descriptions",
+        "year": 2015
+      },
+      {
+        "arxiv": null,
+        "title": "End-To-End Memory Networks",
+        "year": 2015
+      },
+      {
+        "arxiv": "1502.05698",
+        "title": "Towards AI-Complete Question Answering: A Set of Prerequisite Toy Tasks",
+        "year": 2015
+      },
+      {
+        "arxiv": "1410.5401",
+        "title": "Neural Turing Machines",
+        "year": 2014
+      },
+      {
+        "arxiv": "1410.3916",
+        "title": "Memory Networks",
+        "year": 2014
+      },
+      {
+        "arxiv": "1409.0473",
+        "title": "Neural Machine Translation by Jointly Learning to Align and Translate",
+        "year": 2014
+      },
+      {
+        "arxiv": null,
+        "title": "A Generative Model for Attractor Dynamics",
+        "year": 1999
+      },
+      {
+        "arxiv": null,
+        "title": "Long Short-Term Memory",
+        "year": 1997
+      },
+      {
+        "arxiv": null,
+        "title": "Reducing the Ratio Between Learning Complexity and Number of Time Varying Variables in Fully Recurrent Nets",
+        "year": 1993
+      },
+      {
+        "arxiv": null,
+        "title": "Second Order Derivatives for Network Pruning: Optimal Brain Surgeon",
+        "year": 1992
+      },
+      {
+        "arxiv": null,
+        "title": "Learning to Control Fast-Weight Memories: An Alternative to Dynamic Recurrent Networks",
+        "year": 1992
+      },
+      {
+        "arxiv": null,
+        "title": "Sparse Distributed Memory",
+        "year": 1988
+      },
+      {
+        "arxiv": null,
+        "title": "The perceptron: a probabilistic model for information storage and organization in the brain.",
+        "year": 1958
+      },
+      {
+        "arxiv": null,
+        "title": "The organization of behavior: A neuropsychological theory",
+        "year": 1951
+      },
+      {
+        "arxiv": null,
+        "title": "Tensor Product Variable Binding and the Representation of Symbolic Structures in Connectionist Systems",
+        "year": 1991
+      },
+      {
+        "arxiv": null,
+        "title": "Using fast weights to deblur old memories",
+        "year": 1987
+      },
+      {
+        "arxiv": null,
+        "title": "Learning curves for stochastic gradient descent in linear feedforward networks",
+        "year": null
+      },
+      {
+        "arxiv": null,
+        "title": "Table 3 and 4 show the best results of the compared models and the detailed runs of our best performing model",
+        "year": null
+      }
+    ]
+  }
+}
