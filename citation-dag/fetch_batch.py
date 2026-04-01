@@ -32,7 +32,7 @@ def save_papers(papers):
         os.fsync(f.fileno())
     os.replace(tmp_file, PAPERS_FILE)
 
-def fetch_batch(arxiv_ids, max_retries=4):
+def fetch_batch(arxiv_ids, max_retries=6):
     """Fetch up to 500 papers in one batch request."""
     ids = [f"ARXIV:{aid}" for aid in arxiv_ids]
     data = json.dumps({"ids": ids}).encode()
