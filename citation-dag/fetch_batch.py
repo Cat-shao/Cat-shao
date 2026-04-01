@@ -24,10 +24,12 @@ def load_papers():
         return json.load(f)
 
 def save_papers(papers):
-    # Atomic write: write to temp file, then rename
+    # Truly atomic write: write to temp, fsync, then rename
     tmp_file = PAPERS_FILE + ".tmp"
     with open(tmp_file, "w") as f:
         json.dump(papers, f, ensure_ascii=False)
+        f.flush()
+        os.fsync(f.fileno())
     os.replace(tmp_file, PAPERS_FILE)
 
 def fetch_batch(arxiv_ids, max_retries=4):
