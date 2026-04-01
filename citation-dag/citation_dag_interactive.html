@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>AttnRes Citation DAG — Interactive 3D</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { background: #0a0a14; color: #ccc; font-family: 'Segoe UI', system-ui, sans-serif; overflow: hidden; }
+canvas { display: block; }
+#info {
+  position: absolute; top: 12px; left: 16px; z-index: 10;
+  background: rgba(10,10,20,0.85); padding: 14px 18px; border-radius: 10px;
+  border: 1px solid rgba(100,140,200,0.2); max-width: 340px;
+  backdrop-filter: blur(8px);
+}
+#info h1 { font-size: 15px; color: #e8d0a0; margin-bottom: 4px; }
+#info p { font-size: 11px; color: #8899aa; line-height: 1.5; }
+#tooltip {
+  position: absolute; display: none; z-index: 20;
+  background: rgba(15,15,30,0.95); border: 1px solid rgba(100,160,255,0.3);
+  border-radius: 8px; padding: 10px 14px; max-width: 380px;
+  pointer-events: none; backdrop-filter: blur(6px);
+}
+#tooltip .title { font-size: 13px; color: #f0e0b0; font-weight: 600; }
+#tooltip .meta { font-size: 11px; color: #8899bb; margin-top: 3px; }
+#legend {
+  position: absolute; bottom: 16px; left: 16px; z-index: 10;
+  background: rgba(10,10,20,0.85); padding: 10px 14px; border-radius: 8px;
+  border: 1px solid rgba(100,140,200,0.15); font-size: 11px;
+}
+#legend div { display: flex; align-items: center; gap: 6px; margin: 3px 0; }
+#legend .dot { width: 10px; height: 10px; border-radius: 50%; }
+#controls {
+  position: absolute; bottom: 16px; right: 16px; z-index: 10;
+  background: rgba(10,10,20,0.85); padding: 10px 14px; border-radius: 8px;
+  border: 1px solid rgba(100,140,200,0.15); font-size: 11px;
+}
+</style>
+</head>
+<body>
+<div id="info">
+  <h1>Citation DAG of Kimi AttnRes</h1>
+  <p>arXiv:2603.15031 — Attention Residuals<br>
+  <span id="stats"></span><br>
+  Drag to rotate · Scroll to zoom · Hover for details</p>
+</div>
+<div id="tooltip"><div class="title"></div><div class="meta"></div></div>
+<div id="legend">
+  <div><span class="dot" style="background:#ff3322"></span> AttnRes (root)</div>
+  <div><span class="dot" style="background:#ff8844"></span> Direct references</div>
+  <div><span class="dot" style="background:#ffcc44"></span> 2023–2026</div>
+  <div><span class="dot" style="background:#44dd66"></span> 2019–2022</div>
+  <div><span class="dot" style="background:#4488ff"></span> 2015–2018</div>
+  <div><span class="dot" style="background:#8866cc"></span> pre-2015</div>
+</div>
+<div id="controls">
+  <label>Edge opacity: <input type="range" id="edgeAlpha" min="0" max="100" value="15" style="width:80px"></label>
+</div>
+
+<script>
+// Inline Three.js-like software 3D with Canvas2D for zero dependencies
+const canvas = document.createElement('canvas');
+document.body.appendChild(canvas);
+const ctx = canvas.getContext('2d');
+
+let W, H;
+function resize() { W = canvas.width = innerWidth; H = canvas.height = innerHeight; }
+resize();
+addEventListener('resize', resize);
+
+// Camera
+let camDist = 50, camTheta = -0.8, camPhi = 0.4;
+let camTarget = [0, 0, 0];
+
+// Mouse
+let dragging = false, lastMX, lastMY, mouseX = 0, mouseY = 0;
+canvas.addEventListener('mousedown', e => { dragging = true; lastMX = e.clientX; lastMY = e.clientY; });
+addEventListener('mouseup', () => dragging = false);
+addEventListener('mousemove', e => {
+  mouseX = e.clientX; mouseY = e.clientY;
+  if (dragging) {
+    camTheta -= (e.clientX - lastMX) * 0.005;
+    camPhi = Math.max(-1.5, Math.min(1.5, camPhi + (e.clientY - lastMY) * 0.005));
+    lastMX = e.clientX; lastMY = e.clientY;
+  }
+});
+canvas.addEventListener('wheel', e => {
+  camDist = Math.max(10, Math.min(150, camDist + e.deltaY * 0.05));
+  e.preventDefault();
+}, {passive: false});
+
+function getCamPos() {
+  return [
+    camDist * Math.cos(camPhi) * Math.sin(camTheta),
+    camDist * Math.cos(camPhi) * Math.cos(camTheta),
+    camDist * Math.sin(camPhi)
+  ];
+}
+
+function project(x, y, z) {
+  const cp = getCamPos();
+  // View matrix
+  const fwd = [camTarget[0]-cp[0], camTarget[1]-cp[1], camTarget[2]-cp[2]];
+  const fl = Math.sqrt(fwd[0]**2+fwd[1]**2+fwd[2]**2);
+  fwd[0]/=fl; fwd[1]/=fl; fwd[2]/=fl;
+  const up = [0,0,1];
+  const right = [fwd[1]*up[2]-fwd[2]*up[1], fwd[2]*up[0]-fwd[0]*up[2], fwd[0]*up[1]-fwd[1]*up[0]];
+  const rl = Math.sqrt(right[0]**2+right[1]**2+right[2]**2);
+  right[0]/=rl; right[1]/=rl; right[2]/=rl;
+  const nup = [right[1]*fwd[2]-right[2]*fwd[1], right[2]*fwd[0]-right[0]*fwd[2], right[0]*fwd[1]-right[1]*fwd[0]];
+
+  const dx = x-cp[0], dy = y-cp[1], dz = z-cp[2];
+  const vx = dx*right[0]+dy*right[1]+dz*right[2];
+  const vy = dx*nup[0]+dy*nup[1]+dz*nup[2];
+  const vz = dx*fwd[0]+dy*fwd[1]+dz*fwd[2];
+
+  if (vz < 0.1) return null;
+  const f = 800 / vz;
+  return [W/2 + vx*f, H/2 - vy*f, vz];
+}
+
+// Load data
+let nodes = [], links = [];
+fetch('graph_data.json').then(r=>r.json()).then(data => {
+  nodes = data.nodes;
+  links = data.links;
+  document.getElementById('stats').textContent = `${nodes.length} papers · ${links.length} edges · Depth 4+`;
+  layout();
+  animate();
+});
+
+function yearColor(year, isRoot, isDirect) {
+  if (isRoot) return '#ff2211';
+  if (isDirect) return '#ff8844';
+  if (!year) return '#666688';
+  if (year >= 2023) return '#ffcc44';
+  if (year >= 2019) return '#44dd66';
+  if (year >= 2015) return '#4488ff';
+  return '#8866cc';
+}
+
+// 3D force layout
+function layout() {
+  const N = nodes.length;
+  const idMap = {};
+  nodes.forEach((n,i) => { idMap[n.id] = i; });
+
+  // Initial positions: spread by year on Z, random XY
+  nodes.forEach(n => {
+    const y = n.year || 2018;
+    n.x = (Math.random()-0.5)*30;
+    n.y = (Math.random()-0.5)*30;
+    n.z = (y - 2015) * 2.5 + (Math.random()-0.5)*1;
+  });
+
+  // Root at center top
+  const ri = idMap[nodes.find(n=>n.is_root)?.id];
+  if (ri !== undefined) { nodes[ri].x = 0; nodes[ri].y = 0; nodes[ri].z = 20; }
+
+  // Resolve link indices
+  links.forEach(l => {
+    l.si = idMap[l.source]; l.ti = idMap[l.target];
+  });
+
+  // Simple force iterations
+  const k = 2.5;
+  let temp = 4.0;
+  for (let iter = 0; iter < 120; iter++) {
+    // Repulsion (sampled)
+    for (let i = 0; i < N; i++) {
+      let fx=0,fy=0,fz=0;
+      const samp = Math.min(N, 200);
+      for (let s = 0; s < samp; s++) {
+        const j = Math.floor(Math.random()*N);
+        if (j===i) continue;
+        let dx=nodes[i].x-nodes[j].x, dy=nodes[i].y-nodes[j].y, dz=nodes[i].z-nodes[j].z;
+        let d = Math.sqrt(dx*dx+dy*dy+dz*dz) || 0.1;
+        let f = k*k/(d*d) * 0.5;
+        fx+=dx/d*f; fy+=dy/d*f; fz+=dz/d*f;
+      }
+      nodes[i].fx = fx/samp*N*0.001;
+      nodes[i].fy = fy/samp*N*0.001;
+      nodes[i].fz = fz/samp*N*0.001;
+    }
+    // Attraction
+    links.forEach(l => {
+      if (l.si===undefined||l.ti===undefined) return;
+      const a=nodes[l.si], b=nodes[l.ti];
+      let dx=a.x-b.x, dy=a.y-b.y, dz=a.z-b.z;
+      let d = Math.sqrt(dx*dx+dy*dy+dz*dz)||0.1;
+      let f = d/k*0.04;
+      a.fx-=dx/d*f; a.fy-=dy/d*f; a.fz-=dz/d*f;
+      b.fx+=dx/d*f; b.fy+=dy/d*f; b.fz+=dz/d*f;
+    });
+    // Apply
+    nodes.forEach(n => {
+      let fl = Math.sqrt(n.fx**2+n.fy**2+n.fz**2)||0.001;
+      let lim = Math.min(temp/fl, 1);
+      n.x += n.fx*lim; n.y += n.fy*lim; n.z += n.fz*lim;
+    });
+    temp *= 0.975;
+  }
+
+  // Center
+  let cx=0,cy=0,cz=0;
+  nodes.forEach(n=>{cx+=n.x;cy+=n.y;cz+=n.z;});
+  cx/=N;cy/=N;cz/=N;
+  nodes.forEach(n=>{n.x-=cx;n.y-=cy;n.z-=cz;});
+}
+
+// Tooltip
+const tooltip = document.getElementById('tooltip');
+const edgeAlphaSlider = document.getElementById('edgeAlpha');
+
+function animate() {
+  requestAnimationFrame(animate);
+  ctx.fillStyle = '#0a0a14';
+  ctx.fillRect(0, 0, W, H);
+
+  // Project all nodes
+  const projected = nodes.map((n,i) => {
+    const p = project(n.x, n.y, n.z);
+    return p ? {i, sx: p[0], sy: p[1], depth: p[2], n} : null;
+  }).filter(Boolean);
+
+  // Sort by depth (far first)
+  projected.sort((a,b) => b.depth - a.depth);
+
+  // Draw edges
+  const ea = edgeAlphaSlider.value / 100;
+  if (ea > 0.01) {
+    ctx.lineWidth = 0.5;
+    links.forEach(l => {
+      if (l.si===undefined||l.ti===undefined) return;
+      const a = project(nodes[l.si].x, nodes[l.si].y, nodes[l.si].z);
+      const b = project(nodes[l.ti].x, nodes[l.ti].y, nodes[l.ti].z);
+      if (!a || !b) return;
+      const avgDepth = (a[2]+b[2])/2;
+      const alpha = ea * Math.max(0.05, 1 - avgDepth/80);
+      ctx.strokeStyle = `rgba(80,120,180,${alpha})`;
+      ctx.beginPath(); ctx.moveTo(a[0],a[1]); ctx.lineTo(b[0],b[1]); ctx.stroke();
+    });
+  }
+
+  // Draw nodes
+  let hoveredNode = null;
+  let minHoverDist = 15;
+
+  projected.forEach(({i, sx, sy, depth, n}) => {
+    const baseR = n.is_root ? 8 : (2 + Math.log1p(n.degree)*1.2);
+    const r = baseR * 600 / (depth + 200);
+    const col = yearColor(n.year, n.is_root, n.is_direct);
+
+    // Glow
+    if (n.degree > 50 || n.is_root) {
+      const grad = ctx.createRadialGradient(sx, sy, r*0.5, sx, sy, r*3);
+      grad.addColorStop(0, col + '44');
+      grad.addColorStop(1, col + '00');
+      ctx.fillStyle = grad;
+      ctx.beginPath(); ctx.arc(sx, sy, r*3, 0, Math.PI*2); ctx.fill();
+    }
+
+    // Sphere shading
+    const grad = ctx.createRadialGradient(sx-r*0.3, sy-r*0.3, r*0.1, sx, sy, r);
+    grad.addColorStop(0, '#ffffff');
+    grad.addColorStop(0.3, col);
+    grad.addColorStop(1, col + '88');
+    ctx.fillStyle = grad;
+    ctx.beginPath(); ctx.arc(sx, sy, r, 0, Math.PI*2); ctx.fill();
+
+    // Hover detection
+    const dx = mouseX - sx, dy = mouseY - sy;
+    const dist = Math.sqrt(dx*dx+dy*dy);
+    if (dist < Math.max(r+5, minHoverDist)) {
+      minHoverDist = dist;
+      hoveredNode = n;
+    }
+
+    // Labels for major nodes
+    if ((n.degree > 100 || n.is_root) && r > 3) {
+      ctx.fillStyle = 'rgba(255,255,255,0.8)';
+      ctx.font = `${Math.max(8, Math.min(12, r*1.5))}px sans-serif`;
+      ctx.textAlign = 'center';
+      const label = n.title.length > 40 ? n.title.slice(0,38)+'...' : n.title;
+      ctx.fillText(label, sx, sy + r + 12);
+    }
+  });
+
+  // Tooltip
+  if (hoveredNode && !dragging) {
+    tooltip.style.display = 'block';
+    tooltip.style.left = (mouseX + 15) + 'px';
+    tooltip.style.top = (mouseY - 10) + 'px';
+    tooltip.querySelector('.title').textContent = hoveredNode.title;
+    tooltip.querySelector('.meta').textContent =
+      `Year: ${hoveredNode.year||'?'} · Cited ${hoveredNode.degree} times in DAG · arXiv: ${hoveredNode.id}`;
+  } else {
+    tooltip.style.display = 'none';
+  }
+}
+</script>
+</body>
+</html>
